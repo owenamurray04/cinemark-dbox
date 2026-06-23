@@ -1,126 +1,206 @@
 {
-  "updatedUtc": "2026-06-23T17:09:16+00:00",
+  "updatedUtc": "2026-06-23T20:17:55+00:00",
   "count": 20,
   "theatres": [
     {
       "code": 785,
       "theatre": "Salvador Shopping",
       "city": "Salvador",
-      "state": "Bahia"
+      "state": "Bahia",
+      "dboxRooms": [
+        5,
+        4
+      ]
     },
     {
       "code": 720,
       "theatre": "Pier 21",
       "city": "Bras\u00edlia",
-      "state": "Distrito Federal"
+      "state": "Distrito Federal",
+      "dboxRooms": [
+        3,
+        2
+      ]
     },
     {
       "code": 702,
       "theatre": "Shopping Vitoria",
       "city": "Vit\u00f3ria",
-      "state": "Espirito Santo"
+      "state": "Espirito Santo",
+      "dboxRooms": [
+        4,
+        3
+      ]
     },
     {
       "code": 694,
       "theatre": "Shopping Campo Grande",
       "city": "Campo Grande",
-      "state": "Mato Grosso Do Sul"
+      "state": "Mato Grosso Do Sul",
+      "dboxRooms": [
+        5,
+        6
+      ]
     },
     {
       "code": 768,
       "theatre": "BH Shopping",
       "city": "Belo Horizonte",
-      "state": "Minas Gerais"
+      "state": "Minas Gerais",
+      "dboxRooms": [
+        2,
+        3
+      ]
     },
     {
       "code": 2107,
       "theatre": "Riomar Recife",
       "city": "Recife",
-      "state": "Pernambuco"
+      "state": "Pernambuco",
+      "dboxRooms": [
+        12,
+        3
+      ]
     },
     {
       "code": 728,
       "theatre": "Botafogo",
       "city": "Rio De Janeiro",
-      "state": "Rio De Janeiro"
+      "state": "Rio De Janeiro",
+      "dboxRooms": [
+        6,
+        5
+      ]
     },
     {
       "code": 719,
       "theatre": "Downtown",
       "city": "Rio De Janeiro",
-      "state": "Rio De Janeiro"
+      "state": "Rio De Janeiro",
+      "dboxRooms": [
+        8,
+        4
+      ]
     },
     {
       "code": 691,
       "theatre": "Plaza Shopping Niteroi",
       "city": "Niter\u00f3i",
-      "state": "Rio De Janeiro"
+      "state": "Rio De Janeiro",
+      "dboxRooms": [
+        5,
+        4
+      ]
     },
     {
       "code": 681,
       "theatre": "Midway Mall Natal",
       "city": "Natal",
-      "state": "Rio Grande De Norte"
+      "state": "Rio Grande De Norte",
+      "dboxRooms": [
+        2,
+        6
+      ]
     },
     {
       "code": 704,
       "theatre": "Barra Shopping Sul",
       "city": "Porto Alegre",
-      "state": "Rio Grande Do Sul"
+      "state": "Rio Grande Do Sul",
+      "dboxRooms": [
+        4,
+        5
+      ]
     },
     {
       "code": 690,
       "theatre": "Boulevard Tatuape",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        3,
+        1
+      ]
     },
     {
       "code": 725,
       "theatre": "Campinas Iguatemi",
       "city": "Campinas",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        6,
+        5
+      ]
     },
     {
       "code": 682,
       "theatre": "Cidade Jardim VIP",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        7,
+        6
+      ]
     },
     {
       "code": 715,
       "theatre": "Eldorado",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        1,
+        8
+      ]
     },
     {
       "code": 684,
       "theatre": "Metro Santa Cruz",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        9,
+        3
+      ]
     },
     {
       "code": 2110,
       "theatre": "Tiete Plaza Shopping",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        2,
+        1
+      ]
     },
     {
       "code": 727,
       "theatre": "Villa Lobos",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        1,
+        5
+      ]
     },
     {
       "code": 2102,
       "theatre": "West Plaza",
       "city": "S\u00e3o Paulo",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        7,
+        6
+      ]
     },
     {
       "code": 759,
       "theatre": "Cinemark Internacional Shopping",
       "city": "Guarulhos",
-      "state": "S\u00e3o Paulo"
+      "state": "S\u00e3o Paulo",
+      "dboxRooms": [
+        4,
+        5
+      ]
     }
   ]
 }
