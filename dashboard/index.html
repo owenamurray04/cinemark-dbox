@@ -136,17 +136,22 @@
 <div class="wrap">
   <header>
     <div class="brand">
-      <div class="eyebrow">Cinemark · D-BOX motion seats</div>
+      <div class="eyebrow">Cineplex + Cinemark · D-BOX / premium motion seats</div>
       <h1>Motion Seat Index</h1>
-      <div class="sub">How full Cinemark's D-BOX motion seats get by showtime — and how that compares to the rest of the house.</div>
+      <div class="sub">How full premium motion seats get by showtime across Cineplex and Cinemark — and how that compares to the rest of the house. Pick a chain above.</div>
     </div>
     <div class="stamp"><div class="live"><span class="dot"></span><span id="stamp">—</span></div>
       <div id="sources" style="margin-top:6px"></div></div>
   </header>
-  <div class="sortbar" style="margin:0 0 18px">
-    <button class="sortbtn on" data-c="us" id="cty-us">United States</button>
-    <button class="sortbtn" data-c="br" id="cty-br">Brasil</button>
-    <button class="sortbtn" data-c="co" id="cty-co">Colombia</button>
+  <div class="sortbar" style="margin:0 0 18px; position:relative">
+    <button class="sortbtn on" data-sel="all">All</button>
+    <button class="sortbtn" data-sel="cineplex">Cineplex</button>
+    <button class="sortbtn" data-sel="cinemark" id="cmkbtn">Cinemark ▾</button>
+    <div id="cmkmenu" style="display:none; position:absolute; top:40px; left:128px; z-index:20; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:8px 12px; box-shadow:0 10px 28px rgba(0,0,0,.45)">
+      <label style="display:flex;gap:9px;align-items:center;font-size:13px;color:var(--text);padding:5px 2px;white-space:nowrap;cursor:pointer"><input type="checkbox" data-cc="us" checked> United States</label>
+      <label style="display:flex;gap:9px;align-items:center;font-size:13px;color:var(--text);padding:5px 2px;white-space:nowrap;cursor:pointer"><input type="checkbox" data-cc="br" checked> Brasil</label>
+      <label style="display:flex;gap:9px;align-items:center;font-size:13px;color:var(--text);padding:5px 2px;white-space:nowrap;cursor:pointer"><input type="checkbox" data-cc="co" checked> Colombia</label>
+    </div>
   </div>
   <div id="app"></div>
   <footer id="foot"></footer>
@@ -193,8 +198,10 @@ function enrich(r){
   return {...r, movie:canon(r.movie), startMs, loc:locParts(r),
     fill: sellable? r.sold/sellable : 0, regFill: reg? r.regSold/reg : 0,
     realized: startMs!=null ? (NOW > startMs + REALIZE_MS) : ((r.date||'') < dstr(NOW)),
-    url: r.cinemarkUrl || 'https://www.cinemark.com/theatres'};
+    chain: r.chain || '',
+    url: r.cinemarkUrl || r.cineplexUrl || (r.chain==='Cineplex' ? 'https://www.cineplex.com' : 'https://www.cinemark.com/theatres')};
 }
+const CHAIN_TAG = {'Cineplex':'CPX','Cinemark US':'US','Cinemark Brasil':'BR','Cinemark Colombia':'CO'};
 function agg(recs){
   let s=0,se=0,rs=0,rse=0; const th=new Set();
   recs.forEach(r=>{ s+=r.sold||0; se+=r.sellable||0; rs+=r.regSold||0; rse+=r.regSellable||0; th.add(r.theatreId); });
@@ -312,6 +319,8 @@ function railWhen(r){
 const barCell=(v,cls)=>`<div class="ex-bar"><i class="${cls}" style="width:${(v*100).toFixed(0)}%"></i></div>`;
 function explorer(){
   const fin=RECS.filter(r=>r.realized);
+  const MULTI = new Set(fin.map(r=>r.chain)).size>1;
+  const tag = r => (MULTI && r.chain) ? `<span style="color:var(--faint);font-weight:600;font-size:11px;letter-spacing:.03em">${CHAIN_TAG[r.chain]||''}</span> ` : '';
   const btn=(id,lbl)=>`<button class="sortbtn ${SORT===id?'on':''}" data-sort="${id}">${lbl}</button>`;
   const controls=`<div class="sortbar">${btn('fullest','Fullest')}${btn('recent','Most recent')}${btn('movie','By movie')}${btn('theatre','By theatre')}${btn('day','By day')}</div>`;
   const grouped = (SORT==='movie'||SORT==='theatre'||SORT==='day');
@@ -330,7 +339,7 @@ function explorer(){
       ? (a,b)=>(b.startMs||0)-(a.startMs||0)
       : (a,b)=> (b.fill-a.fill) || (b.startMs||0)-(a.startMs||0));
     head=`<div>Theatre</div><div>Title</div><div>When</div><div>D-BOX fill</div><div class="num">D-BOX</div><div class="regcol">Rest of house</div><div class="num regcol">Reg.</div>`;
-    rowf=r=>`<div class="ex-row"><div class="tcell">${r.theatre||('Theatre '+r.theatreId)}</div><div class="mcell">${r.movie}</div><div class="when">${r.loc.date}, ${r.loc.time}</div>${barCell(r.fill,'gold')}<div class="num gold">${pct(r.fill)}</div><div class="ex-bar regcol"><i class="grey" style="width:${(r.regFill*100).toFixed(0)}%"></i></div><div class="num grey regcol">${pct(r.regFill)}</div></div>`;
+    rowf=r=>`<div class="ex-row"><div class="tcell">${tag(r)}${r.theatre||('Theatre '+r.theatreId)}</div><div class="mcell">${r.movie}</div><div class="when">${r.loc.date}, ${r.loc.time}</div>${barCell(r.fill,'gold')}<div class="num gold">${pct(r.fill)}</div><div class="ex-bar regcol"><i class="grey" style="width:${(r.regFill*100).toFixed(0)}%"></i></div><div class="num grey regcol">${pct(r.regFill)}</div></div>`;
   }
   const total=items.length, pages=Math.max(1, Math.ceil(total/PAGE_SIZE));
   if(PAGE>=pages) PAGE=0;
@@ -353,39 +362,73 @@ function paint(){
   document.querySelectorAll('.sortbtn').forEach(b=> b.addEventListener('click',()=>{ SORT=b.dataset.sort; PAGE=0; paint(); }));
   document.querySelectorAll('.pagebtn').forEach(b=> b.addEventListener('click',()=>{ if(b.disabled) return; PAGE=+b.dataset.page; paint(); const ex=document.querySelector('.explorer'); if(ex) ex.scrollIntoView({behavior:'smooth',block:'start'}); }));
 }
-function render(d){
-  document.getElementById('stamp').textContent=fmtStamp(d.updatedUtc);
-  document.getElementById('sources').textContent=d.source||'';
-  document.getElementById('foot').innerHTML=`<b>How to read this.</b> The headline is realized D-BOX sell-through across all data so far — how full the motion seats got by the time each show played. The comparison and trend pit D-BOX against every other seat in the same auditorium. The right rail is D-BOX showings still to play (click through to Cinemark). Below: every completed showing, sortable. Showtimes are shown in your local time zone (${TZ}). Research only — not investment advice.`;
-  const store=d.showingsStore||{};
-  RECS=Object.values(store).filter(r=>(r.sellable||0)>0).map(enrich);
-  UPCOMING=(d.upcoming||[]).map(r=>({...r, movie:canon(r.movie)}));
+/* ---- multi-source loader: Cineplex + Cinemark US / Brasil / Colombia ----
+   Each scraper publishes its own data file to its own repo's raw CDN. This page
+   pulls all of them live and merges whichever the top selector has active — it
+   never touches a scraper or a loop. Loading from raw.githubusercontent means
+   Pages never rebuilds on a data commit (Pages caps ~10 builds/hr). */
+const CMK_RAW = 'https://raw.githubusercontent.com/owenamurray04/cinemark-dbox/main/dashboard/';
+const CPX_RAW = 'https://raw.githubusercontent.com/owenamurray04/dbox-dashboard/main/dashboard/';
+const SOURCES = {
+  cineplex: {label:'Cineplex',           chain:'Cineplex',          url:CPX_RAW+'data.json'},
+  us:       {label:'Cinemark · US',       chain:'Cinemark US',       url:CMK_RAW+'cinemark_data.json'},
+  br:       {label:'Cinemark · Brasil',   chain:'Cinemark Brasil',   url:CMK_RAW+'cinemark_br_data.json'},
+  co:       {label:'Cinemark · Colombia', chain:'Cinemark Colombia', url:CMK_RAW+'cinemark_co_data.json'},
+};
+const CMK_COUNTRIES = ['us','br','co'];
+const DATA = {};   // source key -> parsed JSON (null if a file is missing/empty)
+let SEL = (()=>{ try{ return localStorage.getItem('msi_sel')||'all'; }catch(e){ return 'all'; } })();
+let CC  = (()=>{ try{ return Object.assign({us:true,br:true,co:true}, JSON.parse(localStorage.getItem('msi_cc')||'{}')); }catch(e){ return {us:true,br:true,co:true}; } })();
+function persist(){ try{ localStorage.setItem('msi_sel',SEL); localStorage.setItem('msi_cc',JSON.stringify(CC)); }catch(e){} }
+
+function activeKeys(){
+  if(SEL==='cineplex') return ['cineplex'];
+  if(SEL==='cinemark') return CMK_COUNTRIES.filter(c=>CC[c]);
+  return ['cineplex', ...CMK_COUNTRIES];   // 'all'
+}
+function setSelButtons(){
+  document.querySelectorAll('[data-sel]').forEach(b=> b.classList.toggle('on', b.dataset.sel===SEL));
+  const menu=document.getElementById('cmkmenu'); if(menu) menu.style.display=(SEL==='cinemark')?'block':'none';
+}
+function applySelection(){
+  const keys=activeKeys();
+  const recs=[], up=[], stamps=[], labels=[];
+  keys.forEach(k=>{
+    const d=DATA[k]; if(!d) return;
+    labels.push(SOURCES[k].label);
+    if(d.updatedUtc) stamps.push(d.updatedUtc);
+    Object.values(d.showingsStore||{}).forEach(r=>{ if((r.sellable||0)>0) recs.push(enrich({...r, chain:SOURCES[k].chain})); });
+    (d.upcoming||[]).forEach(r=> up.push({...r, movie:canon(r.movie), chain:SOURCES[k].chain}));
+  });
+  RECS=recs; UPCOMING=up; PAGE=0;
+  const newest=stamps.sort().slice(-1)[0]||null;
+  document.getElementById('stamp').textContent=fmtStamp(newest);
+  document.getElementById('sources').textContent=labels.length? labels.join('   ·   ') : 'No data selected';
+  document.getElementById('foot').innerHTML=`<b>How to read this.</b> The headline is realized D-BOX sell-through across the chains you've selected — how full the motion seats got by the time each show played. The comparison and trend pit D-BOX against every other seat in the same auditorium. The right rail is D-BOX showings still to play (click through to the cinema's site). Below: every completed showing, sortable; the tag (CPX/US/BR/CO) shows which chain when more than one is in view. Showtimes are in your local time zone (${TZ}). Research only — not investment advice.`;
   paint();
 }
-/* ---- country switcher (US / Brazil) ---- */
-// Load data LIVE from GitHub's raw CDN, not the Pages-served copy. This decouples
-// data updates from Pages deployments: the scrapers commit data every few minutes,
-// but Pages only rebuilds when the page itself changes (Pages caps ~10 builds/hr,
-// which frequent data commits would otherwise blow through and stall).
-const RAW = 'https://raw.githubusercontent.com/owenamurray04/cinemark-dbox/main/dashboard/';
-const DATA_FILES = {us: RAW+'cinemark_data.json', br: RAW+'cinemark_br_data.json', co: RAW+'cinemark_co_data.json'};
-const EMPTY_BR = {updatedUtc:null, source:'Cinemark Brasil · assentos D-BOX', showingsStore:{}, upcoming:[]};
-const EMPTY_CO = {updatedUtc:null, source:'Cinemark Colombia · asientos D-BOX', showingsStore:{}, upcoming:[]};
-let COUNTRY = (()=>{ try{ return localStorage.getItem('cmk_country')||'us'; }catch(e){ return 'us'; } })();
-function setCountryButtons(){
-  document.querySelectorAll('[data-c]').forEach(b=> b.classList.toggle('on', b.dataset.c===COUNTRY));
-}
-function loadCountry(c){
-  COUNTRY=c; try{ localStorage.setItem('cmk_country',c); }catch(e){}
-  setCountryButtons();
-  PAGE=0; SORT='recent';
-  fetch(DATA_FILES[c]+'?t='+Date.now(),{cache:'no-store'})
-    .then(r=>{ if(!r.ok) throw 0; return r.json(); })
-    .then(render)
-    .catch(()=> render(c==='br'? EMPTY_BR : c==='co'? EMPTY_CO : window.SAMPLE));
-}
-document.querySelectorAll('[data-c]').forEach(b=> b.addEventListener('click',()=>loadCountry(b.dataset.c)));
-loadCountry(COUNTRY);
+
+document.querySelectorAll('[data-sel]').forEach(b=> b.addEventListener('click',()=>{
+  SEL=b.dataset.sel; SORT='recent'; persist(); setSelButtons(); applySelection();
+}));
+document.querySelectorAll('[data-cc]').forEach(cb=> cb.addEventListener('change',()=>{
+  CC[cb.dataset.cc]=cb.checked;
+  if(SEL!=='cinemark') SEL='cinemark';
+  persist(); setSelButtons(); applySelection();
+}));
+
+// Fetch every source once; re-selecting just re-merges what's cached (no refetch).
+(function loadAll(){
+  document.getElementById('sources').textContent='Loading…';
+  Promise.all(Object.keys(SOURCES).map(k=>
+    fetch(SOURCES[k].url+'?t='+Date.now(),{cache:'no-store'})
+      .then(r=> r.ok? r.json() : null).catch(()=>null).then(j=>{ DATA[k]=j; })
+  )).then(()=>{
+    document.querySelectorAll('[data-cc]').forEach(cb=> cb.checked=!!CC[cb.dataset.cc]);
+    setSelButtons();
+    applySelection();
+  });
+})();
 </script>
 </body>
 </html>

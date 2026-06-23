@@ -99,12 +99,20 @@ entry.
 
 ## Dashboard
 
-`dashboard/index.html` reads `dashboard/cinemark_data.json` (US),
-`dashboard/cinemark_br_data.json` (Brazil), or `dashboard/cinemark_co_data.json`
-(Colombia) via the country toggle: realized D-BOX
-sell-through headline, D-BOX-vs-rest-of-house comparison + trend, an upcoming rail,
-and a sortable table of completed showings. Serve the `dashboard/` folder via
-GitHub Pages (see PROXY_AND_ACTIONS_SETUP.md).
+`dashboard/index.html` shows the realized D-BOX sell-through headline,
+D-BOX-vs-rest-of-house comparison + trend, an upcoming rail, and a sortable table of
+completed showings. Serve the `dashboard/` folder via GitHub Pages (see
+PROXY_AND_ACTIONS_SETUP.md).
+
+**Combined view (`combined-dashboard` branch).** The page pulls **four data files
+live from their raw CDNs and merges whichever the top selector has active**:
+Cineplex (`dbox-dashboard` repo's `data.json`) plus Cinemark US / Brasil / Colombia
+(this repo). The selector is **All · Cineplex · Cinemark ▾** where the Cinemark
+dropdown has per-country checkboxes (United States / Brasil / Colombia). It never
+touches any scraper or loop — each pipeline keeps publishing its own file
+independently; the dashboard is purely a read-and-merge layer. Rows are tagged
+CPX/US/BR/CO when more than one chain is in view. Merging Cineplex's `province`/
+`cineplexUrl` shape with Cinemark's `state`/`cinemarkUrl` is handled in `enrich()`.
 
 ## Automation
 
