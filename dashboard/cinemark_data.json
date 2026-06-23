@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-23T12:23:49+00:00",
+  "updatedUtc": "2026-06-23T12:32:17+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -1842,7 +1842,7 @@
       "regSold": 3,
       "regSellable": 85,
       "firstSeenUtc": "2026-06-23T11:55:03+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:15:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334757&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A15%3A00&LinkedShowtimeId=334690"
     },
@@ -1861,7 +1861,7 @@
       "regSold": 1,
       "regSellable": 249,
       "firstSeenUtc": "2026-06-23T12:01:41+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512300&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=512297"
     },
@@ -1880,7 +1880,7 @@
       "regSold": 0,
       "regSellable": 140,
       "firstSeenUtc": "2026-06-23T12:01:41+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716514&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=716520"
     },
@@ -1899,7 +1899,7 @@
       "regSold": 4,
       "regSellable": 115,
       "firstSeenUtc": "2026-06-23T12:01:41+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237662&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=237667"
     },
@@ -1918,7 +1918,7 @@
       "regSold": 0,
       "regSellable": 181,
       "firstSeenUtc": "2026-06-23T12:01:41+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301846&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=301844"
     },
@@ -1937,7 +1937,7 @@
       "regSold": 8,
       "regSellable": 184,
       "firstSeenUtc": "2026-06-23T12:01:41+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294975&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=294986"
     },
@@ -1956,7 +1956,7 @@
       "regSold": 0,
       "regSellable": 97,
       "firstSeenUtc": "2026-06-23T12:01:41+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:25:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1050&ShowtimeId=793305&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A25%3A00&LinkedShowtimeId=793311"
     },
@@ -1975,7 +1975,7 @@
       "regSold": 0,
       "regSellable": 169,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=260&ShowtimeId=701001&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=700965"
     },
@@ -1994,7 +1994,7 @@
       "regSold": 2,
       "regSellable": 72,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=345&ShowtimeId=510706&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=510676"
     },
@@ -2013,7 +2013,7 @@
       "regSold": 0,
       "regSellable": 99,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534229&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=534218"
     },
@@ -2032,7 +2032,7 @@
       "regSold": 1,
       "regSellable": 77,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1032&ShowtimeId=403823&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A30%3A00&LinkedShowtimeId=403828"
     },
@@ -2051,7 +2051,7 @@
       "regSold": 3,
       "regSellable": 92,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=471998&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=471999"
     },
@@ -2070,7 +2070,7 @@
       "regSold": 9,
       "regSellable": 101,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1076&ShowtimeId=257319&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=257329"
     },
@@ -2089,7 +2089,7 @@
       "regSold": 0,
       "regSellable": 83,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334696&CinemarkMovieId=107526&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=334725"
     },
@@ -2105,10 +2105,10 @@
       "state": "FL",
       "sold": 0,
       "sellable": 21,
-      "regSold": 6,
+      "regSold": 11,
       "regSellable": 172,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1162&ShowtimeId=144646&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=144658"
     },
@@ -2127,7 +2127,7 @@
       "regSold": 9,
       "regSellable": 158,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=140037&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=140055"
     },
@@ -2146,7 +2146,7 @@
       "regSold": 5,
       "regSellable": 199,
       "firstSeenUtc": "2026-06-23T12:09:44+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1164&ShowtimeId=142251&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=142257"
     },
@@ -2165,7 +2165,7 @@
       "regSold": 0,
       "regSellable": 97,
       "firstSeenUtc": "2026-06-23T12:16:31+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:35:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512765&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=512790"
     },
@@ -2184,7 +2184,7 @@
       "regSold": 0,
       "regSellable": 84,
       "firstSeenUtc": "2026-06-23T12:16:31+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:35:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334751&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=334713"
     },
@@ -2200,10 +2200,10 @@
       "state": "OH",
       "sold": 0,
       "sellable": 13,
-      "regSold": 6,
+      "regSold": 10,
       "regSellable": 121,
       "firstSeenUtc": "2026-06-23T12:23:49+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:40:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=508608&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=508615"
     },
@@ -2219,10 +2219,10 @@
       "state": "MD",
       "sold": 1,
       "sellable": 24,
-      "regSold": 0,
+      "regSold": 1,
       "regSellable": 108,
       "firstSeenUtc": "2026-06-23T12:23:49+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:40:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716541&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=716503"
     },
@@ -2241,7 +2241,7 @@
       "regSold": 13,
       "regSellable": 49,
       "firstSeenUtc": "2026-06-23T12:23:49+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:40:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=281933&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=281945"
     },
@@ -2260,23 +2260,107 @@
       "regSold": 0,
       "regSellable": 232,
       "firstSeenUtc": "2026-06-23T12:23:49+00:00",
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
       "startUtc": "2026-06-23T12:40:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301860&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=301856"
+    },
+    "2026-06-23|202|595513": {
+      "date": "2026-06-23",
+      "theatreId": 202,
+      "theatre": "Cinemark Tinseltown Rochester and IMAX",
+      "movie": "Toy Story 5",
+      "showtimeId": 595513,
+      "linkedShowtimeId": 595486,
+      "movieId": 107462,
+      "start": "2026-06-23T08:50:00",
+      "state": "NY",
+      "sold": 0,
+      "sellable": 16,
+      "regSold": 0,
+      "regSellable": 146,
+      "firstSeenUtc": "2026-06-23T12:32:17+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+      "startUtc": "2026-06-23T12:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=202&ShowtimeId=595513&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=595486"
+    },
+    "2026-06-23|1074|439498": {
+      "date": "2026-06-23",
+      "theatreId": 1074,
+      "theatre": "Cinemark Pharr Town Center XD and ScreenX",
+      "movie": "Toy Story 5",
+      "showtimeId": 439498,
+      "linkedShowtimeId": 439447,
+      "movieId": 107462,
+      "start": "2026-06-23T07:50:00",
+      "state": "TX",
+      "sold": 0,
+      "sellable": 33,
+      "regSold": 16,
+      "regSellable": 206,
+      "firstSeenUtc": "2026-06-23T12:32:17+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+      "startUtc": "2026-06-23T12:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1074&ShowtimeId=439498&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A50%3A00&LinkedShowtimeId=439447"
+    },
+    "2026-06-23|1082|237640": {
+      "date": "2026-06-23",
+      "theatreId": 1082,
+      "theatre": "Cinemark North Hills and XD",
+      "movie": "Toy Story 5",
+      "showtimeId": 237640,
+      "linkedShowtimeId": 237646,
+      "movieId": 107462,
+      "start": "2026-06-23T08:50:00",
+      "state": "PA",
+      "sold": 3,
+      "sellable": 27,
+      "regSold": 2,
+      "regSellable": 137,
+      "firstSeenUtc": "2026-06-23T12:32:17+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+      "startUtc": "2026-06-23T12:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237640&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=237646"
+    },
+    "2026-06-23|1129|294996": {
+      "date": "2026-06-23",
+      "theatreId": 1129,
+      "theatre": "Cinemark North Haven and XD",
+      "movie": "Toy Story 5",
+      "showtimeId": 294996,
+      "linkedShowtimeId": 294972,
+      "movieId": 107462,
+      "start": "2026-06-23T08:50:00",
+      "state": "CT",
+      "sold": 3,
+      "sellable": 23,
+      "regSold": 2,
+      "regSellable": 115,
+      "firstSeenUtc": "2026-06-23T12:32:17+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+      "startUtc": "2026-06-23T12:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294996&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=294972"
+    },
+    "2026-06-23|1152|143274": {
+      "date": "2026-06-23",
+      "theatreId": 1152,
+      "theatre": "Cinemark Willowbrook Mall XD and ScreenX",
+      "movie": "Toy Story 5",
+      "showtimeId": 143274,
+      "linkedShowtimeId": 143269,
+      "movieId": 107462,
+      "start": "2026-06-23T08:55:00",
+      "state": "NJ",
+      "sold": 0,
+      "sellable": 17,
+      "regSold": 5,
+      "regSellable": 84,
+      "firstSeenUtc": "2026-06-23T12:32:17+00:00",
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+      "startUtc": "2026-06-23T12:55:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=143274&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A55%3A00&LinkedShowtimeId=143269"
     }
   },
   "upcoming": [
-    {
-      "theatre": "Cinemark Florence 14 and XD",
-      "theatreId": 1091,
-      "movie": "Toy Story 5",
-      "start": "2026-06-23T08:15:00",
-      "startUtc": "2026-06-23T12:15:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334757&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A15%3A00&LinkedShowtimeId=334690",
-      "sold": 0,
-      "sellable": 15,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
-    },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
       "theatreId": 230,
@@ -2286,7 +2370,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512300&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=512297",
       "sold": 0,
       "sellable": 21,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Egyptian 24 and XD",
@@ -2297,7 +2381,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716514&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=716520",
       "sold": 3,
       "sellable": 30,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark North Hills and XD",
@@ -2308,7 +2392,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237662&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=237667",
       "sold": 0,
       "sellable": 25,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Fairfax Corner and XD",
@@ -2319,7 +2403,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301846&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=301844",
       "sold": 0,
       "sellable": 29,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark North Haven and XD",
@@ -2330,7 +2414,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294975&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=294986",
       "sold": 2,
       "sellable": 25,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Paradise 24 and XD",
@@ -2341,7 +2425,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1050&ShowtimeId=793305&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A25%3A00&LinkedShowtimeId=793311",
       "sold": 1,
       "sellable": 26,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown Jacksonville and XD",
@@ -2352,7 +2436,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=260&ShowtimeId=701001&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=700965",
       "sold": 0,
       "sellable": 30,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Myrtle Beach",
@@ -2363,7 +2447,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=345&ShowtimeId=510706&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=510676",
       "sold": 0,
       "sellable": 22,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Fayette Mall and XD",
@@ -2374,7 +2458,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534229&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=534218",
       "sold": 3,
       "sellable": 11,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Cedar Park",
@@ -2385,7 +2469,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1032&ShowtimeId=403823&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A30%3A00&LinkedShowtimeId=403828",
       "sold": 3,
       "sellable": 23,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Robinson Township and XD",
@@ -2396,7 +2480,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=471998&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=471999",
       "sold": 1,
       "sellable": 23,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Christiana and XD",
@@ -2407,7 +2491,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1076&ShowtimeId=257319&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=257329",
       "sold": 0,
       "sellable": 29,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Florence 14 and XD",
@@ -2418,7 +2502,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334696&CinemarkMovieId=107526&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=334725",
       "sold": 0,
       "sellable": 19,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Durbin Park XD and ScreenX",
@@ -2429,7 +2513,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1162&ShowtimeId=144646&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=144658",
       "sold": 0,
       "sellable": 21,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Willowbrook Mall XD and ScreenX",
@@ -2440,7 +2524,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=140037&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=140055",
       "sold": 3,
       "sellable": 33,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Jacksonville Atlantic North XD and ScreenX",
@@ -2451,7 +2535,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1164&ShowtimeId=142251&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=142257",
       "sold": 1,
       "sellable": 19,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
@@ -2462,7 +2546,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512765&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=512790",
       "sold": 2,
       "sellable": 17,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Florence 14 and XD",
@@ -2473,7 +2557,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334751&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=334713",
       "sold": 0,
       "sellable": 15,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
@@ -2484,7 +2568,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=508608&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=508615",
       "sold": 0,
       "sellable": 13,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Egyptian 24 and XD",
@@ -2495,7 +2579,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716541&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=716503",
       "sold": 1,
       "sellable": 24,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Lakeland Square Mall and XD",
@@ -2506,7 +2590,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=281933&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=281945",
       "sold": 0,
       "sellable": 19,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Fairfax Corner and XD",
@@ -2517,7 +2601,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301860&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=301856",
       "sold": 0,
       "sellable": 35,
-      "lastSeenUtc": "2026-06-23T12:23:49+00:00"
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown Rochester and IMAX",
@@ -2526,9 +2610,9 @@
       "start": "2026-06-23T08:50:00",
       "startUtc": "2026-06-23T12:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=202&ShowtimeId=595513&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=595486",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 16,
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Pharr Town Center XD and ScreenX",
@@ -2537,9 +2621,9 @@
       "start": "2026-06-23T07:50:00",
       "startUtc": "2026-06-23T12:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1074&ShowtimeId=439498&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A50%3A00&LinkedShowtimeId=439447",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 33,
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark North Hills and XD",
@@ -2548,9 +2632,9 @@
       "start": "2026-06-23T08:50:00",
       "startUtc": "2026-06-23T12:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237640&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=237646",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 3,
+      "sellable": 27,
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark North Haven and XD",
@@ -2559,9 +2643,9 @@
       "start": "2026-06-23T08:50:00",
       "startUtc": "2026-06-23T12:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294996&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=294972",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 3,
+      "sellable": 23,
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Willowbrook Mall XD and ScreenX",
@@ -2570,9 +2654,9 @@
       "start": "2026-06-23T08:55:00",
       "startUtc": "2026-06-23T12:55:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=143274&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A55%3A00&LinkedShowtimeId=143269",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 17,
+      "lastSeenUtc": "2026-06-23T12:32:17+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown Erie",
@@ -3915,6 +3999,17 @@
       "sold": null,
       "sellable": null,
       "lastSeenUtc": null
+    },
+    {
+      "theatre": "Cinemark Victoria 12 and XD",
+      "theatreId": 312,
+      "movie": "Toy Story 5",
+      "start": "2026-06-23T09:20:00",
+      "startUtc": "2026-06-23T14:20:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=312&ShowtimeId=346085&CinemarkMovieId=107462&Showtime=2026-06-23T09%3A20%3A00&LinkedShowtimeId=346079",
+      "sold": null,
+      "sellable": null,
+      "lastSeenUtc": null
     }
   ],
   "byDay": [
@@ -3928,33 +4023,33 @@
     {
       "date": "2026-06-23",
       "sold": 12,
-      "sellable": 128,
-      "showings": 6,
-      "sellThrough": 0.0938
+      "sellable": 143,
+      "showings": 7,
+      "sellThrough": 0.0839
     }
   ],
   "latest": {
     "scrapeDate": "2026-06-23",
-    "sellThrough": 0.1027,
+    "sellThrough": 0.1019,
     "seatsSold": 204,
-    "seatsSellable": 1986,
-    "showings": 96,
+    "seatsSellable": 2001,
+    "showings": 97,
     "theatres": 51,
     "upcoming": {
-      "seatsSold": 20,
-      "seatsSellable": 524,
-      "sellThrough": 0.0382,
-      "showings": 23,
-      "theatres": 17
+      "seatsSold": 26,
+      "seatsSellable": 625,
+      "sellThrough": 0.0416,
+      "showings": 27,
+      "theatres": 19
     },
     "comparison": {
-      "showings": 96,
+      "showings": 97,
       "dboxSold": 204,
-      "dboxSellable": 1986,
-      "regularSold": 867,
-      "regularSellable": 12318,
-      "dboxSellThrough": 0.1027,
-      "regularSellThrough": 0.0704
+      "dboxSellable": 2001,
+      "regularSold": 870,
+      "regularSellable": 12403,
+      "dboxSellThrough": 0.1019,
+      "regularSellThrough": 0.0701
     },
     "byMovie": [
       {
@@ -3981,9 +4076,9 @@
       {
         "movie": "Toy Story 5",
         "sold": 182,
-        "sellable": 1871,
-        "showings": 89,
-        "sellThrough": 0.0973
+        "sellable": 1886,
+        "showings": 90,
+        "sellThrough": 0.0965
       },
       {
         "movie": "Backrooms",
@@ -3994,6 +4089,23 @@
       }
     ],
     "showingsList": [
+      {
+        "theatreId": 1091,
+        "theatre": "Cinemark Florence 14 and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "08:15",
+        "startUtc": "2026-06-23T12:15:00+00:00",
+        "state": "KY",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334757&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A15%3A00&LinkedShowtimeId=334690",
+        "sold": 0,
+        "sellable": 15,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+        "sellThrough": 0.0,
+        "regSold": 3,
+        "regSellable": 85,
+        "regSellThrough": 0.0353
+      },
       {
         "theatreId": 202,
         "theatre": "Cinemark Tinseltown Rochester and IMAX",
@@ -5336,23 +5448,6 @@
         "regSold": 14,
         "regSellable": 143,
         "regSellThrough": 0.0979
-      },
-      {
-        "theatreId": 484,
-        "theatre": "Cinemark Century Santa Fe Station 16 and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-22",
-        "start": "22:20",
-        "startUtc": "2026-06-23T05:20:00+00:00",
-        "state": "NV",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=484&ShowtimeId=547241&CinemarkMovieId=107462&Showtime=2026-06-22T22%3A20%3A00&LinkedShowtimeId=547265",
-        "sold": 0,
-        "sellable": 25,
-        "lastSeenUtc": "2026-06-23T05:43:54+00:00",
-        "sellThrough": 0.0,
-        "regSold": 14,
-        "regSellable": 126,
-        "regSellThrough": 0.1111
       }
     ],
     "recentFills": [
@@ -5367,7 +5462,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334757&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A15%3A00&LinkedShowtimeId=334690",
         "sold": 0,
         "sellable": 15,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 3,
         "regSellable": 85,
@@ -5384,7 +5479,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512300&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=512297",
         "sold": 0,
         "sellable": 21,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 1,
         "regSellable": 249,
@@ -5401,7 +5496,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716514&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=716520",
         "sold": 3,
         "sellable": 30,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.1,
         "regSold": 0,
         "regSellable": 140,
@@ -5418,7 +5513,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237662&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=237667",
         "sold": 0,
         "sellable": 25,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 4,
         "regSellable": 115,
@@ -5435,7 +5530,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301846&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=301844",
         "sold": 0,
         "sellable": 29,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 181,
@@ -5452,7 +5547,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294975&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=294986",
         "sold": 2,
         "sellable": 25,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.08,
         "regSold": 8,
         "regSellable": 184,
@@ -5469,7 +5564,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1050&ShowtimeId=793305&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A25%3A00&LinkedShowtimeId=793311",
         "sold": 1,
         "sellable": 26,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0385,
         "regSold": 0,
         "regSellable": 97,
@@ -5486,7 +5581,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=260&ShowtimeId=701001&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=700965",
         "sold": 0,
         "sellable": 30,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 169,
@@ -5503,7 +5598,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=345&ShowtimeId=510706&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=510676",
         "sold": 0,
         "sellable": 22,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 2,
         "regSellable": 72,
@@ -5520,7 +5615,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534229&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=534218",
         "sold": 3,
         "sellable": 11,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.2727,
         "regSold": 0,
         "regSellable": 99,
@@ -5537,7 +5632,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1032&ShowtimeId=403823&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A30%3A00&LinkedShowtimeId=403828",
         "sold": 3,
         "sellable": 23,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.1304,
         "regSold": 1,
         "regSellable": 77,
@@ -5554,7 +5649,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=471998&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=471999",
         "sold": 1,
         "sellable": 23,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0435,
         "regSold": 3,
         "regSellable": 92,
@@ -5571,7 +5666,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1076&ShowtimeId=257319&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=257329",
         "sold": 0,
         "sellable": 29,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 9,
         "regSellable": 101,
@@ -5588,7 +5683,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334696&CinemarkMovieId=107526&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=334725",
         "sold": 0,
         "sellable": 19,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 83,
@@ -5605,11 +5700,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1162&ShowtimeId=144646&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=144658",
         "sold": 0,
         "sellable": 21,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
-        "regSold": 6,
+        "regSold": 11,
         "regSellable": 172,
-        "regSellThrough": 0.0349
+        "regSellThrough": 0.064
       },
       {
         "theatreId": 1152,
@@ -5622,7 +5717,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=140037&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=140055",
         "sold": 3,
         "sellable": 33,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0909,
         "regSold": 9,
         "regSellable": 158,
@@ -5639,7 +5734,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1164&ShowtimeId=142251&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=142257",
         "sold": 1,
         "sellable": 19,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0526,
         "regSold": 5,
         "regSellable": 199,
@@ -5656,7 +5751,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512765&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=512790",
         "sold": 2,
         "sellable": 17,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.1176,
         "regSold": 0,
         "regSellable": 97,
@@ -5673,7 +5768,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334751&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=334713",
         "sold": 0,
         "sellable": 15,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 84,
@@ -5690,11 +5785,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=508608&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=508615",
         "sold": 0,
         "sellable": 13,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
-        "regSold": 6,
+        "regSold": 10,
         "regSellable": 121,
-        "regSellThrough": 0.0496
+        "regSellThrough": 0.0826
       },
       {
         "theatreId": 1051,
@@ -5707,11 +5802,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716541&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=716503",
         "sold": 1,
         "sellable": 24,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0417,
-        "regSold": 0,
+        "regSold": 1,
         "regSellable": 108,
-        "regSellThrough": 0.0
+        "regSellThrough": 0.0093
       },
       {
         "theatreId": 1078,
@@ -5724,7 +5819,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=281933&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=281945",
         "sold": 0,
         "sellable": 19,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 13,
         "regSellable": 49,
@@ -5741,7 +5836,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301860&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=301856",
         "sold": 0,
         "sellable": 35,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 232,
@@ -5752,16 +5847,16 @@
         "theatre": "Cinemark Tinseltown Rochester and IMAX",
         "movie": "Toy Story 5",
         "date": "2026-06-23",
-        "start": "08:00",
-        "startUtc": "2026-06-23T12:00:00+00:00",
+        "start": "08:50",
+        "startUtc": "2026-06-23T12:50:00+00:00",
         "state": "NY",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=202&ShowtimeId=591395&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A00%3A00&LinkedShowtimeId=591418",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=202&ShowtimeId=595513&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=595486",
         "sold": 0,
-        "sellable": 25,
-        "lastSeenUtc": "2026-06-23T12:16:31+00:00",
+        "sellable": 16,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
-        "regSellable": 209,
+        "regSellable": 146,
         "regSellThrough": 0.0
       }
     ],
@@ -5777,28 +5872,28 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1032&ShowtimeId=403823&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A30%3A00&LinkedShowtimeId=403828",
         "sold": 3,
         "sellable": 23,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.1304,
         "regSold": 1,
         "regSellable": 77,
         "regSellThrough": 0.013
       },
       {
-        "theatreId": 1091,
-        "theatre": "Cinemark Florence 14 and XD",
+        "theatreId": 1074,
+        "theatre": "Cinemark Pharr Town Center XD and ScreenX",
         "movie": "Toy Story 5",
         "date": "2026-06-23",
-        "start": "08:15",
-        "startUtc": "2026-06-23T12:15:00+00:00",
-        "state": "KY",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334757&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A15%3A00&LinkedShowtimeId=334690",
+        "start": "07:50",
+        "startUtc": "2026-06-23T12:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1074&ShowtimeId=439498&CinemarkMovieId=107462&Showtime=2026-06-23T07%3A50%3A00&LinkedShowtimeId=439447",
         "sold": 0,
-        "sellable": 15,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "sellable": 33,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
-        "regSold": 3,
-        "regSellable": 85,
-        "regSellThrough": 0.0353
+        "regSold": 16,
+        "regSellable": 206,
+        "regSellThrough": 0.0777
       },
       {
         "theatreId": 230,
@@ -5811,7 +5906,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512300&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=512297",
         "sold": 0,
         "sellable": 21,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 1,
         "regSellable": 249,
@@ -5828,7 +5923,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716514&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=716520",
         "sold": 3,
         "sellable": 30,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.1,
         "regSold": 0,
         "regSellable": 140,
@@ -5845,7 +5940,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237662&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=237667",
         "sold": 0,
         "sellable": 25,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 4,
         "regSellable": 115,
@@ -5862,7 +5957,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301846&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=301844",
         "sold": 0,
         "sellable": 29,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 181,
@@ -5879,7 +5974,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294975&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A20%3A00&LinkedShowtimeId=294986",
         "sold": 2,
         "sellable": 25,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.08,
         "regSold": 8,
         "regSellable": 184,
@@ -5896,7 +5991,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1050&ShowtimeId=793305&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A25%3A00&LinkedShowtimeId=793311",
         "sold": 1,
         "sellable": 26,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0385,
         "regSold": 0,
         "regSellable": 97,
@@ -5913,7 +6008,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=260&ShowtimeId=701001&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=700965",
         "sold": 0,
         "sellable": 30,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 169,
@@ -5930,7 +6025,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=345&ShowtimeId=510706&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=510676",
         "sold": 0,
         "sellable": 22,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 2,
         "regSellable": 72,
@@ -5947,7 +6042,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534229&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=534218",
         "sold": 3,
         "sellable": 11,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.2727,
         "regSold": 0,
         "regSellable": 99,
@@ -5964,7 +6059,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=471998&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=471999",
         "sold": 1,
         "sellable": 23,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0435,
         "regSold": 3,
         "regSellable": 92,
@@ -5981,7 +6076,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1076&ShowtimeId=257319&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=257329",
         "sold": 0,
         "sellable": 29,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 9,
         "regSellable": 101,
@@ -5998,7 +6093,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334696&CinemarkMovieId=107526&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=334725",
         "sold": 0,
         "sellable": 19,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 83,
@@ -6015,11 +6110,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1162&ShowtimeId=144646&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=144658",
         "sold": 0,
         "sellable": 21,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
-        "regSold": 6,
+        "regSold": 11,
         "regSellable": 172,
-        "regSellThrough": 0.0349
+        "regSellThrough": 0.064
       },
       {
         "theatreId": 1152,
@@ -6032,7 +6127,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=140037&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=140055",
         "sold": 3,
         "sellable": 33,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0909,
         "regSold": 9,
         "regSellable": 158,
@@ -6049,7 +6144,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1164&ShowtimeId=142251&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A30%3A00&LinkedShowtimeId=142257",
         "sold": 1,
         "sellable": 19,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0526,
         "regSold": 5,
         "regSellable": 199,
@@ -6066,7 +6161,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512765&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=512790",
         "sold": 2,
         "sellable": 17,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.1176,
         "regSold": 0,
         "regSellable": 97,
@@ -6083,7 +6178,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1091&ShowtimeId=334751&CinemarkMovieId=109370&Showtime=2026-06-23T08%3A35%3A00&LinkedShowtimeId=334713",
         "sold": 0,
         "sellable": 15,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 84,
@@ -6100,11 +6195,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=508608&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=508615",
         "sold": 0,
         "sellable": 13,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
-        "regSold": 6,
+        "regSold": 10,
         "regSellable": 121,
-        "regSellThrough": 0.0496
+        "regSellThrough": 0.0826
       },
       {
         "theatreId": 1051,
@@ -6117,11 +6212,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1051&ShowtimeId=716541&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=716503",
         "sold": 1,
         "sellable": 24,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0417,
-        "regSold": 0,
+        "regSold": 1,
         "regSellable": 108,
-        "regSellThrough": 0.0
+        "regSellThrough": 0.0093
       },
       {
         "theatreId": 1078,
@@ -6134,7 +6229,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=281933&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=281945",
         "sold": 0,
         "sellable": 19,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 13,
         "regSellable": 49,
@@ -6151,11 +6246,79 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1111&ShowtimeId=301860&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A40%3A00&LinkedShowtimeId=301856",
         "sold": 0,
         "sellable": 35,
-        "lastSeenUtc": "2026-06-23T12:23:49+00:00",
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 232,
         "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 202,
+        "theatre": "Cinemark Tinseltown Rochester and IMAX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "08:50",
+        "startUtc": "2026-06-23T12:50:00+00:00",
+        "state": "NY",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=202&ShowtimeId=595513&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=595486",
+        "sold": 0,
+        "sellable": 16,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 146,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1082,
+        "theatre": "Cinemark North Hills and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "08:50",
+        "startUtc": "2026-06-23T12:50:00+00:00",
+        "state": "PA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=237640&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=237646",
+        "sold": 3,
+        "sellable": 27,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+        "sellThrough": 0.1111,
+        "regSold": 2,
+        "regSellable": 137,
+        "regSellThrough": 0.0146
+      },
+      {
+        "theatreId": 1129,
+        "theatre": "Cinemark North Haven and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "08:50",
+        "startUtc": "2026-06-23T12:50:00+00:00",
+        "state": "CT",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=294996&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A50%3A00&LinkedShowtimeId=294972",
+        "sold": 3,
+        "sellable": 23,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+        "sellThrough": 0.1304,
+        "regSold": 2,
+        "regSellable": 115,
+        "regSellThrough": 0.0174
+      },
+      {
+        "theatreId": 1152,
+        "theatre": "Cinemark Willowbrook Mall XD and ScreenX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "08:55",
+        "startUtc": "2026-06-23T12:55:00+00:00",
+        "state": "NJ",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=143274&CinemarkMovieId=107462&Showtime=2026-06-23T08%3A55%3A00&LinkedShowtimeId=143269",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-23T12:32:17+00:00",
+        "sellThrough": 0.0,
+        "regSold": 5,
+        "regSellable": 84,
+        "regSellThrough": 0.0595
       }
     ]
   }
