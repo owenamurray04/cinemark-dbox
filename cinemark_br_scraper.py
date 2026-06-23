@@ -287,17 +287,19 @@ def summarize_seatmap(seatmap_json):
         for e in els:
             if e.get("type") not in types:
                 continue
-            stt = e.get("status")
-            if stt == ST_BLOCKED:
-                continue  # not sellable
             total += 1
-            if stt == ST_SOLD:
+            # A seat is "taken" if it isn't available to buy — both Ocupado (sold
+            # online) and Bloqueado (otherwise unavailable) count. Only Disponível
+            # (and a transient Selecionado) are free.
+            if e.get("status") in (ST_BLOCKED, ST_SOLD):
                 sold += 1
         return {"total": total, "sellable": total, "sold": sold,
                 "available": total - sold,
                 "sell_through": sold / total if total else 0.0}
 
     out = tally({DBOX_TYPE})
+    if out["total"] == 0:
+        return None
     out["regular"] = tally(REGULAR_TYPES)
     return out
 
