@@ -106,6 +106,7 @@ def _build_opener():
 _OPENER = _build_opener()
 _SESSION_WARM = False
 _WARNED_403 = False  # print the datacenter-block hint at most once per run
+_WARNED_429 = False  # print the rate-limit hint at most once per run
 
 
 def warm_session():
@@ -125,8 +126,13 @@ def warm_session():
 
 def _get(url, referer=BASE + "/", tries=3):
     """GET a page, returning the body text (str) or None on persistent failure.
-    Empty bodies / transient throttles are retried with backoff."""
+    Empty bodies / transient throttles are retried with backoff.
+
+    Requests gzip and decompresses the response: the seat-map page is ~340 KB of
+    HTML uncompressed but ~6-8x smaller gzipped, and the proxy bills by bytes over
+    the wire — so this cuts bandwidth (and cost) massively with zero loss."""
     headers = dict(HEADERS)
+    headers["accept-encoding"] = "gzip"
     if referer:
         headers["referer"] = referer
     if COOKIE:
@@ -136,7 +142,14 @@ def _get(url, referer=BASE + "/", tries=3):
         req = urllib.request.Request(url, headers=headers)
         try:
             with _OPENER.open(req, timeout=30) as r:
-                body = r.read().decode("utf-8", "replace").strip()
+                raw = r.read()
+                enc = (r.headers.get("Content-Encoding") or "").lower()
+            if "gzip" in enc or raw[:2] == b"\x1f\x8b":
+                try:
+                    raw = gzip.decompress(raw)
+                except Exception:
+                    pass  # not actually gzipped — use as-is
+            body = raw.decode("utf-8", "replace").strip()
             if not body:
                 time.sleep(1.0 * (attempt + 1))  # maybe throttled — back off
                 continue
@@ -156,9 +169,17 @@ def _get(url, referer=BASE + "/", tries=3):
                           "Running without a proxy; re-enable CINEMARK_PROXY if data stops.")
                 return None
             if e.code in (429, 500, 502, 503, 504) and attempt < tries - 1:
-                time.sleep(1.5 * (attempt + 1))
+                time.sleep(2.0 * (attempt + 1))  # rate-limit / transient — back off
                 continue
-            raise
+            # Exhausted retries (or a non-retryable code): degrade gracefully
+            # rather than crash the long-running loop. 429 = rate limited (usually
+            # means we're hammering a single IP — a proxy that rotates IPs avoids it).
+            global _WARNED_429
+            if e.code == 429 and not _WARNED_429:
+                _WARNED_429 = True
+                print("  [warn] HTTP 429 (rate limited) from Cinemark — too many requests "
+                      "from one IP. A rotating residential proxy (CINEMARK_PROXY) avoids this.")
+            return None
         except (ValueError, urllib.error.URLError):
             if attempt < tries - 1:
                 time.sleep(1.0 * (attempt + 1))
