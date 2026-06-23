@@ -250,10 +250,29 @@ _SEATMAP_LINK = re.compile(
     r'href="(/TicketSeatMap/?\?[^"]*?TheaterId=(\d+)[^"]*?ShowtimeId=(\d+)'
     r'[^"]*?CinemarkMovieId=(\d+)[^"]*?Showtime=([0-9T:\-]+)[^"]*?)"', re.I)
 _LINKED_RE = re.compile(r'LinkedShowtimeId=(\d+)', re.I)
-# Movie blocks: each film's showtimes live under a heading we can recover the
-# title from. Best-effort; falls back to the movie id if the title isn't nearby.
-_MOVIE_TITLE = re.compile(
-    r'/movies/[^"]*"[^>]*>\s*([^<]{2,80}?)\s*</a>', re.I)
+# Each film's block links to /movies/<slug> (poster, title, AND "Watch Trailer"
+# all share the same slug). We derive the title from the SLUG, not the link text
+# — the trailer link's text is literally "Trailer", which is what bit us before.
+_MOVIE_SLUG = re.compile(r'/movies/([a-z0-9][a-z0-9\-]+)', re.I)
+# Slug tokens that should be upper-cased rather than title-cased.
+_SLUG_UPPER = {"xd", "imax", "3d", "4dx", "ii", "iii", "iv", "f1", "vs", "tron"}
+
+
+def _title_from_slug(slug):
+    """'f1-the-movie' -> 'F1 The Movie'; 'masters-of-the-universe' ->
+    'Masters of the Universe'. Best-effort, used only for grouping/display."""
+    small = {"of", "the", "and", "a", "an", "to", "in", "with", "for"}
+    words = [w for w in (slug or "").split("-") if w]
+    out = []
+    for i, w in enumerate(words):
+        lw = w.lower()
+        if lw in _SLUG_UPPER:
+            out.append(w.upper())
+        elif lw in small and i != 0:
+            out.append(lw)
+        else:
+            out.append(w[:1].upper() + w[1:])
+    return " ".join(out)
 
 
 def parse_theatre_showtimes(html, state=None, theatre=None):
@@ -261,9 +280,9 @@ def parse_theatre_showtimes(html, state=None, theatre=None):
     its seat-map link carries a LinkedShowtimeId. De-duplicated by ShowtimeId."""
     if not html:
         return []
-    # Map each movie title to the span of HTML it governs, so we can label
-    # showtimes with their film. We split the page on movie blocks.
-    titles = [(m.start(), _clean_text(m.group(1))) for m in _MOVIE_TITLE.finditer(html)]
+    # Map each movie's /movies/<slug> position to its title, so we can label each
+    # showtime with the nearest preceding film.
+    titles = [(m.start(), _title_from_slug(m.group(1))) for m in _MOVIE_SLUG.finditer(html)]
 
     def title_at(pos):
         name = None
