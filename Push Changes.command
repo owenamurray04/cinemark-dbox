@@ -33,6 +33,11 @@ fi
 #    a merge conflict.
 git checkout -- dashboard/cinemark_data.json schedule_cinemark dbox_theatres_cache.json dashboard/cinemark_br_data.json schedule_cinemark_br dbox_theatres_cache_br.json >/dev/null 2>&1
 git clean -fd schedule_cinemark schedule_cinemark_br >/dev/null 2>&1
+# Drop any UNTRACKED local copies of bot-owned files (e.g. a seed data.json) so the
+# pull can bring the bot's committed versions in cleanly. git clean -f only removes
+# untracked files; it's a no-op once these are tracked.
+git clean -f dashboard/cinemark_data.json dashboard/cinemark_br_data.json \
+              dbox_theatres_cache.json dbox_theatres_cache_br.json >/dev/null 2>&1
 
 # 2. Get up to date with GitHub first (pulls in the bot's commits).
 echo "Syncing with GitHub..."

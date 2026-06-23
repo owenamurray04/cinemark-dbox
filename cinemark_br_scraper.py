@@ -62,7 +62,11 @@ REALIZE_MIN = 15
 DBOX_TYPE = 12                 # "D-Box"
 REGULAR_TYPES = {1, 4, 13, 14}  # NORMAL, VIP, love-seat L/R = the rest of the house
 ST_AVAILABLE, ST_BLOCKED, ST_SOLD, ST_SELECTED = 1, 2, 3, 22
-DBOX_ROOM_FEATURE = 6          # a D-BOX room carries this feature code in sessions/movie
+# NOTE: room `features` codes are NOT a reliable D-BOX signal (verified: D-BOX and
+# non-D-BOX rooms share the same feature codes). The only ground truth is the seat
+# map (a D-BOX room has seats of type 12). So we probe one seat map per room to learn
+# which rooms are D-BOX, cache that per theatre (rooms are physically stable), and
+# only keep sessions in those rooms.
 
 # Two reads per showing (cost control), same as US.
 EARLY_READ_MIN = 45
@@ -163,10 +167,40 @@ def _here(*p):
     return os.path.join(os.path.dirname(os.path.abspath(__file__)), *p)
 
 
-# ---- 1. roster: all Brazil theatres that have D-BOX ------------------------
+# ---- 1. roster: Brazil theatres that have D-BOX, with their D-BOX room #s ----
+def _rooms_with_sessions(sessions_json):
+    """{room_number: a non-expired session id} from a sessions/movie payload."""
+    dr = _data(sessions_json) or {}
+    out = {}
+    for m in dr.get("movies") or []:
+        for d in m.get("dates") or []:
+            for rm in d.get("rooms") or []:
+                num = rm.get("number")
+                if num is None or num in out:
+                    continue
+                for s in rm.get("sessions") or []:
+                    if s.get("id") and not s.get("expired"):
+                        out[num] = s["id"]
+                        break
+    return out
+
+
+def probe_dbox_rooms(code, max_rooms=30):
+    """Find which room numbers at a theatre are D-BOX, by checking one seat map per
+    room for type-12 seats. Rooms are physically stable, so this is cached."""
+    room_sid = _rooms_with_sessions(_get_json(f"/sessions/movie?theaterId={code}"))
+    dbox = []
+    for num, sid in list(room_sid.items())[:max_rooms]:
+        sm = _data(_get_json(seatmap_url(code, sid))) or {}
+        if any(e.get("type") == DBOX_TYPE for e in (sm.get("elements") or [])):
+            dbox.append(num)
+    return dbox
+
+
 def get_dbox_theatres():
-    """states -> cities -> theaters; keep theatres whose sessionTypes includes DBOX.
-    Returns [{code, theatre, city, state}]."""
+    """states -> cities -> theaters; keep theatres whose sessionTypes includes DBOX
+    AND that actually have a D-BOX room (probed). Returns
+    [{code, theatre, city, state, dboxRooms:[numbers]}]."""
     states = _data(_get_json("/states?hasCinemark=true")) or []
     out, seen = [], set()
     for stt in states:
@@ -183,16 +217,21 @@ def get_dbox_theatres():
                 if "DBOX" not in stypes:
                     continue
                 seen.add(code)
-                out.append({"code": code, "theatre": t.get("name"),
-                            "city": t.get("city"), "state": t.get("state")})
+                rooms = probe_dbox_rooms(code)
+                if not rooms:
+                    continue  # lists DBOX but no D-BOX room found right now — skip
+                out.append({"code": code, "theatre": t.get("name"), "city": t.get("city"),
+                            "state": t.get("state"), "dboxRooms": rooms})
     return out
 
 
-# ---- 2. discover: today's D-BOX sessions -----------------------------------
-def parse_dbox_sessions(sessions_json, theatre=None, state=None, want_iso=None):
-    """From a theatre's sessions/movie payload, return D-BOX sessions (rooms whose
-    features include the D-BOX code), optionally filtered to want_iso date."""
+# ---- 2. discover: today's D-BOX sessions (only in known D-BOX rooms) --------
+def parse_dbox_sessions(sessions_json, theatre=None, state=None, dbox_rooms=None, want_iso=None):
+    """Return sessions that play in this theatre's D-BOX rooms (by room number),
+    optionally filtered to want_iso date. dbox_rooms must be the probed room list;
+    an empty list yields nothing (never guess)."""
     dr = _data(sessions_json) or {}
+    rooms = set(dbox_rooms or [])
     out, seen = [], set()
     for m in dr.get("movies") or []:
         mv = m.get("movie") or {}
@@ -200,7 +239,7 @@ def parse_dbox_sessions(sessions_json, theatre=None, state=None, want_iso=None):
         slug = mv.get("slug") or mv.get("urlKey") or _slugify(title)
         for d in m.get("dates") or []:
             for rm in d.get("rooms") or []:
-                if DBOX_ROOM_FEATURE not in (rm.get("features") or []):
+                if rm.get("number") not in rooms:
                     continue  # not a D-BOX room
                 for s in rm.get("sessions") or []:
                     sid = s.get("id")
@@ -227,7 +266,7 @@ def _slugify(name):
 def get_dbox_sessions(theatre, want_iso):
     js = _get_json(f"/sessions/movie?theaterId={theatre['code']}")
     rows = parse_dbox_sessions(js, theatre=theatre["theatre"], state=theatre["state"],
-                               want_iso=want_iso)
+                               dbox_rooms=theatre.get("dboxRooms") or [], want_iso=want_iso)
     for r in rows:
         r["theatreId"] = theatre["code"]
     return rows
@@ -362,13 +401,17 @@ def discover(date_mdy, max_age_min=None, full=False):
                 pass
 
     cache = _load_cache()
+    cached_theatres = cache.get("theatres") or []
+    # Old caches lack per-theatre dboxRooms — treat them as stale so we re-probe.
+    cache_has_rooms = bool(cached_theatres) and isinstance(cached_theatres[0].get("dboxRooms"), list)
     age_days = None
     if cache.get("updatedUtc"):
         try:
             age_days = (datetime.now(timezone.utc) - datetime.fromisoformat(cache["updatedUtc"])).total_seconds() / 86400
         except Exception:
             age_days = None
-    if full or not cache.get("theatres") or age_days is None or age_days >= CACHE_TTL_DAYS:
+    did_full = bool(full or not cache_has_rooms or age_days is None or age_days >= CACHE_TTL_DAYS)
+    if did_full:
         theatres = get_dbox_theatres()
         if theatres:
             _save_cache(theatres)
@@ -383,7 +426,9 @@ def discover(date_mdy, max_age_min=None, full=False):
         showings += get_dbox_sessions(t, want_iso)
 
     existing = _load_schedule(date_mdy)
-    if not showings or (existing and len(showings) < 0.5 * len(existing)):
+    # A fresh full re-probe is authoritative — accept a legitimate shrink (e.g. this
+    # bug fix going from over-matched to correct). Otherwise guard against hiccups.
+    if not showings or (existing and not did_full and len(showings) < 0.5 * len(existing)):
         print(f"[discover-br] scan got {len(showings)} showings"
               + (f" vs {len(existing)} existing" if existing else "")
               + " — hiccup; keeping existing.")
