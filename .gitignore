@@ -1,0 +1,9 @@
+# Local session cookie capture (never commit credentials/sessions)
+cinemark_cookie.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

@@ -1,0 +1,101 @@
+name: Cinemark D-BOX live loop (self-sustaining)
+
+# Runs the Cinemark scraper on a self-chaining schedule WITHOUT relying on
+# GitHub's (unreliable) cron. Each run is short: ONE check (discover-if-stale +
+# one measure), then it sleeps for however long the scraper says is sensible
+# (~15 min near showtime, hours overnight), triggers the NEXT run, and exits.
+#
+# START IT ONCE: Actions tab -> "Cinemark D-BOX live loop" -> Run workflow. It
+# keeps itself going. If it ever stops (e.g. token expired), click Run again.
+# Requires secrets: CINEMARK_PROXY (US residential) and DISPATCH_PAT (a
+# fine-grained PAT with Contents: read/write on this repo). See
+# PROXY_AND_ACTIONS_SETUP.md.
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [cinemark-loop]
+  schedule:
+    # Backup restarter ONLY. The chain above carries the real cadence; this just
+    # re-starts it if it ever dies. Concurrency makes it a no-op while the chain
+    # is alive, so it never causes a double-run.
+    - cron: '23 */2 * * *'   # every 2 hours
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cinemark-dbox-scrape   # only ever one chain running at a time
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      TZ: America/Chicago               # scraper localizes per-theatre anyway
+      CINEMARK_PROXY: ${{ secrets.CINEMARK_PROXY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: One check (discover-if-stale + measure), then decide the wait
+        id: check
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          commit_push () {  # $1 = commit message
+            git add dashboard/cinemark_data.json schedule_cinemark 2>/dev/null || true
+            if git diff --cached --quiet; then return 0; fi
+            git commit -m "$1" >/dev/null
+            for i in 1 2 3 4 5; do
+              if git pull --rebase --autostash origin "${GITHUB_REF_NAME}" >/dev/null 2>&1 && git push >/dev/null 2>&1; then
+                return 0
+              fi
+              sleep $((RANDOM % 5 + 2))
+            done
+            echo "  (push failed — will try again next run)"; return 0
+          }
+
+          DAY="$(date +%-m/%-d/%Y)"
+
+          # Full-chain scan only if today's schedule is missing or >12h old.
+          DOUT=$(python3 cinemark_scraper.py discover --date "$DAY" --max-age 720 || true)
+          echo "$DOUT"
+          printf '%s\n' "$DOUT" | grep -q 'skipping full scan' || commit_push "discover: $(date -u +%Y-%m-%dT%H:%MZ)"
+
+          OUT=$(python3 cinemark_scraper.py measure --date "$DAY" --lead 25 --grace 20 || true)
+          echo "$OUT"
+          N=$(printf '%s\n' "$OUT" | sed -n 's/^MEASURED=//p' | tail -1)
+          WAIT=$(printf '%s\n' "$OUT" | sed -n 's/^NEXT_WAIT_S=//p' | tail -1)
+
+          if [ "${N:-0}" -gt 0 ]; then
+            commit_push "measure: $(date -u +%Y-%m-%dT%H:%MZ)"
+          fi
+
+          case "$WAIT" in (''|*[!0-9]*) WAIT=900 ;; esac
+          [ "$WAIT" -lt 60 ] && WAIT=900
+          [ "$WAIT" -gt 18000 ] && WAIT=18000
+          echo "wait_s=$WAIT" >> "$GITHUB_OUTPUT"
+          echo "Next check in ${WAIT}s (~$((WAIT/60)) min)."
+
+      - name: Wait until the next check is due
+        run: sleep ${{ steps.check.outputs.wait_s }}
+
+      - name: Launch the next run, then exit
+        if: always()
+        run: |
+          for i in 1 2 3 4 5; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+              -H "Authorization: Bearer ${{ secrets.DISPATCH_PAT }}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${{ github.repository }}/dispatches" \
+              -d '{"event_type":"cinemark-loop"}')
+            if [ "$code" = "204" ]; then
+              echo "Next run launched (HTTP 204)."; exit 0
+            fi
+            echo "arm attempt $i failed (HTTP $code) — retrying..."; sleep $((i*5))
+          done
+          echo "::warning::Could not launch next run. The 2-hourly backup schedule will restart the chain; or click Run workflow."
