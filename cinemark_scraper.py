@@ -105,6 +105,7 @@ def _build_opener():
 
 _OPENER = _build_opener()
 _SESSION_WARM = False
+_WARNED_403 = False  # print the datacenter-block hint at most once per run
 
 
 def warm_session():
@@ -142,18 +143,18 @@ def _get(url, referer=BASE + "/", tries=3):
             return body
         except urllib.error.HTTPError as e:
             if e.code == 403:
-                if PROXY and attempt < tries - 1:
-                    time.sleep(1.5 * (attempt + 1))  # rotate to a fresh exit IP
+                if attempt < tries - 1:
+                    time.sleep(1.5 * (attempt + 1))  # transient / rotate exit IP
                     continue
-                if PROXY:
-                    return None
-                raise SystemExit(
-                    "\n  HTTP 403 — Cinemark's bot protection blocked the request.\n"
-                    "  You're not on a residential IP. Either set CINEMARK_PROXY\n"
-                    "  (US residential, see PROXY_AND_ACTIONS_SETUP.md) or, for a local\n"
-                    "  run, open cinemark.com in your browser, DevTools > Network,\n"
-                    "  right-click any www.cinemark.com row > Copy > Copy as cURL, paste\n"
-                    "  the WHOLE thing into  cinemark_cookie.txt  here, save, re-run.\n")
+                # Exhausted retries. Don't crash the whole run — degrade gracefully
+                # so a datacenter-IP block shows up as "no data" in the logs (the
+                # signal to re-enable CINEMARK_PROXY) instead of a hard failure.
+                global _WARNED_403
+                if not _WARNED_403:
+                    _WARNED_403 = True
+                    print("  [warn] HTTP 403 from Cinemark — likely a datacenter-IP block. "
+                          "Running without a proxy; re-enable CINEMARK_PROXY if data stops.")
+                return None
             if e.code in (429, 500, 502, 503, 504) and attempt < tries - 1:
                 time.sleep(1.5 * (attempt + 1))
                 continue

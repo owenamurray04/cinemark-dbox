@@ -33,7 +33,10 @@ jobs:
     timeout-minutes: 120
     env:
       TZ: America/Chicago               # scraper localizes per-theatre anyway
-      CINEMARK_PROXY: ${{ secrets.CINEMARK_PROXY }}
+      # Proxy DISABLED — running direct from the runner to save bandwidth cost.
+      # If Cinemark starts blocking the datacenter IP (no data / 403s in the log),
+      # re-enable by uncommenting the line below (the secret is still set).
+      # CINEMARK_PROXY: ${{ secrets.CINEMARK_PROXY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
