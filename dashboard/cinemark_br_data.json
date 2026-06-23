@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-23T19:26:43+00:00",
+  "updatedUtc": "2026-06-23T19:31:40+00:00",
   "source": "Cinemark Brasil \u00b7 assentos D-BOX",
   "metric": "realized",
   "showingsStore": {
@@ -323,7 +323,7 @@
       "regSold": 0,
       "regSellable": 230,
       "firstSeenUtc": "2026-06-23T18:38:39+00:00",
-      "lastSeenUtc": "2026-06-23T18:38:39+00:00",
+      "lastSeenUtc": "2026-06-23T19:31:40+00:00",
       "startUtc": "2026-06-23T19:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=38a4fb92-8d3f-49a4-9098-d45a453f1356"
     },
@@ -438,50 +438,6 @@
   },
   "upcoming": [
     {
-      "theatre": "Cidade Jardim VIP",
-      "theatreId": 682,
-      "movie": "Supergirl",
-      "start": "2026-06-23T16:15:00",
-      "startUtc": "2026-06-23T19:15:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/supergirl/assentos?sessionId=6b42f7c5-b3de-4c75-821d-150615fd1805",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
-    },
-    {
-      "theatre": "Tiete Plaza Shopping",
-      "theatreId": 2110,
-      "movie": "Supergirl",
-      "start": "2026-06-23T16:15:00",
-      "startUtc": "2026-06-23T19:15:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/supergirl/assentos?sessionId=09752802-b349-4062-93c5-28c77dc0f202",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
-    },
-    {
-      "theatre": "Villa Lobos",
-      "theatreId": 727,
-      "movie": "Supergirl",
-      "start": "2026-06-23T16:15:00",
-      "startUtc": "2026-06-23T19:15:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/supergirl/assentos?sessionId=11259522-3944-488d-bcff-a4edfe46fe72",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
-    },
-    {
-      "theatre": "West Plaza",
-      "theatreId": 2102,
-      "movie": "Supergirl",
-      "start": "2026-06-23T16:15:00",
-      "startUtc": "2026-06-23T19:15:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/supergirl/assentos?sessionId=1af62f97-f9e0-4e37-becd-5d6a4013671e",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
-    },
-    {
       "theatre": "Downtown",
       "theatreId": 719,
       "movie": "Toy Story 5",
@@ -490,7 +446,7 @@
       "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=38a4fb92-8d3f-49a4-9098-d45a453f1356",
       "sold": 0,
       "sellable": 16,
-      "lastSeenUtc": "2026-06-23T18:38:39+00:00"
+      "lastSeenUtc": "2026-06-23T19:31:40+00:00"
     },
     {
       "theatre": "Salvador Shopping",
@@ -2048,6 +2004,23 @@
     ],
     "recentFills": [
       {
+        "theatreId": 719,
+        "theatre": "Downtown",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "16:20",
+        "startUtc": "2026-06-23T19:20:00+00:00",
+        "state": "Rio De Janeiro",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=38a4fb92-8d3f-49a4-9098-d45a453f1356",
+        "sold": 0,
+        "sellable": 16,
+        "lastSeenUtc": "2026-06-23T19:31:40+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 230,
+        "regSellThrough": 0.0
+      },
+      {
         "theatreId": 694,
         "theatre": "Shopping Campo Grande",
         "movie": "Toy Story 5",
@@ -2286,23 +2259,6 @@
         "regSellThrough": 0.0769
       },
       {
-        "theatreId": 719,
-        "theatre": "Downtown",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "16:20",
-        "startUtc": "2026-06-23T19:20:00+00:00",
-        "state": "Rio De Janeiro",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=38a4fb92-8d3f-49a4-9098-d45a453f1356",
-        "sold": 0,
-        "sellable": 16,
-        "lastSeenUtc": "2026-06-23T18:38:39+00:00",
-        "sellThrough": 0.0,
-        "regSold": 0,
-        "regSellable": 230,
-        "regSellThrough": 0.0
-      },
-      {
         "theatreId": 694,
         "theatre": "Shopping Campo Grande",
         "movie": "Toy Story 5",
@@ -2485,7 +2441,7 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=38a4fb92-8d3f-49a4-9098-d45a453f1356",
         "sold": 0,
         "sellable": 16,
-        "lastSeenUtc": "2026-06-23T18:38:39+00:00",
+        "lastSeenUtc": "2026-06-23T19:31:40+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 230,
