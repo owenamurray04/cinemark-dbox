@@ -603,11 +603,21 @@ def discover(date_mdy, max_age_min=None, full=False):
     return showings
 
 
-# ---- measure (near-showtime) ----------------------------------------------
+# ---- measure (two reads per showing) ---------------------------------------
+# To keep bandwidth/cost low we read each D-BOX showing only TWICE:
+#   1) an EARLY read ~EARLY_READ_MIN before showtime (advance fill), and
+#   2) a FINAL read ~FINAL_READ_AFTER_MIN AFTER showtime — late enough to capture
+#      every last sale, while the showing is still on Cinemark's feed.
+# Once the final read is taken (or the D-BOX seats are sold out) the showing is
+# never read again. The realized store keeps the fullest reading.
+EARLY_READ_MIN = 45        # first read, before showtime
+FINAL_READ_AFTER_MIN = 10  # second read, AFTER showtime (most accurate count)
+
+
 def measure_window(date_mdy, lead_min=30, grace_min=20):
-    """Measure only D-BOX showings whose start is within [now-grace, now+lead].
-    Runs every ~15 min so each show is read a few times as it approaches start;
-    the realized store keeps the fullest reading and locks it in after start."""
+    """Take the early + final read for any showing that's due, then sleep until
+    the next read is actually due. grace_min = how long after start we'll still
+    attempt a missed final read. (lead_min kept for CLI compatibility; unused.)"""
     sched = _load_schedule(date_mdy)
     if not sched:
         print("[measure] no schedule for today yet — running discovery first.")
@@ -621,58 +631,74 @@ def measure_window(date_mdy, lead_min=30, grace_min=20):
                          if (s.get("theatreId"), s.get("showtimeId")) not in seen]
 
     now = datetime.now(timezone.utc)
-    lo, hi = now - timedelta(minutes=grace_min), now + timedelta(minutes=lead_min)
-
     store = {}
     try:
         store = (json.load(open(_data_path())).get("showingsStore") or {})
     except Exception:
         store = {}
 
-    due, skipped_final = [], 0
+    due, next_actions, skipped = [], [], 0
     for s in sched:
         st = _start_utc(s.get("start"), s.get("state"))
-        if not (st and lo <= st <= hi):
+        if not st:
             continue
         key = f"{(s.get('start') or '')[:10]}|{s.get('theatreId')}|{s.get('showtimeId')}"
-        prev_rec = store.get(key)
-        if prev_rec and prev_rec.get("lastSeenUtc"):
-            try:
-                if datetime.fromisoformat(prev_rec["lastSeenUtc"]) >= st + timedelta(minutes=10):
-                    skipped_final += 1
-                    continue
-            except Exception:
-                pass
-        due.append((st, s))
+        rec = store.get(key)
+        # Final number already captured? (the post-showtime final read, or sold out.)
+        final_done = False
+        if rec:
+            sold, sell = rec.get("sold", 0), rec.get("sellable", 0)
+            if sell > 0 and sold >= sell:
+                final_done = True
+            seen_iso = rec.get("lastSeenUtc")
+            if seen_iso:
+                try:
+                    # we've taken a read at/after ~showtime+10 (the final)
+                    if datetime.fromisoformat(seen_iso) >= st + timedelta(minutes=FINAL_READ_AFTER_MIN - 2):
+                        final_done = True
+                except Exception:
+                    pass
+        if final_done:
+            skipped += 1
+            continue
+        has_read = bool(rec and rec.get("lastSeenUtc"))
+        is_early = not has_read
+        target = (st - timedelta(minutes=EARLY_READ_MIN) if is_early
+                  else st + timedelta(minutes=FINAL_READ_AFTER_MIN))
+        latest = st + timedelta(minutes=FINAL_READ_AFTER_MIN + grace_min)
+        if target <= now <= latest:
+            due.append((st, s, is_early))
+            if is_early:  # after the early read, this showing still needs its final read
+                ft = st + timedelta(minutes=FINAL_READ_AFTER_MIN)
+                next_actions.append(ft if ft > now else now + timedelta(minutes=3))
+        elif now < target:
+            next_actions.append(target)
+        # else now > latest: missed this showing — keep whatever we have, no action
+
     due.sort(key=lambda x: x[0])
-    print(f"[measure] {len(due)} D-BOX showings to read in window "
-          f"[{lo:%H:%M}..{hi:%H:%M} UTC] of {len(sched)} scheduled "
-          f"({skipped_final} already finalized, skipped)")
+    print(f"[measure] {len(due)} reads due of {len(sched)} scheduled "
+          f"({skipped} already finalized/sold-out, skipped)")
 
     rows = []
-    for _, s in due:
+    for st, s, is_early in due:
         m = measure_showing(s)
         if not m:
             continue
         rows.append({**s, **m})
-        print(f"  {str(s.get('movie'))[:24]:24} {(s.get('start') or '')[11:16]} "
-              f"T{s.get('theatreId')} D-BOX {m['sold']:2}/{m['sellable']:2} "
-              f"({m['sell_through']:.0%})  reg {m['regular']['sold']}/{m['regular']['sellable']}")
+        print(f"  {'early' if is_early else 'FINAL':5} {str(s.get('movie'))[:22]:22} "
+              f"{(s.get('start') or '')[11:16]} T{s.get('theatreId')} "
+              f"D-BOX {m['sold']:2}/{m['sellable']:2} ({m['sell_through']:.0%})  "
+              f"reg {m['regular']['sold']}/{m['regular']['sellable']}")
 
     _write_dashboard_data(rows, scrape_date=date_mdy)
 
-    # Recommend the next wait, from the actual schedule.
-    LO, HI, CAP = 4 * 60, 90 * 60, 90 * 60
-    future = [st for s in sched
-              if (st := _start_utc(s.get("start"), s.get("state"))) and st > now]
-    if due:
-        wait = 5 * 60 + random.randint(-30, 75)
-    elif future:
-        wait = (min(future) - now).total_seconds() - (lead_min + 5) * 60
-        wait = min(max(wait, LO), HI) + random.randint(-45, 120)
+    # Sleep exactly until the next read (early or final) is due — no spinning.
+    LO, CAP = 3 * 60, 90 * 60
+    if next_actions:
+        wait = (min(next_actions) - now).total_seconds()
     else:
-        wait = 75 * 60 + random.randint(0, 600)
-    wait = int(min(max(wait, LO), CAP))
+        wait = 75 * 60  # nothing pending; nap — next run rebuilds at date rollover
+    wait = int(min(max(wait, LO), CAP)) + random.randint(0, 45)
     print(f"MEASURED={len(rows)}")
     print(f"NEXT_WAIT_S={wait}")
     return rows
