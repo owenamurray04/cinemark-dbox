@@ -1,0 +1,40 @@
+name: Deploy dashboard to Pages
+
+# Deploys the site to GitHub Pages ONLY when the page itself changes — NOT on every
+# data commit. The dashboard loads its data live from the raw CDN, so the scrapers'
+# frequent data commits no longer need (or trigger) a Pages rebuild. This avoids the
+# ~10-builds/hour Pages limit that was stalling deployments at "deployment_queued".
+#
+# Requires Settings -> Pages -> "Build and deployment" -> Source = "GitHub Actions".
+on:
+  push:
+    paths:
+      - 'dashboard/index.html'
+      - 'dashboard/.nojekyll'
+      - '.nojekyll'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .            # whole repo, so the dashboard stays at /<repo>/dashboard/
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -362,7 +362,12 @@ function render(d){
   paint();
 }
 /* ---- country switcher (US / Brazil) ---- */
-const DATA_FILES = {us:'cinemark_data.json', br:'cinemark_br_data.json'};
+// Load data LIVE from GitHub's raw CDN, not the Pages-served copy. This decouples
+// data updates from Pages deployments: the scrapers commit data every few minutes,
+// but Pages only rebuilds when the page itself changes (Pages caps ~10 builds/hr,
+// which frequent data commits would otherwise blow through and stall).
+const RAW = 'https://raw.githubusercontent.com/owenamurray04/cinemark-dbox/main/dashboard/';
+const DATA_FILES = {us: RAW+'cinemark_data.json', br: RAW+'cinemark_br_data.json'};
 const EMPTY_BR = {updatedUtc:null, source:'Cinemark Brasil · assentos D-BOX', showingsStore:{}, upcoming:[]};
 let COUNTRY = (()=>{ try{ return localStorage.getItem('cmk_country')||'us'; }catch(e){ return 'us'; } })();
 function setCountryButtons(){

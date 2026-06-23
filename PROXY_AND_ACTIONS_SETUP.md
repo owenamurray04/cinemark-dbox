@@ -30,15 +30,23 @@ The live loop re-triggers itself with a `repository_dispatch`, which needs a tok
 
 ## 3. Turn on GitHub Pages (for the dashboard)
 
-- Repo → **Settings → Pages** → Source: **Deploy from a branch** → branch `main`
-  (or `master`), folder **/ (root)** or **/dashboard**.
-- The dashboard is at `dashboard/index.html` and reads `dashboard/cinemark_data.json`
-  (same folder), so serving the `dashboard/` folder works directly.
+- Repo → **Settings → Pages** → "Build and deployment" → Source: **GitHub Actions**.
+- That's it — the `pages.yml` workflow deploys the site. After switching the source,
+  run it once: **Actions → "Deploy dashboard to Pages" → Run workflow**.
+- The dashboard lives at `https://owenamurray04.github.io/cinemark-dbox/dashboard/`.
 
-## 4. Start the loop
+**Why GitHub Actions and not "Deploy from a branch":** the scrapers commit fresh
+data every few minutes, and branch-based Pages rebuilds on *every* push — which
+blows past Pages' ~10-builds/hour limit and stalls at "deployment_queued". With the
+Actions source, `pages.yml` only redeploys when the **page itself** changes, and the
+dashboard loads its data live from the raw CDN — so data updates never trigger a
+build.
 
-- Repo → **Actions → "Cinemark D-BOX live loop" → Run workflow**.
-- It keeps itself going. To stop it: Actions → the workflow → **··· → Disable
+## 4. Start the loops
+
+- Repo → **Actions → "Cinemark D-BOX live loop" → Run workflow** (US).
+- Repo → **Actions → "Cinemark Brazil D-BOX live loop" → Run workflow** (Brazil).
+- Each keeps itself going. To stop one: Actions → that workflow → **··· → Disable
   workflow** (cancelling a single run won't stop it — it relaunches itself).
 
 ## Local run (no Actions)
