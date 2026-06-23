@@ -387,7 +387,14 @@ CACHE_TTL_DAYS = 7
 
 # ---- discover --------------------------------------------------------------
 def discover(date_mdy, max_age_min=None, full=False):
-    if max_age_min is not None:
+    cache = _load_cache()
+    cached_theatres = cache.get("theatres") or []
+    # Old caches lack per-theatre dboxRooms — treat them as stale so we re-probe.
+    cache_has_rooms = bool(cached_theatres) and isinstance(cached_theatres[0].get("dboxRooms"), list)
+
+    # Only honor the "schedule is fresh, skip" shortcut once the cache is the new
+    # room-based format. Otherwise a fresh-but-buggy schedule would block the fix.
+    if max_age_min is not None and cache_has_rooms and not full:
         p = _sched_path(date_mdy)
         if os.path.exists(p):
             try:
@@ -399,11 +406,6 @@ def discover(date_mdy, max_age_min=None, full=False):
                     return existing
             except Exception:
                 pass
-
-    cache = _load_cache()
-    cached_theatres = cache.get("theatres") or []
-    # Old caches lack per-theatre dboxRooms — treat them as stale so we re-probe.
-    cache_has_rooms = bool(cached_theatres) and isinstance(cached_theatres[0].get("dboxRooms"), list)
     age_days = None
     if cache.get("updatedUtc"):
         try:
