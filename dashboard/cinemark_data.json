@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-23T06:54:04+00:00",
+  "updatedUtc": "2026-06-23T07:00:36+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -1706,10 +1706,10 @@
       "state": "CA",
       "sold": 0,
       "sellable": 20,
-      "regSold": 2,
+      "regSold": 6,
       "regSellable": 64,
       "firstSeenUtc": "2026-06-23T06:29:40+00:00",
-      "lastSeenUtc": "2026-06-23T06:54:04+00:00",
+      "lastSeenUtc": "2026-06-23T07:00:36+00:00",
       "startUtc": "2026-06-23T06:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541162&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A50%3A00&LinkedShowtimeId=541175"
     }
@@ -4809,11 +4809,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541162&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A50%3A00&LinkedShowtimeId=541175",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-23T06:54:04+00:00",
+        "lastSeenUtc": "2026-06-23T07:00:36+00:00",
         "sellThrough": 0.0,
-        "regSold": 2,
+        "regSold": 6,
         "regSellable": 64,
-        "regSellThrough": 0.0312
+        "regSellThrough": 0.0938
       },
       {
         "theatreId": 449,
@@ -5219,11 +5219,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541162&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A50%3A00&LinkedShowtimeId=541175",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-23T06:54:04+00:00",
+        "lastSeenUtc": "2026-06-23T07:00:36+00:00",
         "sellThrough": 0.0,
-        "regSold": 2,
+        "regSold": 6,
         "regSellable": 64,
-        "regSellThrough": 0.0312
+        "regSellThrough": 0.0938
       }
     ]
   }
