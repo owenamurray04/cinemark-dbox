@@ -34,6 +34,7 @@ Demo on the bundled fixtures (no network):
     python cinemark_scraper.py demo
 """
 import argparse
+import gzip
 import json
 import os
 import random
@@ -213,8 +214,15 @@ def _start_utc(start_str, state=None):
         return None
 
 
-# ---- 1. D-BOX theatre roster -----------------------------------------------
-_THEATRE_HREF = re.compile(r'href="(/theatres/([a-z]{2})-[^/"]+/[^"]+)"', re.I)
+# ---- 1. theatre roster (the WHOLE US chain, from the sitemap) ---------------
+# IMPORTANT: cinemark.com/d-box-theatres is location-filtered (client-side) and
+# only returns a default ~38 theatres — NOT the national D-BOX list. The complete
+# US theatre list lives in the (gzipped) sitemap. We pull every open theatre from
+# it and detect D-BOX per theatre at scan time (a theatre with no linked showtimes
+# simply contributes nothing). A cache (dbox_theatres_cache.json) remembers which
+# theatres actually have D-BOX so only an occasional full pass is slow.
+_SITEMAP_THEATRE = re.compile(r'<loc>\s*([^<]*?/theatres/([a-z]{2})-[^<]+?)\s*</loc>', re.I)
+_CLOSED_RE = re.compile(r'now-closed|coming-soon', re.I)
 
 
 def _name_from_slug(slug):
@@ -227,19 +235,69 @@ def _name_from_slug(slug):
                     for w in last.replace("-", " ").split())
 
 
-def get_dbox_theatres():
-    """Parse /d-box-theatres for the list of theatre pages that have D-BOX, with
-    their US state and a display name (both derived from the URL slug)."""
-    html = _get(BASE + "/d-box-theatres")
-    if not html:
+def _get_bytes(url, tries=3):
+    """GET raw bytes (gunzipping if needed). Used for the gzipped sitemap."""
+    headers = dict(HEADERS)
+    if COOKIE:
+        headers["Cookie"] = COOKIE
+    for attempt in range(tries):
+        time.sleep(random.uniform(*DELAY_RANGE_S))
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            with _OPENER.open(req, timeout=40) as r:
+                raw = r.read()
+            if raw[:2] == b"\x1f\x8b":  # gzip magic
+                raw = gzip.decompress(raw)
+            if not raw:
+                time.sleep(1.0 * (attempt + 1)); continue
+            return raw
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 429, 500, 502, 503, 504) and attempt < tries - 1:
+                time.sleep(1.5 * (attempt + 1)); continue
+            return None
+        except (ValueError, urllib.error.URLError, OSError):
+            if attempt < tries - 1:
+                time.sleep(1.0 * (attempt + 1)); continue
+            return None
+    return None
+
+
+def get_all_theatres():
+    """Every OPEN Cinemark US theatre, from the sitemap. Returns
+    [{slug, state, theatre}], state derived from the URL slug."""
+    raw = _get_bytes(BASE + "/sitemap.xml")
+    if not raw:
         return []
+    text = raw.decode("utf-8", "replace")
     seen, out = set(), []
-    for href, state in _THEATRE_HREF.findall(html):
-        if href in seen:
+    for full, state in _SITEMAP_THEATRE.findall(text):
+        slug = full.split("cinemark.com")[-1]  # path only
+        if not slug.startswith("/theatres/") or slug in seen:
             continue
-        seen.add(href)
-        out.append({"slug": href, "state": state.upper(), "theatre": _name_from_slug(href)})
+        if _CLOSED_RE.search(slug):
+            continue  # skip permanently closed / not-yet-open locations
+        seen.add(slug)
+        out.append({"slug": slug, "state": state.upper(), "theatre": _name_from_slug(slug)})
     return out
+
+
+# ---- D-BOX theatre cache: which theatres actually have D-BOX ----------------
+def _cache_path():
+    return _here("dbox_theatres_cache.json")
+
+
+def _load_dbox_cache():
+    try:
+        return json.load(open(_cache_path()))
+    except Exception:
+        return {}
+
+
+def _save_dbox_cache(slugs, theatres_by_slug):
+    data = {"updatedUtc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "count": len(slugs),
+            "theatres": [theatres_by_slug[s] for s in slugs if s in theatres_by_slug]}
+    json.dump(data, open(_cache_path(), "w"), indent=2)
 
 
 # ---- 2. showtimes (parse D-BOX showings off a theatre page) -----------------
@@ -440,10 +498,17 @@ def _load_schedule(date_mdy):
 
 
 # ---- discover --------------------------------------------------------------
-def discover(date_mdy, max_age_min=None):
-    """Scan every D-BOX theatre once and record the day's D-BOX showings (with
-    state, for timezone-correct windowing). One theatre-page fetch per theatre,
-    no seat-map calls. Skips the scan if today's schedule is fresh enough."""
+# How often to re-scan the WHOLE chain (vs just the cached D-BOX theatres) to
+# pick up new D-BOX rollouts. Between full passes, discovery only scans theatres
+# already known to have D-BOX, which is much faster and lighter on Cinemark.
+CACHE_FULL_RESCAN_DAYS = 7
+
+
+def discover(date_mdy, max_age_min=None, full=False):
+    """Record the day's D-BOX showings across the US chain. Pulls the theatre list
+    from the sitemap (all open theatres) on a full pass; between full passes only
+    re-scans theatres already known to have D-BOX (cached). One theatre-page fetch
+    per theatre, no seat-map calls. Skips entirely if today's schedule is fresh."""
     if max_age_min is not None:
         p = _schedule_path(date_mdy)
         if os.path.exists(p):
@@ -453,23 +518,49 @@ def discover(date_mdy, max_age_min=None):
                 existing = _load_schedule(date_mdy)
                 if age < max_age_min and len(existing) >= 20:
                     print(f"[discover] schedule is {age:.0f} min old with "
-                          f"{len(existing)} showings — skipping full scan.")
+                          f"{len(existing)} showings — skipping scan.")
                     return existing
             except Exception:
                 pass
 
     warm_session()
-    theatres = get_dbox_theatres()
-    print(f"[discover] scanning {len(theatres)} D-BOX theatres for showings on {date_mdy}")
+
+    # Decide full-chain vs cached-D-BOX-only scan.
+    cache = _load_dbox_cache()
+    cache_age_days = None
+    if cache.get("updatedUtc"):
+        try:
+            cache_age_days = (datetime.now(timezone.utc)
+                              - datetime.fromisoformat(cache["updatedUtc"])).total_seconds() / 86400
+        except Exception:
+            cache_age_days = None
+    do_full = (full or not cache.get("theatres")
+               or cache_age_days is None or cache_age_days >= CACHE_FULL_RESCAN_DAYS)
+
+    if do_full:
+        theatres = get_all_theatres()
+        print(f"[discover] FULL chain scan: {len(theatres)} open US theatres for D-BOX on {date_mdy}")
+    else:
+        theatres = cache.get("theatres", [])
+        print(f"[discover] cached scan: {len(theatres)} known D-BOX theatres "
+              f"(cache {cache_age_days:.1f}d old) on {date_mdy}")
+
     want_iso = _date_iso(date_mdy)
-    showings = []
-    for t in theatres:
+    showings, dbox_slugs, by_slug = [], [], {}
+    for i, t in enumerate(theatres):
+        by_slug[t["slug"]] = t
         rows = get_dbox_showings(t["slug"], state=t["state"], theatre=t["theatre"])
+        if rows:
+            dbox_slugs.append(t["slug"])  # theatre offers D-BOX -> keep in cache
         for r in rows:
             if (r.get("start") or "")[:10] != want_iso:
                 continue  # the page renders today by default; keep matching date
             r["slug"] = t["slug"]
             showings.append(r)
+        if do_full and (i + 1) % 50 == 0:
+            print(f"  ...scanned {i + 1}/{len(theatres)} theatres, "
+                  f"{len(dbox_slugs)} with D-BOX so far")
+
     # Guard a failed/partial scan from poisoning the day.
     existing = _load_schedule(date_mdy)
     if not showings or (existing and len(showings) < 0.5 * len(existing)):
@@ -477,7 +568,12 @@ def discover(date_mdy, max_age_min=None):
               + (f" vs {len(existing)} already listed" if existing else "")
               + " — looks like a hiccup; keeping existing schedule.")
         return existing
+
     _save_schedule(date_mdy, showings)
+    # After a full pass, refresh the cache so the next runs are fast & light.
+    if do_full and dbox_slugs:
+        _save_dbox_cache(dbox_slugs, by_slug)
+        print(f"[discover] cached {len(dbox_slugs)} D-BOX theatres -> {_cache_path()}")
     n_th = len({s["theatreId"] for s in showings})
     n_mv = len({s["movie"] for s in showings})
     print(f"[discover] {len(showings)} D-BOX showings across {n_th} theatres, "
@@ -791,7 +887,9 @@ if __name__ == "__main__":
     d = sub.add_parser("discover", help="list today's D-BOX showings -> schedule_cinemark/<date>.json")
     d.add_argument("--date", required=True, help="M/D/YYYY")
     d.add_argument("--max-age", type=int, default=None,
-                   help="skip the full scan if today's schedule is younger than N minutes")
+                   help="skip the scan if today's schedule is younger than N minutes")
+    d.add_argument("--full", action="store_true",
+                   help="force a full-chain scan (all theatres) and refresh the D-BOX cache")
 
     m = sub.add_parser("measure", help="measure D-BOX showings near their start time")
     m.add_argument("--date", required=True, help="M/D/YYYY")
@@ -803,7 +901,7 @@ if __name__ == "__main__":
     sub.add_parser("demo")
     a = p.parse_args()
     if a.cmd == "discover":
-        discover(a.date, max_age_min=a.max_age)
+        discover(a.date, max_age_min=a.max_age, full=a.full)
     elif a.cmd == "measure":
         measure_window(a.date, lead_min=a.lead, grace_min=a.grace)
     else:

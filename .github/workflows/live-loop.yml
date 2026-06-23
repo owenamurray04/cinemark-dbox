@@ -47,7 +47,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           commit_push () {  # $1 = commit message
-            git add dashboard/cinemark_data.json schedule_cinemark 2>/dev/null || true
+            git add dashboard/cinemark_data.json schedule_cinemark dbox_theatres_cache.json 2>/dev/null || true
             if git diff --cached --quiet; then return 0; fi
             git commit -m "$1" >/dev/null
             for i in 1 2 3 4 5; do

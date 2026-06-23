@@ -28,11 +28,18 @@ The seat map only includes the D-BOX seats when the request carries
 ## Pipeline
 
 ```
-/d-box-theatres            -> list of theatre pages that have D-BOX
+/sitemap.xml               -> every OPEN US theatre (~300; the /d-box-theatres
+                              page is location-filtered and only shows ~38, so we
+                              don't use it). Closed/coming-soon are skipped.
 /theatres/<slug>           -> that theatre's showtimes (HTML); keep linked = D-BOX
 /TicketSeatMap/?...&LinkedShowtimeId=...
                            -> every seat as a <button>; count D-BOX sold
 ```
+
+Discovery scans the whole chain on a **full pass** (all ~300 theatres), records
+which ones actually have D-BOX into `dbox_theatres_cache.json`, then for the next
+week only re-scans those cached theatres (fast + light). It does a fresh full pass
+weekly to catch new D-BOX rollouts; force one with `discover --full`.
 
 ## Commands
 

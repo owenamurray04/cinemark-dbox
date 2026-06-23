@@ -31,7 +31,7 @@ fi
 # 1. Don't fight the automation: the GitHub bot owns these files. Throw away any
 #    local changes to them (and any stray untracked copies) so they can't cause
 #    a merge conflict.
-git checkout -- dashboard/cinemark_data.json schedule_cinemark >/dev/null 2>&1
+git checkout -- dashboard/cinemark_data.json schedule_cinemark dbox_theatres_cache.json >/dev/null 2>&1
 git clean -fd schedule_cinemark >/dev/null 2>&1
 
 # 2. Get up to date with GitHub first (pulls in the bot's commits).
@@ -50,7 +50,7 @@ git rm --cached --quiet .DS_Store >/dev/null 2>&1
 git rm -r --cached --quiet __pycache__ >/dev/null 2>&1
 rm -rf __pycache__ >/dev/null 2>&1
 git add -A
-git reset -q -- dashboard/cinemark_data.json schedule_cinemark
+git reset -q -- dashboard/cinemark_data.json schedule_cinemark dbox_theatres_cache.json
 
 # 4. Anything of yours to publish?
 if git diff --cached --quiet; then
@@ -82,7 +82,7 @@ for i in 1 2 3 4 5; do
     break
   fi
   echo "  Re-syncing and retrying ($i)..."
-  git checkout -- dashboard/cinemark_data.json schedule_cinemark >/dev/null 2>&1
+  git checkout -- dashboard/cinemark_data.json schedule_cinemark dbox_theatres_cache.json >/dev/null 2>&1
   git pull --rebase --autostash >/dev/null 2>&1
   sleep $((RANDOM % 4 + 2))
 done
