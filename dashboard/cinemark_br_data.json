@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-23T19:22:13+00:00",
+  "updatedUtc": "2026-06-23T19:26:43+00:00",
   "source": "Cinemark Brasil \u00b7 assentos D-BOX",
   "metric": "realized",
   "showingsStore": {
@@ -416,53 +416,27 @@
       "lastSeenUtc": "2026-06-23T18:47:10+00:00",
       "startUtc": "2026-06-23T19:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=5cce08cd-3c11-48d3-b91e-a792d71136e5"
+    },
+    "2026-06-23|694|bc2df193-5719-40c4-822e-36a1b57c0ca7": {
+      "date": "2026-06-23",
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "movie": "Toy Story 5",
+      "showtimeId": "bc2df193-5719-40c4-822e-36a1b57c0ca7",
+      "start": "2026-06-23T16:10:00",
+      "state": "Mato Grosso Do Sul",
+      "movieSlug": "toy-story-5",
+      "sold": 0,
+      "sellable": 26,
+      "regSold": 6,
+      "regSellable": 215,
+      "firstSeenUtc": "2026-06-23T19:26:43+00:00",
+      "lastSeenUtc": "2026-06-23T19:26:43+00:00",
+      "startUtc": "2026-06-23T20:10:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=bc2df193-5719-40c4-822e-36a1b57c0ca7"
     }
   },
   "upcoming": [
-    {
-      "theatre": "Shopping Vitoria",
-      "theatreId": 702,
-      "movie": "Toy Story 5",
-      "start": "2026-06-23T16:10:00",
-      "startUtc": "2026-06-23T19:10:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=22b99e88-db37-4324-88e8-01433352499e",
-      "sold": 0,
-      "sellable": 23,
-      "lastSeenUtc": "2026-06-23T19:22:13+00:00"
-    },
-    {
-      "theatre": "Botafogo",
-      "theatreId": 728,
-      "movie": "Toy Story 5",
-      "start": "2026-06-23T16:10:00",
-      "startUtc": "2026-06-23T19:10:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=02ed4258-8b35-4f34-84da-f6392fe9207f",
-      "sold": 3,
-      "sellable": 28,
-      "lastSeenUtc": "2026-06-23T19:22:13+00:00"
-    },
-    {
-      "theatre": "Boulevard Tatuape",
-      "theatreId": 690,
-      "movie": "Toy Story 5",
-      "start": "2026-06-23T16:10:00",
-      "startUtc": "2026-06-23T19:10:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=7a4dad0e-6662-40b6-8b48-15dc0691ca7d",
-      "sold": 0,
-      "sellable": 2,
-      "lastSeenUtc": "2026-06-23T19:22:13+00:00"
-    },
-    {
-      "theatre": "Metro Santa Cruz",
-      "theatreId": 684,
-      "movie": "Toy Story 5",
-      "start": "2026-06-23T16:10:00",
-      "startUtc": "2026-06-23T19:10:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=94fef8f7-0fe7-4c07-9be4-05fa49542360",
-      "sold": 0,
-      "sellable": 20,
-      "lastSeenUtc": "2026-06-23T19:22:13+00:00"
-    },
     {
       "theatre": "Cidade Jardim VIP",
       "theatreId": 682,
@@ -734,9 +708,9 @@
       "start": "2026-06-23T16:10:00",
       "startUtc": "2026-06-23T20:10:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=bc2df193-5719-40c4-822e-36a1b57c0ca7",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 26,
+      "lastSeenUtc": "2026-06-23T19:26:43+00:00"
     },
     {
       "theatre": "BH Shopping",
@@ -1743,45 +1717,113 @@
   "byDay": [
     {
       "date": "2026-06-23",
-      "sold": 47,
-      "sellable": 230,
-      "showings": 13,
-      "sellThrough": 0.2043
+      "sold": 50,
+      "sellable": 303,
+      "showings": 17,
+      "sellThrough": 0.165
     }
   ],
   "latest": {
     "scrapeDate": "2026-06-23",
-    "sellThrough": 0.2043,
-    "seatsSold": 47,
-    "seatsSellable": 230,
-    "showings": 13,
-    "theatres": 13,
+    "sellThrough": 0.165,
+    "seatsSold": 50,
+    "seatsSellable": 303,
+    "showings": 17,
+    "theatres": 14,
     "upcoming": {
-      "seatsSold": 12,
-      "seatsSellable": 211,
-      "sellThrough": 0.0569,
-      "showings": 10,
-      "theatres": 10
+      "seatsSold": 9,
+      "seatsSellable": 164,
+      "sellThrough": 0.0549,
+      "showings": 7,
+      "theatres": 7
     },
     "comparison": {
-      "showings": 13,
-      "dboxSold": 47,
-      "dboxSellable": 230,
-      "regularSold": 156,
-      "regularSellable": 2748,
-      "dboxSellThrough": 0.2043,
-      "regularSellThrough": 0.0568
+      "showings": 17,
+      "dboxSold": 50,
+      "dboxSellable": 303,
+      "regularSold": 233,
+      "regularSellable": 3594,
+      "dboxSellThrough": 0.165,
+      "regularSellThrough": 0.0648
     },
     "byMovie": [
       {
         "movie": "Toy Story 5",
-        "sold": 47,
-        "sellable": 230,
-        "showings": 13,
-        "sellThrough": 0.2043
+        "sold": 50,
+        "sellable": 303,
+        "showings": 17,
+        "sellThrough": 0.165
       }
     ],
     "showingsList": [
+      {
+        "theatreId": 702,
+        "theatre": "Shopping Vitoria",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "16:10",
+        "startUtc": "2026-06-23T19:10:00+00:00",
+        "state": "Espirito Santo",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=22b99e88-db37-4324-88e8-01433352499e",
+        "sold": 0,
+        "sellable": 23,
+        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
+        "sellThrough": 0.0,
+        "regSold": 12,
+        "regSellable": 210,
+        "regSellThrough": 0.0571
+      },
+      {
+        "theatreId": 728,
+        "theatre": "Botafogo",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "16:10",
+        "startUtc": "2026-06-23T19:10:00+00:00",
+        "state": "Rio De Janeiro",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=02ed4258-8b35-4f34-84da-f6392fe9207f",
+        "sold": 3,
+        "sellable": 28,
+        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
+        "sellThrough": 0.1071,
+        "regSold": 16,
+        "regSellable": 207,
+        "regSellThrough": 0.0773
+      },
+      {
+        "theatreId": 690,
+        "theatre": "Boulevard Tatuape",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "16:10",
+        "startUtc": "2026-06-23T19:10:00+00:00",
+        "state": "S\u00e3o Paulo",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=7a4dad0e-6662-40b6-8b48-15dc0691ca7d",
+        "sold": 0,
+        "sellable": 2,
+        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
+        "sellThrough": 0.0,
+        "regSold": 41,
+        "regSellable": 198,
+        "regSellThrough": 0.2071
+      },
+      {
+        "theatreId": 684,
+        "theatre": "Metro Santa Cruz",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "16:10",
+        "startUtc": "2026-06-23T19:10:00+00:00",
+        "state": "S\u00e3o Paulo",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=94fef8f7-0fe7-4c07-9be4-05fa49542360",
+        "sold": 0,
+        "sellable": 20,
+        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
+        "sellThrough": 0.0,
+        "regSold": 8,
+        "regSellable": 231,
+        "regSellThrough": 0.0346
+      },
       {
         "theatreId": 681,
         "theatre": "Midway Mall Natal",
@@ -2005,6 +2047,23 @@
       }
     ],
     "recentFills": [
+      {
+        "theatreId": 694,
+        "theatre": "Shopping Campo Grande",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "16:10",
+        "startUtc": "2026-06-23T20:10:00+00:00",
+        "state": "Mato Grosso Do Sul",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=bc2df193-5719-40c4-822e-36a1b57c0ca7",
+        "sold": 0,
+        "sellable": 26,
+        "lastSeenUtc": "2026-06-23T19:26:43+00:00",
+        "sellThrough": 0.0,
+        "regSold": 6,
+        "regSellable": 215,
+        "regSellThrough": 0.0279
+      },
       {
         "theatreId": 702,
         "theatre": "Shopping Vitoria",
@@ -2399,72 +2458,21 @@
     ],
     "upcomingList": [
       {
-        "theatreId": 702,
-        "theatre": "Shopping Vitoria",
+        "theatreId": 694,
+        "theatre": "Shopping Campo Grande",
         "movie": "Toy Story 5",
         "date": "2026-06-23",
         "start": "16:10",
-        "startUtc": "2026-06-23T19:10:00+00:00",
-        "state": "Espirito Santo",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=22b99e88-db37-4324-88e8-01433352499e",
+        "startUtc": "2026-06-23T20:10:00+00:00",
+        "state": "Mato Grosso Do Sul",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=bc2df193-5719-40c4-822e-36a1b57c0ca7",
         "sold": 0,
-        "sellable": 23,
-        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
+        "sellable": 26,
+        "lastSeenUtc": "2026-06-23T19:26:43+00:00",
         "sellThrough": 0.0,
-        "regSold": 12,
-        "regSellable": 210,
-        "regSellThrough": 0.0571
-      },
-      {
-        "theatreId": 728,
-        "theatre": "Botafogo",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "16:10",
-        "startUtc": "2026-06-23T19:10:00+00:00",
-        "state": "Rio De Janeiro",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=02ed4258-8b35-4f34-84da-f6392fe9207f",
-        "sold": 3,
-        "sellable": 28,
-        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
-        "sellThrough": 0.1071,
-        "regSold": 16,
-        "regSellable": 207,
-        "regSellThrough": 0.0773
-      },
-      {
-        "theatreId": 690,
-        "theatre": "Boulevard Tatuape",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "16:10",
-        "startUtc": "2026-06-23T19:10:00+00:00",
-        "state": "S\u00e3o Paulo",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=7a4dad0e-6662-40b6-8b48-15dc0691ca7d",
-        "sold": 0,
-        "sellable": 2,
-        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
-        "sellThrough": 0.0,
-        "regSold": 41,
-        "regSellable": 198,
-        "regSellThrough": 0.2071
-      },
-      {
-        "theatreId": 684,
-        "theatre": "Metro Santa Cruz",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "16:10",
-        "startUtc": "2026-06-23T19:10:00+00:00",
-        "state": "S\u00e3o Paulo",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=94fef8f7-0fe7-4c07-9be4-05fa49542360",
-        "sold": 0,
-        "sellable": 20,
-        "lastSeenUtc": "2026-06-23T19:22:13+00:00",
-        "sellThrough": 0.0,
-        "regSold": 8,
-        "regSellable": 231,
-        "regSellThrough": 0.0346
+        "regSold": 6,
+        "regSellable": 215,
+        "regSellThrough": 0.0279
       },
       {
         "theatreId": 719,
