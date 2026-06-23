@@ -1,0 +1,36 @@
+{
+  "updatedUtc": "2026-06-23T23:27:14+00:00",
+  "source": "Cinemark Colombia \u00b7 asientos D-BOX",
+  "metric": "realized",
+  "showingsStore": {},
+  "upcoming": [],
+  "byDay": [],
+  "latest": {
+    "scrapeDate": "2026-06-24",
+    "sellThrough": 0.0,
+    "seatsSold": 0,
+    "seatsSellable": 0,
+    "showings": 0,
+    "theatres": 0,
+    "upcoming": {
+      "seatsSold": 0,
+      "seatsSellable": 0,
+      "sellThrough": 0.0,
+      "showings": 0,
+      "theatres": 0
+    },
+    "comparison": {
+      "showings": 0,
+      "dboxSold": 0,
+      "dboxSellable": 0,
+      "regularSold": 0,
+      "regularSellable": 0,
+      "dboxSellThrough": 0.0,
+      "regularSellThrough": 0.0
+    },
+    "byMovie": [],
+    "showingsList": [],
+    "recentFills": [],
+    "upcomingList": []
+  }
+}

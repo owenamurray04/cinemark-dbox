@@ -77,14 +77,31 @@ states→cities→`theaters` (keep `sessionTypes` ⊇ DBOX), discovery from
 `seatmaps` where **seat `type` 12 = D-Box** and `status` 3 = sold. Same realized
 metric, same two-read model, writes `dashboard/cinemark_br_data.json`.
 
-The dashboard has a **United States / Brasil toggle** at the top that switches
-between the two data files. Future markets (Cinemark Hoyts — Argentina/Chile/Peru,
-etc.) would each add another scraper + data file + toggle entry.
+**Colombia** (`cinemark_co_scraper.py`) is built too, but on a different stack:
+Cinemark's Latin-America "cinemark-core" gateway (`api.cinemark-core.com`), which
+fronts a Vista `WSVistaWebClient` OData service. The only auth is a **static,
+non-secret header** `connectapitoken: web-co-token` (per-country label) plus an
+Origin/Referer — no login, no rotating token. Roster from `/theaters?$format=json`
+(OData Cinemas), discovery from `/city/<slug>/movie/<id>` (a session is D-BOX iff its
+`Format.SeatTypes` contains `DBOX`), and measurement from
+`/cinemas/<id>/sessions/<id>/seat-plan` where the **D-BOX `Area`** (its
+`AreaCategory` Name/Description contains `DBOX`) is split from the rest of the house
+and seat **`Status` 1 = sold, 0 = available** (broken/space excluded). Same realized
+metric, same two-read model, writes `dashboard/cinemark_co_data.json`.
+
+The dashboard has a **United States / Brasil / Colombia toggle** at the top that
+switches between the data files. The rest of Cinemark's Latin-America footprint splits
+across platforms (verified June 2026): **Argentina / Chile / Peru** share one
+ex-Cinemark-Hoyts server-rendered stack (puntospoint + Azure) — a future
+`cinemark_southcone_scraper.py` would cover all three; **Ecuador**'s domain has lapsed
+to a spam site and is excluded. Each new market = another scraper + data file + toggle
+entry.
 
 ## Dashboard
 
-`dashboard/index.html` reads `dashboard/cinemark_data.json` (US) or
-`dashboard/cinemark_br_data.json` (Brazil) via the country toggle: realized D-BOX
+`dashboard/index.html` reads `dashboard/cinemark_data.json` (US),
+`dashboard/cinemark_br_data.json` (Brazil), or `dashboard/cinemark_co_data.json`
+(Colombia) via the country toggle: realized D-BOX
 sell-through headline, D-BOX-vs-rest-of-house comparison + trend, an upcoming rail,
 and a sortable table of completed showings. Serve the `dashboard/` folder via
 GitHub Pages (see PROXY_AND_ACTIONS_SETUP.md).
@@ -99,6 +116,9 @@ market can't stall another, and each wakes only when its own showings need a rea
 - `.github/workflows/live-loop-br.yml` — **Brazil**: same pattern, commits
   `cinemark_br_data.json` + `schedule_cinemark_br/`. Secret: `DISPATCH_PAT` (shared);
   `CINEMARK_BR_PROXY` optional.
+- `.github/workflows/live-loop-co.yml` — **Colombia**: same pattern, commits
+  `cinemark_co_data.json` + `schedule_cinemark_co/` + `dbox_theatres_cache_co.json`.
+  Secret: `DISPATCH_PAT` (shared); `CINEMARK_CO_PROXY` / `CINEMARK_CO_TOKEN` optional.
 
 Each is independent (own `repository_dispatch` event + concurrency group). Start each
 once from the Actions tab. Adding a new country = drop in another `live-loop-<cc>.yml`.
@@ -108,5 +128,7 @@ once from the Actions tab. Adding a new country = drop in another `live-loop-<cc
 - [x] Scraper: `discover` + `measure`, proxy-aware; parsers verified on real-format fixtures.
 - [x] Dashboard page (`dashboard/index.html`), logic verified against sample data.
 - [x] Self-running GitHub Actions workflow + setup doc.
-- [ ] Add the two repo secrets, enable Pages, and start the loop (one-time, see setup doc).
-- [ ] First live end-to-end run (will populate real `cinemark_data.json`).
+- [x] Colombia scraper (`cinemark_co_scraper.py`) + workflow + dashboard toggle; seat-plan
+      and session parsers verified on a fixture captured from the live API.
+- [ ] Add the repo secrets, enable Pages, and start each loop (one-time, see setup doc).
+- [ ] First live end-to-end run per country (will populate the real `cinemark_*_data.json`).

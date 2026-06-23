@@ -1,0 +1,531 @@
+{
+  "SeatLayoutData": {
+    "AreaCategories": [
+      {
+        "AreaCategoryCode": "0000000001",
+        "Name": "TRADICIONAL"
+      },
+      {
+        "AreaCategoryCode": "0000000002",
+        "Name": "DBOX"
+      }
+    ],
+    "Areas": [
+      {
+        "AreaCategoryCode": "0000000001",
+        "Description": "Sala 4",
+        "NumberOfSeats": 99,
+        "Rows": [
+          {
+            "Seats": [
+              {
+                "Id": "1",
+                "Status": 0
+              },
+              {
+                "Id": "2",
+                "Status": 0
+              },
+              {
+                "Id": "3",
+                "Status": 0
+              },
+              {
+                "Id": "4",
+                "Status": 0
+              },
+              {
+                "Id": "5",
+                "Status": 0
+              },
+              {
+                "Id": "6",
+                "Status": 0
+              },
+              {
+                "Id": "7",
+                "Status": 0
+              },
+              {
+                "Id": "8",
+                "Status": 0
+              },
+              {
+                "Id": "9",
+                "Status": 0
+              },
+              {
+                "Id": "10",
+                "Status": 0
+              },
+              {
+                "Id": "11",
+                "Status": 0
+              },
+              {
+                "Id": "12",
+                "Status": 0
+              },
+              {
+                "Id": "13",
+                "Status": 0
+              },
+              {
+                "Id": "14",
+                "Status": 0
+              },
+              {
+                "Id": "15",
+                "Status": 0
+              },
+              {
+                "Id": "16",
+                "Status": 0
+              },
+              {
+                "Id": "17",
+                "Status": 0
+              },
+              {
+                "Id": "18",
+                "Status": 0
+              },
+              {
+                "Id": "19",
+                "Status": 0
+              },
+              {
+                "Id": "20",
+                "Status": 0
+              },
+              {
+                "Id": "21",
+                "Status": 0
+              },
+              {
+                "Id": "22",
+                "Status": 0
+              },
+              {
+                "Id": "23",
+                "Status": 0
+              },
+              {
+                "Id": "24",
+                "Status": 0
+              },
+              {
+                "Id": "25",
+                "Status": 0
+              },
+              {
+                "Id": "26",
+                "Status": 0
+              },
+              {
+                "Id": "27",
+                "Status": 0
+              },
+              {
+                "Id": "28",
+                "Status": 0
+              },
+              {
+                "Id": "29",
+                "Status": 0
+              },
+              {
+                "Id": "30",
+                "Status": 0
+              },
+              {
+                "Id": "31",
+                "Status": 0
+              },
+              {
+                "Id": "32",
+                "Status": 0
+              },
+              {
+                "Id": "33",
+                "Status": 0
+              },
+              {
+                "Id": "34",
+                "Status": 0
+              },
+              {
+                "Id": "35",
+                "Status": 0
+              },
+              {
+                "Id": "36",
+                "Status": 0
+              },
+              {
+                "Id": "37",
+                "Status": 0
+              },
+              {
+                "Id": "38",
+                "Status": 0
+              },
+              {
+                "Id": "39",
+                "Status": 0
+              },
+              {
+                "Id": "40",
+                "Status": 0
+              },
+              {
+                "Id": "41",
+                "Status": 0
+              },
+              {
+                "Id": "42",
+                "Status": 0
+              },
+              {
+                "Id": "43",
+                "Status": 0
+              },
+              {
+                "Id": "44",
+                "Status": 0
+              },
+              {
+                "Id": "45",
+                "Status": 0
+              },
+              {
+                "Id": "46",
+                "Status": 0
+              },
+              {
+                "Id": "47",
+                "Status": 0
+              },
+              {
+                "Id": "48",
+                "Status": 0
+              },
+              {
+                "Id": "49",
+                "Status": 0
+              },
+              {
+                "Id": "50",
+                "Status": 0
+              },
+              {
+                "Id": "51",
+                "Status": 0
+              },
+              {
+                "Id": "52",
+                "Status": 0
+              },
+              {
+                "Id": "53",
+                "Status": 0
+              },
+              {
+                "Id": "54",
+                "Status": 0
+              },
+              {
+                "Id": "55",
+                "Status": 0
+              },
+              {
+                "Id": "56",
+                "Status": 0
+              },
+              {
+                "Id": "57",
+                "Status": 0
+              },
+              {
+                "Id": "58",
+                "Status": 0
+              },
+              {
+                "Id": "59",
+                "Status": 0
+              },
+              {
+                "Id": "60",
+                "Status": 0
+              },
+              {
+                "Id": "61",
+                "Status": 0
+              },
+              {
+                "Id": "62",
+                "Status": 0
+              },
+              {
+                "Id": "63",
+                "Status": 0
+              },
+              {
+                "Id": "64",
+                "Status": 0
+              },
+              {
+                "Id": "65",
+                "Status": 0
+              },
+              {
+                "Id": "66",
+                "Status": 0
+              },
+              {
+                "Id": "67",
+                "Status": 0
+              },
+              {
+                "Id": "68",
+                "Status": 0
+              },
+              {
+                "Id": "69",
+                "Status": 0
+              },
+              {
+                "Id": "70",
+                "Status": 0
+              },
+              {
+                "Id": "71",
+                "Status": 0
+              },
+              {
+                "Id": "72",
+                "Status": 0
+              },
+              {
+                "Id": "73",
+                "Status": 0
+              },
+              {
+                "Id": "74",
+                "Status": 0
+              },
+              {
+                "Id": "75",
+                "Status": 0
+              },
+              {
+                "Id": "76",
+                "Status": 0
+              },
+              {
+                "Id": "77",
+                "Status": 0
+              },
+              {
+                "Id": "78",
+                "Status": 0
+              },
+              {
+                "Id": "79",
+                "Status": 0
+              },
+              {
+                "Id": "80",
+                "Status": 0
+              },
+              {
+                "Id": "81",
+                "Status": 0
+              },
+              {
+                "Id": "82",
+                "Status": 0
+              },
+              {
+                "Id": "83",
+                "Status": 0
+              },
+              {
+                "Id": "84",
+                "Status": 0
+              },
+              {
+                "Id": "85",
+                "Status": 0
+              },
+              {
+                "Id": "86",
+                "Status": 0
+              },
+              {
+                "Id": "87",
+                "Status": 0
+              },
+              {
+                "Id": "88",
+                "Status": 0
+              },
+              {
+                "Id": "89",
+                "Status": 0
+              },
+              {
+                "Id": "90",
+                "Status": 0
+              },
+              {
+                "Id": "91",
+                "Status": 1
+              },
+              {
+                "Id": "92",
+                "Status": 1
+              },
+              {
+                "Id": "93",
+                "Status": 1
+              },
+              {
+                "Id": "94",
+                "Status": 1
+              },
+              {
+                "Id": "95",
+                "Status": 1
+              },
+              {
+                "Id": "96",
+                "Status": 1
+              },
+              {
+                "Id": "97",
+                "Status": 3
+              },
+              {
+                "Id": "98",
+                "Status": 3
+              },
+              {
+                "Id": "99",
+                "Status": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "AreaCategoryCode": "0000000002",
+        "Description": "Sala 4 DBOX",
+        "NumberOfSeats": 24,
+        "Rows": [
+          {
+            "Seats": [
+              {
+                "Id": "1",
+                "Status": 0
+              },
+              {
+                "Id": "2",
+                "Status": 0
+              },
+              {
+                "Id": "3",
+                "Status": 0
+              },
+              {
+                "Id": "4",
+                "Status": 0
+              },
+              {
+                "Id": "5",
+                "Status": 0
+              },
+              {
+                "Id": "6",
+                "Status": 0
+              },
+              {
+                "Id": "7",
+                "Status": 0
+              },
+              {
+                "Id": "8",
+                "Status": 0
+              },
+              {
+                "Id": "9",
+                "Status": 0
+              },
+              {
+                "Id": "10",
+                "Status": 0
+              },
+              {
+                "Id": "11",
+                "Status": 0
+              },
+              {
+                "Id": "12",
+                "Status": 0
+              },
+              {
+                "Id": "13",
+                "Status": 0
+              },
+              {
+                "Id": "14",
+                "Status": 0
+              },
+              {
+                "Id": "15",
+                "Status": 0
+              },
+              {
+                "Id": "16",
+                "Status": 1
+              },
+              {
+                "Id": "17",
+                "Status": 1
+              },
+              {
+                "Id": "18",
+                "Status": 1
+              },
+              {
+                "Id": "19",
+                "Status": 1
+              },
+              {
+                "Id": "20",
+                "Status": 1
+              },
+              {
+                "Id": "21",
+                "Status": 1
+              },
+              {
+                "Id": "22",
+                "Status": 1
+              },
+              {
+                "Id": "23",
+                "Status": 1
+              },
+              {
+                "Id": "24",
+                "Status": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ResponseCode": 0
+}

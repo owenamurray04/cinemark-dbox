@@ -146,6 +146,7 @@
   <div class="sortbar" style="margin:0 0 18px">
     <button class="sortbtn on" data-c="us" id="cty-us">United States</button>
     <button class="sortbtn" data-c="br" id="cty-br">Brasil</button>
+    <button class="sortbtn" data-c="co" id="cty-co">Colombia</button>
   </div>
   <div id="app"></div>
   <footer id="foot"></footer>
@@ -367,8 +368,9 @@ function render(d){
 // but Pages only rebuilds when the page itself changes (Pages caps ~10 builds/hr,
 // which frequent data commits would otherwise blow through and stall).
 const RAW = 'https://raw.githubusercontent.com/owenamurray04/cinemark-dbox/main/dashboard/';
-const DATA_FILES = {us: RAW+'cinemark_data.json', br: RAW+'cinemark_br_data.json'};
+const DATA_FILES = {us: RAW+'cinemark_data.json', br: RAW+'cinemark_br_data.json', co: RAW+'cinemark_co_data.json'};
 const EMPTY_BR = {updatedUtc:null, source:'Cinemark Brasil · assentos D-BOX', showingsStore:{}, upcoming:[]};
+const EMPTY_CO = {updatedUtc:null, source:'Cinemark Colombia · asientos D-BOX', showingsStore:{}, upcoming:[]};
 let COUNTRY = (()=>{ try{ return localStorage.getItem('cmk_country')||'us'; }catch(e){ return 'us'; } })();
 function setCountryButtons(){
   document.querySelectorAll('[data-c]').forEach(b=> b.classList.toggle('on', b.dataset.c===COUNTRY));
@@ -380,7 +382,7 @@ function loadCountry(c){
   fetch(DATA_FILES[c]+'?t='+Date.now(),{cache:'no-store'})
     .then(r=>{ if(!r.ok) throw 0; return r.json(); })
     .then(render)
-    .catch(()=> render(c==='br'? EMPTY_BR : window.SAMPLE));
+    .catch(()=> render(c==='br'? EMPTY_BR : c==='co'? EMPTY_CO : window.SAMPLE));
 }
 document.querySelectorAll('[data-c]').forEach(b=> b.addEventListener('click',()=>loadCountry(b.dataset.c)));
 loadCountry(COUNTRY);
