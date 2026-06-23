@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-23T06:42:21+00:00",
+  "updatedUtc": "2026-06-23T06:48:08+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -1690,7 +1690,7 @@
       "regSold": 8,
       "regSellable": 100,
       "firstSeenUtc": "2026-06-23T06:16:38+00:00",
-      "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+      "lastSeenUtc": "2026-06-23T06:48:08+00:00",
       "startUtc": "2026-06-23T06:35:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541140&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A35%3A00&LinkedShowtimeId=541148"
     },
@@ -1709,7 +1709,7 @@
       "regSold": 2,
       "regSellable": 64,
       "firstSeenUtc": "2026-06-23T06:29:40+00:00",
-      "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+      "lastSeenUtc": "2026-06-23T06:48:08+00:00",
       "startUtc": "2026-06-23T06:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541162&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A50%3A00&LinkedShowtimeId=541175"
     }
@@ -3370,33 +3370,33 @@
     {
       "date": "2026-06-22",
       "sold": 190,
-      "sellable": 1797,
-      "showings": 87,
-      "sellThrough": 0.1057
+      "sellable": 1814,
+      "showings": 88,
+      "sellThrough": 0.1047
     }
   ],
   "latest": {
     "scrapeDate": "2026-06-23",
-    "sellThrough": 0.1057,
+    "sellThrough": 0.1047,
     "seatsSold": 190,
-    "seatsSellable": 1797,
-    "showings": 87,
+    "seatsSellable": 1814,
+    "showings": 88,
     "theatres": 45,
     "upcoming": {
       "seatsSold": 2,
-      "seatsSellable": 61,
-      "sellThrough": 0.0328,
-      "showings": 3,
-      "theatres": 2
+      "seatsSellable": 44,
+      "sellThrough": 0.0455,
+      "showings": 2,
+      "theatres": 1
     },
     "comparison": {
-      "showings": 87,
+      "showings": 88,
       "dboxSold": 190,
-      "dboxSellable": 1797,
+      "dboxSellable": 1814,
       "regularSold": 848,
-      "regularSellable": 11390,
-      "dboxSellThrough": 0.1057,
-      "regularSellThrough": 0.0745
+      "regularSellable": 11495,
+      "dboxSellThrough": 0.1047,
+      "regularSellThrough": 0.0738
     },
     "byMovie": [
       {
@@ -3423,9 +3423,9 @@
       {
         "movie": "Toy Story 5",
         "sold": 168,
-        "sellable": 1682,
-        "showings": 80,
-        "sellThrough": 0.0999
+        "sellable": 1699,
+        "showings": 81,
+        "sellThrough": 0.0989
       },
       {
         "movie": "Backrooms",
@@ -3436,6 +3436,23 @@
       }
     ],
     "showingsList": [
+      {
+        "theatreId": 254,
+        "theatre": "Cinemark Tinseltown Medford and ScreenX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-22",
+        "start": "23:30",
+        "startUtc": "2026-06-23T06:30:00+00:00",
+        "state": "OR",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=254&ShowtimeId=510112&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A30%3A00&LinkedShowtimeId=510070",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 105,
+        "regSellThrough": 0.0
+      },
       {
         "theatreId": 419,
         "theatre": "Cinemark Century Rio Plex 24 and XD",
@@ -4778,43 +4795,9 @@
         "regSold": 6,
         "regSellable": 98,
         "regSellThrough": 0.0612
-      },
-      {
-        "theatreId": 1002,
-        "theatre": "Cinemark Clackamas Town Center and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-22",
-        "start": "22:10",
-        "startUtc": "2026-06-23T05:10:00+00:00",
-        "state": "OR",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1002&ShowtimeId=678149&CinemarkMovieId=107462&Showtime=2026-06-22T22%3A10%3A00&LinkedShowtimeId=678154",
-        "sold": 0,
-        "sellable": 24,
-        "lastSeenUtc": "2026-06-23T05:23:57+00:00",
-        "sellThrough": 0.0,
-        "regSold": 0,
-        "regSellable": 180,
-        "regSellThrough": 0.0
       }
     ],
     "recentFills": [
-      {
-        "theatreId": 254,
-        "theatre": "Cinemark Tinseltown Medford and ScreenX",
-        "movie": "Toy Story 5",
-        "date": "2026-06-22",
-        "start": "23:30",
-        "startUtc": "2026-06-23T06:30:00+00:00",
-        "state": "OR",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=254&ShowtimeId=510112&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A30%3A00&LinkedShowtimeId=510070",
-        "sold": 0,
-        "sellable": 17,
-        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
-        "sellThrough": 0.0,
-        "regSold": 0,
-        "regSellable": 105,
-        "regSellThrough": 0.0
-      },
       {
         "theatreId": 449,
         "theatre": "Cinemark Century Northridge Mall 14",
@@ -4826,7 +4809,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541140&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A35%3A00&LinkedShowtimeId=541148",
         "sold": 2,
         "sellable": 24,
-        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+        "lastSeenUtc": "2026-06-23T06:48:08+00:00",
         "sellThrough": 0.0833,
         "regSold": 8,
         "regSellable": 100,
@@ -4843,11 +4826,28 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541162&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A50%3A00&LinkedShowtimeId=541175",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+        "lastSeenUtc": "2026-06-23T06:48:08+00:00",
         "sellThrough": 0.0,
         "regSold": 2,
         "regSellable": 64,
         "regSellThrough": 0.0312
+      },
+      {
+        "theatreId": 254,
+        "theatre": "Cinemark Tinseltown Medford and ScreenX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-22",
+        "start": "23:30",
+        "startUtc": "2026-06-23T06:30:00+00:00",
+        "state": "OR",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=254&ShowtimeId=510112&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A30%3A00&LinkedShowtimeId=510070",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 105,
+        "regSellThrough": 0.0
       },
       {
         "theatreId": 347,
@@ -5209,23 +5209,6 @@
     ],
     "upcomingList": [
       {
-        "theatreId": 254,
-        "theatre": "Cinemark Tinseltown Medford and ScreenX",
-        "movie": "Toy Story 5",
-        "date": "2026-06-22",
-        "start": "23:30",
-        "startUtc": "2026-06-23T06:30:00+00:00",
-        "state": "OR",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=254&ShowtimeId=510112&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A30%3A00&LinkedShowtimeId=510070",
-        "sold": 0,
-        "sellable": 17,
-        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
-        "sellThrough": 0.0,
-        "regSold": 0,
-        "regSellable": 105,
-        "regSellThrough": 0.0
-      },
-      {
         "theatreId": 449,
         "theatre": "Cinemark Century Northridge Mall 14",
         "movie": "Toy Story 5",
@@ -5236,7 +5219,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541140&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A35%3A00&LinkedShowtimeId=541148",
         "sold": 2,
         "sellable": 24,
-        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+        "lastSeenUtc": "2026-06-23T06:48:08+00:00",
         "sellThrough": 0.0833,
         "regSold": 8,
         "regSellable": 100,
@@ -5253,7 +5236,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541162&CinemarkMovieId=107462&Showtime=2026-06-22T23%3A50%3A00&LinkedShowtimeId=541175",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-23T06:42:21+00:00",
+        "lastSeenUtc": "2026-06-23T06:48:08+00:00",
         "sellThrough": 0.0,
         "regSold": 2,
         "regSellable": 64,
