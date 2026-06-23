@@ -1,0 +1,1474 @@
+{
+  "date": "2026-06-23",
+  "builtUtc": "2026-06-23T17:09:49+00:00",
+  "count": 163,
+  "showings": [
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "d55f7aa7-7d6b-42c4-b075-427025fdf639",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ad6381a2-4eb0-438f-9514-9829b01947fd",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "eac2d0a3-a917-498e-a482-2c35ad129938",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "7b6bbfd6-3a6e-46a0-ba8d-ffe4d06e9bef",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "85d78245-992b-4ff8-a6be-7f586f289c76",
+      "start": "2026-06-23T14:40:00"
+    },
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "c447287a-7883-478d-b080-3e51fed9b153",
+      "start": "2026-06-23T19:40:00"
+    },
+    {
+      "theatreId": 785,
+      "theatre": "Salvador Shopping",
+      "state": "Bahia",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "a447c59b-e544-4f23-a834-89986eaa25fe",
+      "start": "2026-06-23T17:30:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "40477074-760a-4ff5-b73e-35ec4a810930",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "55f82da9-464c-49f3-8de9-b6c61dbbcaed",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "76ca9f03-edb7-481a-b970-02fd018fdb36",
+      "start": "2026-06-23T19:40:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "fc111c1f-c9f7-4a38-8afc-0e22415c9bda",
+      "start": "2026-06-23T22:10:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "c44042ee-af92-4fe3-afbd-8c5959c1ea1f",
+      "start": "2026-06-23T14:10:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "679b4d57-ebc1-463e-98e2-225ed68ceadf",
+      "start": "2026-06-23T16:40:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "aa0061ea-b684-4819-a3dd-4634fa334f18",
+      "start": "2026-06-23T19:10:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "59fa30ef-8a85-43d1-bc94-68aa21f02bbe",
+      "start": "2026-06-23T21:40:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "570fda77-7cc9-4e65-b50a-6370c42828d9",
+      "start": "2026-06-23T13:15:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "78b1da3d-fd30-49e4-9223-3f8194c407a0",
+      "start": "2026-06-23T15:45:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "63259540-602b-428a-8bb8-33f26d18607d",
+      "start": "2026-06-23T18:15:00"
+    },
+    {
+      "theatreId": 720,
+      "theatre": "Pier 21",
+      "state": "Distrito Federal",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "6509ad0f-6b72-400f-b69f-4742cd562c6b",
+      "start": "2026-06-23T20:45:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "158b0d8e-179d-481c-97e9-7bf606d0a5ca",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "4fd78c25-61ba-4f75-b14c-760d734cdffc",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "18d05a33-a2f7-44ce-9455-f4001a580d0f",
+      "start": "2026-06-23T14:20:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3c5d5868-ddde-47c5-8160-b5e615cad6fb",
+      "start": "2026-06-23T16:50:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "f7ecd266-fa1a-4583-bbdb-bdf2207542ec",
+      "start": "2026-06-23T19:20:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "086c2331-6d1b-430e-9b7e-2f34ddd58a08",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "22b99e88-db37-4324-88e8-01433352499e",
+      "start": "2026-06-23T16:10:00"
+    },
+    {
+      "theatreId": 702,
+      "theatre": "Shopping Vitoria",
+      "state": "Espirito Santo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "13d136e8-3223-460e-ba87-ad1aa99caa93",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "state": "Mato Grosso Do Sul",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "0f97853b-9053-4c77-ac2e-18ef0ce0778c",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "state": "Mato Grosso Do Sul",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "876bcb75-1f71-4eb0-9a10-368621812fb2",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "state": "Mato Grosso Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "08668bfe-ae4d-4b8c-b7b3-1dcd46ec9ff7",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "state": "Mato Grosso Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "bc2df193-5719-40c4-822e-36a1b57c0ca7",
+      "start": "2026-06-23T16:10:00"
+    },
+    {
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "state": "Mato Grosso Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "b0dc8610-41d7-470b-af55-9c85342c3d1c",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 694,
+      "theatre": "Shopping Campo Grande",
+      "state": "Mato Grosso Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "cf2bb301-93be-4390-8b99-2d66a741e69e",
+      "start": "2026-06-23T21:10:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "c514051f-9984-498a-a432-2df5735f5e1a",
+      "start": "2026-06-23T13:20:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "e0092278-3143-4c4d-a1ae-9b0045e8f78e",
+      "start": "2026-06-23T15:50:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "3ba3d7e5-0061-41fe-a36f-b6884c6a143f",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "4b72ada8-e160-41f4-8cf5-03c164a09bb3",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3e2e48e6-e77f-4114-8a9f-7cb5bbc924f5",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "96555670-0bef-45b1-b8b1-6f653176ac28",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "b94dc7ed-3b03-4339-b057-e2733030b00f",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "055066c0-f0c0-4b1e-ae3c-9fdab0043d32",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "199366b7-e0bc-4eb6-9cf8-75f17997df2c",
+      "start": "2026-06-23T14:40:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "cd6cbf7e-3a5c-4072-84d2-b4c41aaa53e9",
+      "start": "2026-06-23T17:10:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "9e40ebeb-2dbd-45c4-b8c3-4a36c955d2b5",
+      "start": "2026-06-23T19:40:00"
+    },
+    {
+      "theatreId": 768,
+      "theatre": "BH Shopping",
+      "state": "Minas Gerais",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "d0bd9327-e9dd-4d69-87ea-333815ec7ea3",
+      "start": "2026-06-23T22:10:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "c683a8ee-cc58-431b-ab99-21173ae528aa",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "91cfae40-2163-4359-860f-2b4cb24167d2",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "a53f55cf-a338-40fb-99b1-d900ec377085",
+      "start": "2026-06-23T15:30:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "cb230742-3fae-4b3a-99a8-5b6e5f68744d",
+      "start": "2026-06-23T20:30:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "8fcd9265-d4b6-428e-b247-a34242d62961",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "55537693-befe-49f6-a2a3-fab1c49555ad",
+      "start": "2026-06-23T22:00:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "907429b5-16ea-4b1a-9f54-b05659d36d25",
+      "start": "2026-06-23T15:45:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "2939a8d6-6f7a-4c5c-a952-f8a6b710e92e",
+      "start": "2026-06-23T18:15:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "8464c896-9615-4be9-83e1-9279b9a7f34e",
+      "start": "2026-06-23T13:50:00"
+    },
+    {
+      "theatreId": 2107,
+      "theatre": "Riomar Recife",
+      "state": "Pernambuco",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "9a03cc0a-62d3-40cf-85b2-0d4badd856e2",
+      "start": "2026-06-23T18:50:00"
+    },
+    {
+      "theatreId": 728,
+      "theatre": "Botafogo",
+      "state": "Rio De Janeiro",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "7776d6b5-6ec8-42cb-9845-5c4f39b2ab47",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 728,
+      "theatre": "Botafogo",
+      "state": "Rio De Janeiro",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "07863e89-ec2b-46da-927b-adefa2c43105",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 728,
+      "theatre": "Botafogo",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "02ed4258-8b35-4f34-84da-f6392fe9207f",
+      "start": "2026-06-23T16:10:00"
+    },
+    {
+      "theatreId": 728,
+      "theatre": "Botafogo",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "cf8d504b-bb7c-40d0-8170-905bd88f2da2",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 728,
+      "theatre": "Botafogo",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "10b3e2e6-bfa1-498a-839b-b53c4372bde2",
+      "start": "2026-06-23T15:30:00"
+    },
+    {
+      "theatreId": 728,
+      "theatre": "Botafogo",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "54f0be31-cdb0-4064-8b76-f4792c1939f9",
+      "start": "2026-06-23T20:30:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "7a7a51db-472b-4356-868f-f7113aef9b01",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "dcb6a7cf-3c2b-4907-898a-208b9ae5636c",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "34286b7d-365c-4f12-8a6a-b8868fa2ef89",
+      "start": "2026-06-23T13:50:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "38a4fb92-8d3f-49a4-9098-d45a453f1356",
+      "start": "2026-06-23T16:20:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "2defb670-95e6-4ff9-94ac-752ba35da635",
+      "start": "2026-06-23T14:30:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "507b666b-255c-4ffd-847a-aa26ff53af4e",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "03976997-8ec0-4fc0-8d98-8a86dcf7b411",
+      "start": "2026-06-23T19:30:00"
+    },
+    {
+      "theatreId": 719,
+      "theatre": "Downtown",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "6e483466-93d8-4b35-b9d2-48b55938f4ef",
+      "start": "2026-06-23T22:00:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "f69d1227-63b8-46dd-bed0-66f12ee17525",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "78055081-3922-446e-9c9e-c1d57e59818b",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "2a026af3-d17a-47ca-9a53-f03c476cb06c",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "1e20a76a-e29e-4e04-8a76-39a0b5db3102",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "a8c76645-abf5-4b31-b565-f9717165616e",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3209dc9d-6796-47b0-b7d4-aa52683bd8c5",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "1b3858e4-5710-4319-a9ee-8aa0d369e13e",
+      "start": "2026-06-23T13:00:00"
+    },
+    {
+      "theatreId": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "state": "Rio De Janeiro",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "96b656da-b845-4f22-a700-bd1aa50bfb57",
+      "start": "2026-06-23T15:30:00"
+    },
+    {
+      "theatreId": 681,
+      "theatre": "Midway Mall Natal",
+      "state": "Rio Grande De Norte",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "f9a776cc-40bc-4dfe-bb5e-d13f83bb9b66",
+      "start": "2026-06-23T13:30:00"
+    },
+    {
+      "theatreId": 681,
+      "theatre": "Midway Mall Natal",
+      "state": "Rio Grande De Norte",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "30761d89-4580-44a0-9871-cdded4b9439c",
+      "start": "2026-06-23T16:00:00"
+    },
+    {
+      "theatreId": 681,
+      "theatre": "Midway Mall Natal",
+      "state": "Rio Grande De Norte",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "c54df9bb-d51b-48b5-a3e9-f039ed58d3b1",
+      "start": "2026-06-23T18:30:00"
+    },
+    {
+      "theatreId": 681,
+      "theatre": "Midway Mall Natal",
+      "state": "Rio Grande De Norte",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "25d81b24-e83e-4cbd-9954-52b1adc2943e",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 681,
+      "theatre": "Midway Mall Natal",
+      "state": "Rio Grande De Norte",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "774c2c63-18e8-4713-bab3-d707b99ee0a5",
+      "start": "2026-06-23T19:30:00"
+    },
+    {
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "state": "Rio Grande Do Sul",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "0bdf16cb-aa90-4014-8210-5595834714b3",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "state": "Rio Grande Do Sul",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "2560fc53-f0db-4a2d-8c03-6422472ec14a",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "state": "Rio Grande Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ba3625b6-d614-4be5-ad4a-9f0ae48907f5",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "state": "Rio Grande Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ea574084-d5b8-4d92-bf0c-d84c51746f36",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "state": "Rio Grande Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3149ed91-02d3-46be-a868-af21bcde16b3",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "state": "Rio Grande Do Sul",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "d1ba783c-0c1f-4c7e-af28-ef353a1de273",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 690,
+      "theatre": "Boulevard Tatuape",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "1ea5deea-1e23-4bd7-ae3e-88e5cbc3d539",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 690,
+      "theatre": "Boulevard Tatuape",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "539d92bf-02f2-4fd6-b4d9-64b69ed1386d",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 690,
+      "theatre": "Boulevard Tatuape",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ba1a67ae-6ecb-4dc7-9e80-ea7dfece1cff",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 690,
+      "theatre": "Boulevard Tatuape",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "7a4dad0e-6662-40b6-8b48-15dc0691ca7d",
+      "start": "2026-06-23T16:10:00"
+    },
+    {
+      "theatreId": 690,
+      "theatre": "Boulevard Tatuape",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "053b56c9-9e68-421e-97d6-80dafd96adb6",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 690,
+      "theatre": "Boulevard Tatuape",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ea590f2b-a1e5-4806-9503-eed006ad30bc",
+      "start": "2026-06-23T18:00:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "46329ad6-6f12-4581-9cbd-369d47029142",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "b82a494d-c660-4917-8b4c-f0654e969934",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "e49e86e5-047a-4a04-8e9a-66ffd6081ed2",
+      "start": "2026-06-23T21:20:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "dd1c59bb-54fc-40f7-8401-2f97c45aab79",
+      "start": "2026-06-23T18:00:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "32f3c944-06cd-4281-9beb-2af2c858f352",
+      "start": "2026-06-23T16:00:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "59f715e9-4227-40d1-9bd2-37d762deb338",
+      "start": "2026-06-23T21:00:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "b2a44f59-325f-4bce-86d9-a495fa5f2d7c",
+      "start": "2026-06-23T13:50:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "5301e851-184e-47a8-b50e-78ee14a148ae",
+      "start": "2026-06-23T18:50:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "e242e882-66b5-4ee3-9410-9db2bff4a0c6",
+      "start": "2026-06-23T14:10:00"
+    },
+    {
+      "theatreId": 725,
+      "theatre": "Campinas Iguatemi",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "dc1993c1-cc78-4cc0-b735-fee4500536c2",
+      "start": "2026-06-23T16:40:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "6b42f7c5-b3de-4c75-821d-150615fd1805",
+      "start": "2026-06-23T16:15:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "f37ae09d-973d-4ac0-8892-494a7b71bc6f",
+      "start": "2026-06-23T21:15:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "940bbe65-4b86-4a2c-bcd0-d307bbbfedee",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "cfade609-fd5e-4b58-a164-4d72c2bb21ad",
+      "start": "2026-06-23T19:30:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3b56219b-29bc-4067-ada5-f0858c1930a3",
+      "start": "2026-06-23T22:00:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3a83341a-e922-470c-bbca-ac4ee4769f0e",
+      "start": "2026-06-23T13:30:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "6905b055-8b5b-4d79-8e8f-a44489147755",
+      "start": "2026-06-23T16:00:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "9202d35c-d61f-46a2-bc85-2c3dd6d45045",
+      "start": "2026-06-23T18:30:00"
+    },
+    {
+      "theatreId": 682,
+      "theatre": "Cidade Jardim VIP",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "a20df7e7-be31-4c89-a84f-1c61545b6a65",
+      "start": "2026-06-23T21:00:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "3344616b-fab0-43af-a20f-5d72571c684c",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "872bbeb2-2b41-48ba-ad75-52a96ade5801",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "91fc24a3-3a2c-4a15-9cca-40594463e82c",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "f1768b94-ef66-4d08-a720-a238c92cd8ad",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "988f6c75-a80f-4077-be70-0bf445f6d087",
+      "start": "2026-06-23T15:00:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "98b93092-8975-49e3-8200-81008e4510ef",
+      "start": "2026-06-23T20:50:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "5cce08cd-3c11-48d3-b91e-a792d71136e5",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 715,
+      "theatre": "Eldorado",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "f41907b9-9a6c-4e24-925a-29a9d33b2f1c",
+      "start": "2026-06-23T21:30:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "50f13a5d-a1e1-44e2-9d15-4fd61573c72a",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "f9ebc245-21aa-400d-bc52-ac9a7e2a9395",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "5f4c4cc4-6a11-44f5-a7c1-10aed7724610",
+      "start": "2026-06-23T13:40:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "94fef8f7-0fe7-4c07-9be4-05fa49542360",
+      "start": "2026-06-23T16:10:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "050c989b-bf17-4a73-b686-29b76d1ee28d",
+      "start": "2026-06-23T18:40:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "7057a4c4-4f5c-495d-90d4-07aa222d9089",
+      "start": "2026-06-23T21:10:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3ba8f8dd-67cf-4cd9-bf31-3181f20b83f0",
+      "start": "2026-06-23T15:10:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "7fa43df7-fecf-48d6-9860-dd2cf2e0b572",
+      "start": "2026-06-23T17:40:00"
+    },
+    {
+      "theatreId": 684,
+      "theatre": "Metro Santa Cruz",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "1402b31d-6c35-4502-a518-5ce78c7e49b6",
+      "start": "2026-06-23T20:10:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "09752802-b349-4062-93c5-28c77dc0f202",
+      "start": "2026-06-23T16:15:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "2830db72-cb22-46c6-9818-ea64b48a29bf",
+      "start": "2026-06-23T21:15:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "1996449c-569a-4be7-a888-a165102e6893",
+      "start": "2026-06-23T13:30:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "943fc19d-3798-4546-9994-78f844c1bca6",
+      "start": "2026-06-23T18:30:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "a6e62e9f-b809-47ca-96c5-b2cebcebc0c1",
+      "start": "2026-06-23T14:30:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ea73becb-464b-4f95-b9af-b45937b0403a",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "ccd786bc-2803-4543-8386-d5d9c0518c36",
+      "start": "2026-06-23T19:30:00"
+    },
+    {
+      "theatreId": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "8c7145b1-9205-4d8b-9524-2dd5263833a2",
+      "start": "2026-06-23T22:00:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "11259522-3944-488d-bcff-a4edfe46fe72",
+      "start": "2026-06-23T16:15:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "84ba5347-d5b1-4538-b98f-265cfce16ad9",
+      "start": "2026-06-23T21:15:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "70d27235-7513-4376-a26b-c34873b5eb06",
+      "start": "2026-06-23T14:30:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "2f86eefc-49ba-49c1-a775-3bbeae14cb6a",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "3311a621-6f28-4c4d-b078-840863797f6c",
+      "start": "2026-06-23T19:30:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "11d3844d-b1b2-4de1-85c8-bc41951a799d",
+      "start": "2026-06-23T16:00:00"
+    },
+    {
+      "theatreId": 727,
+      "theatre": "Villa Lobos",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "bdf1e0be-000d-4a9e-a2a6-0a900f817c38",
+      "start": "2026-06-23T18:30:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "1af62f97-f9e0-4e37-becd-5d6a4013671e",
+      "start": "2026-06-23T16:15:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "8a215972-5de3-430f-8e75-21c2e22cf523",
+      "start": "2026-06-23T21:15:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "14260485-dc73-4742-8193-fc3a3a9aef19",
+      "start": "2026-06-23T14:40:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "267642cf-332d-450f-a94a-fddb70294901",
+      "start": "2026-06-23T17:00:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "e1b023b3-d0a9-48f4-a95c-ab62d5790de1",
+      "start": "2026-06-23T19:30:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "9f4f04a3-b113-4173-b0b3-660d28b1176e",
+      "start": "2026-06-23T22:10:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "5866cec4-12c0-4941-9825-6efdb6d4360d",
+      "start": "2026-06-23T13:30:00"
+    },
+    {
+      "theatreId": 2102,
+      "theatre": "West Plaza",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "f22b4e94-b2b8-41a8-b635-2c597c70acca",
+      "start": "2026-06-23T18:30:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "cf1b0848-cff3-4064-8d42-b84e4145d88b",
+      "start": "2026-06-23T17:20:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Supergirl",
+      "movieSlug": "supergirl",
+      "sessionId": "0f1d9fea-0a6f-4aa7-ac7b-8e73a0b8facb",
+      "start": "2026-06-23T22:20:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "8d18ad21-b753-4b50-89b0-14c08eb1d81c",
+      "start": "2026-06-23T13:30:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "f34f9a32-a297-480c-b7cd-7548274e2981",
+      "start": "2026-06-23T18:30:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "05dbb4ae-97e4-4386-8299-fc2d39105785",
+      "start": "2026-06-23T15:30:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "b6640001-5a76-4b5b-ade2-5defe3f1b63a",
+      "start": "2026-06-23T20:30:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "37dd2e34-c15e-49f1-8cf5-7a1090c10e0c",
+      "start": "2026-06-23T14:00:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "63bc249d-ae72-45e9-ab7f-3c27957635d2",
+      "start": "2026-06-23T16:30:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "0dc7d35f-bc43-422d-ab6d-a7e0e21e2a5c",
+      "start": "2026-06-23T19:00:00"
+    },
+    {
+      "theatreId": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "state": "S\u00e3o Paulo",
+      "movie": "Toy Story 5",
+      "movieSlug": "toy-story-5",
+      "sessionId": "7cf322de-a7fb-4520-a37a-b46cbc0f8724",
+      "start": "2026-06-23T21:30:00"
+    }
+  ]
+}

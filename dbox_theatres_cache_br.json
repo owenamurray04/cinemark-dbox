@@ -1,0 +1,126 @@
+{
+  "updatedUtc": "2026-06-23T17:09:16+00:00",
+  "count": 20,
+  "theatres": [
+    {
+      "code": 785,
+      "theatre": "Salvador Shopping",
+      "city": "Salvador",
+      "state": "Bahia"
+    },
+    {
+      "code": 720,
+      "theatre": "Pier 21",
+      "city": "Bras\u00edlia",
+      "state": "Distrito Federal"
+    },
+    {
+      "code": 702,
+      "theatre": "Shopping Vitoria",
+      "city": "Vit\u00f3ria",
+      "state": "Espirito Santo"
+    },
+    {
+      "code": 694,
+      "theatre": "Shopping Campo Grande",
+      "city": "Campo Grande",
+      "state": "Mato Grosso Do Sul"
+    },
+    {
+      "code": 768,
+      "theatre": "BH Shopping",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais"
+    },
+    {
+      "code": 2107,
+      "theatre": "Riomar Recife",
+      "city": "Recife",
+      "state": "Pernambuco"
+    },
+    {
+      "code": 728,
+      "theatre": "Botafogo",
+      "city": "Rio De Janeiro",
+      "state": "Rio De Janeiro"
+    },
+    {
+      "code": 719,
+      "theatre": "Downtown",
+      "city": "Rio De Janeiro",
+      "state": "Rio De Janeiro"
+    },
+    {
+      "code": 691,
+      "theatre": "Plaza Shopping Niteroi",
+      "city": "Niter\u00f3i",
+      "state": "Rio De Janeiro"
+    },
+    {
+      "code": 681,
+      "theatre": "Midway Mall Natal",
+      "city": "Natal",
+      "state": "Rio Grande De Norte"
+    },
+    {
+      "code": 704,
+      "theatre": "Barra Shopping Sul",
+      "city": "Porto Alegre",
+      "state": "Rio Grande Do Sul"
+    },
+    {
+      "code": 690,
+      "theatre": "Boulevard Tatuape",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 725,
+      "theatre": "Campinas Iguatemi",
+      "city": "Campinas",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 682,
+      "theatre": "Cidade Jardim VIP",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 715,
+      "theatre": "Eldorado",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 684,
+      "theatre": "Metro Santa Cruz",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 2110,
+      "theatre": "Tiete Plaza Shopping",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 727,
+      "theatre": "Villa Lobos",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 2102,
+      "theatre": "West Plaza",
+      "city": "S\u00e3o Paulo",
+      "state": "S\u00e3o Paulo"
+    },
+    {
+      "code": 759,
+      "theatre": "Cinemark Internacional Shopping",
+      "city": "Guarulhos",
+      "state": "S\u00e3o Paulo"
+    }
+  ]
+}
