@@ -143,6 +143,10 @@
     <div class="stamp"><div class="live"><span class="dot"></span><span id="stamp">—</span></div>
       <div id="sources" style="margin-top:6px"></div></div>
   </header>
+  <div class="sortbar" style="margin:0 0 18px">
+    <button class="sortbtn on" data-c="us" id="cty-us">United States</button>
+    <button class="sortbtn" data-c="br" id="cty-br">Brasil</button>
+  </div>
   <div id="app"></div>
   <footer id="foot"></footer>
 </div>
@@ -357,7 +361,24 @@ function render(d){
   UPCOMING=(d.upcoming||[]).map(r=>({...r, movie:canon(r.movie)}));
   paint();
 }
-fetch('cinemark_data.json',{cache:'no-store'}).then(r=>{ if(!r.ok) throw 0; return r.json(); }).then(render).catch(()=>render(window.SAMPLE));
+/* ---- country switcher (US / Brazil) ---- */
+const DATA_FILES = {us:'cinemark_data.json', br:'cinemark_br_data.json'};
+const EMPTY_BR = {updatedUtc:null, source:'Cinemark Brasil · assentos D-BOX', showingsStore:{}, upcoming:[]};
+let COUNTRY = (()=>{ try{ return localStorage.getItem('cmk_country')||'us'; }catch(e){ return 'us'; } })();
+function setCountryButtons(){
+  document.querySelectorAll('[data-c]').forEach(b=> b.classList.toggle('on', b.dataset.c===COUNTRY));
+}
+function loadCountry(c){
+  COUNTRY=c; try{ localStorage.setItem('cmk_country',c); }catch(e){}
+  setCountryButtons();
+  PAGE=0; SORT='recent';
+  fetch(DATA_FILES[c]+'?t='+Date.now(),{cache:'no-store'})
+    .then(r=>{ if(!r.ok) throw 0; return r.json(); })
+    .then(render)
+    .catch(()=> render(c==='br'? EMPTY_BR : window.SAMPLE));
+}
+document.querySelectorAll('[data-c]').forEach(b=> b.addEventListener('click',()=>loadCountry(b.dataset.c)));
+loadCountry(COUNTRY);
 </script>
 </body>
 </html>

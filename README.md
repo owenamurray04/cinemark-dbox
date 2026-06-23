@@ -67,21 +67,41 @@ showings near their start time and accumulates realized numbers into
   a homepage hit). For a stubborn local run, paste a browser `Copy as cURL` into
   `cinemark_cookie.txt`.
 
+## Brazil (and worldwide)
+
+Cinemark's international sites are separate platforms, so each country is its own
+scraper. **Brazil** (`cinemark_br_scraper.py`) is built: it uses Brazil's JSON BFF
+API (`br-www-frontend-ext-prod.cinemark.com.br/bff-api/v1`) — roster from
+states→cities→`theaters` (keep `sessionTypes` ⊇ DBOX), discovery from
+`sessions/movie` (D-BOX rooms carry feature code 6), and measurement from
+`seatmaps` where **seat `type` 12 = D-Box** and `status` 3 = sold. Same realized
+metric, same two-read model, writes `dashboard/cinemark_br_data.json`.
+
+The dashboard has a **United States / Brasil toggle** at the top that switches
+between the two data files. Future markets (Cinemark Hoyts — Argentina/Chile/Peru,
+etc.) would each add another scraper + data file + toggle entry.
+
 ## Dashboard
 
-`dashboard/index.html` is a standalone page (Cinemark red, to distinguish it from
-the Cineplex board) that reads `dashboard/cinemark_data.json`: realized D-BOX
+`dashboard/index.html` reads `dashboard/cinemark_data.json` (US) or
+`dashboard/cinemark_br_data.json` (Brazil) via the country toggle: realized D-BOX
 sell-through headline, D-BOX-vs-rest-of-house comparison + trend, an upcoming rail,
 and a sortable table of completed showings. Serve the `dashboard/` folder via
 GitHub Pages (see PROXY_AND_ACTIONS_SETUP.md).
 
 ## Automation
 
-`.github/workflows/live-loop.yml` is a self-chaining loop (same design as the
-Cineplex tracker): each short run does one discover-if-stale + measure, commits
-`dashboard/cinemark_data.json` + `schedule_cinemark/`, then schedules the next run.
-Needs two repo secrets — `CINEMARK_PROXY` (US residential) and `DISPATCH_PAT`.
-Start it once from the Actions tab.
+**One self-chaining loop per country**, so logs stay isolated, a problem in one
+market can't stall another, and each wakes only when its own showings need a read:
+
+- `.github/workflows/live-loop.yml` — **US**: discover-if-stale + measure, commits
+  `cinemark_data.json` + `schedule_cinemark/`. Secrets: `CINEMARK_PROXY` + `DISPATCH_PAT`.
+- `.github/workflows/live-loop-br.yml` — **Brazil**: same pattern, commits
+  `cinemark_br_data.json` + `schedule_cinemark_br/`. Secret: `DISPATCH_PAT` (shared);
+  `CINEMARK_BR_PROXY` optional.
+
+Each is independent (own `repository_dispatch` event + concurrency group). Start each
+once from the Actions tab. Adding a new country = drop in another `live-loop-<cc>.yml`.
 
 ## Status
 
