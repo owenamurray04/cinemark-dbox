@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T18:26:28+00:00",
+  "updatedUtc": "2026-06-24T18:35:47+00:00",
   "source": "Cinemark Brasil \u00b7 assentos D-BOX",
   "metric": "realized",
   "showingsStore": {
@@ -2666,6 +2666,24 @@
       "lastSeenUtc": "2026-06-24T18:26:28+00:00",
       "startUtc": "2026-06-24T19:10:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=08a1b04d-9750-46d8-9459-9b79464ed357"
+    },
+    "2026-06-24|704|d3f422f0-5562-4cef-9d4a-517a66f5362c": {
+      "date": "2026-06-24",
+      "theatreId": 704,
+      "theatre": "Barra Shopping Sul",
+      "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
+      "showtimeId": "d3f422f0-5562-4cef-9d4a-517a66f5362c",
+      "start": "2026-06-24T16:20:00",
+      "state": "Rio Grande Do Sul",
+      "movieSlug": "o-diario-de-pilar-na-amazonia",
+      "sold": 0,
+      "sellable": 27,
+      "regSold": 4,
+      "regSellable": 303,
+      "firstSeenUtc": "2026-06-24T18:35:47+00:00",
+      "lastSeenUtc": "2026-06-24T18:35:47+00:00",
+      "startUtc": "2026-06-24T19:20:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c"
     }
   },
   "upcoming": [
@@ -2962,9 +2980,9 @@
       "start": "2026-06-24T16:20:00",
       "startUtc": "2026-06-24T19:20:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 27,
+      "lastSeenUtc": "2026-06-24T18:35:47+00:00"
     },
     {
       "theatre": "Salvador Shopping",
@@ -3003,9 +3021,9 @@
     "theatres": 20,
     "upcoming": {
       "seatsSold": 195,
-      "seatsSellable": 553,
-      "sellThrough": 0.3526,
-      "showings": 26,
+      "seatsSellable": 580,
+      "sellThrough": 0.3362,
+      "showings": 27,
       "theatres": 16
     },
     "comparison": {
@@ -4418,6 +4436,23 @@
     ],
     "recentFills": [
       {
+        "theatreId": 704,
+        "theatre": "Barra Shopping Sul",
+        "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
+        "date": "2026-06-24",
+        "start": "16:20",
+        "startUtc": "2026-06-24T19:20:00+00:00",
+        "state": "Rio Grande Do Sul",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c",
+        "sold": 0,
+        "sellable": 27,
+        "lastSeenUtc": "2026-06-24T18:35:47+00:00",
+        "sellThrough": 0.0,
+        "regSold": 4,
+        "regSellable": 303,
+        "regSellThrough": 0.0132
+      },
+      {
         "theatreId": 785,
         "theatre": "Salvador Shopping",
         "movie": "Toy Story 5",
@@ -4807,23 +4842,6 @@
         "regSold": 11,
         "regSellable": 296,
         "regSellThrough": 0.0372
-      },
-      {
-        "theatreId": 2110,
-        "theatre": "Tiete Plaza Shopping",
-        "movie": "Toy Story 5",
-        "date": "2026-06-24",
-        "start": "15:30",
-        "startUtc": "2026-06-24T18:30:00+00:00",
-        "state": "S\u00e3o Paulo",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=b8645f21-aff8-40cf-b081-703f7d899740",
-        "sold": 4,
-        "sellable": 16,
-        "lastSeenUtc": "2026-06-24T17:46:04+00:00",
-        "sellThrough": 0.25,
-        "regSold": 35,
-        "regSellable": 229,
-        "regSellThrough": 0.1528
       }
     ],
     "upcomingList": [
@@ -5268,6 +5286,23 @@
         "regSold": 5,
         "regSellable": 231,
         "regSellThrough": 0.0216
+      },
+      {
+        "theatreId": 704,
+        "theatre": "Barra Shopping Sul",
+        "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
+        "date": "2026-06-24",
+        "start": "16:20",
+        "startUtc": "2026-06-24T19:20:00+00:00",
+        "state": "Rio Grande Do Sul",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c",
+        "sold": 0,
+        "sellable": 27,
+        "lastSeenUtc": "2026-06-24T18:35:47+00:00",
+        "sellThrough": 0.0,
+        "regSold": 4,
+        "regSellable": 303,
+        "regSellThrough": 0.0132
       }
     ]
   }
