@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T11:45:49+00:00",
+  "updatedUtc": "2026-06-24T11:50:44+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -46400,6 +46400,25 @@
       "lastSeenUtc": "2026-06-24T11:45:49+00:00",
       "startUtc": "2026-06-24T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=472058&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=472059"
+    },
+    "2026-06-24|230|512922": {
+      "date": "2026-06-24",
+      "theatreId": 230,
+      "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
+      "movie": "Backrooms",
+      "showtimeId": 512922,
+      "linkedShowtimeId": 512947,
+      "movieId": 109370,
+      "start": "2026-06-24T08:35:00",
+      "state": "OH",
+      "sold": 0,
+      "sellable": 17,
+      "regSold": 0,
+      "regSellable": 97,
+      "firstSeenUtc": "2026-06-24T11:50:44+00:00",
+      "lastSeenUtc": "2026-06-24T11:50:44+00:00",
+      "startUtc": "2026-06-24T12:35:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512922&CinemarkMovieId=109370&Showtime=2026-06-24T08%3A35%3A00&LinkedShowtimeId=512947"
     }
   },
   "upcoming": [
@@ -46476,9 +46495,9 @@
       "start": "2026-06-24T08:35:00",
       "startUtc": "2026-06-24T12:35:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512922&CinemarkMovieId=109370&Showtime=2026-06-24T08%3A35%3A00&LinkedShowtimeId=512947",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 17,
+      "lastSeenUtc": "2026-06-24T11:50:44+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
@@ -48086,9 +48105,9 @@
     "theatres": 124,
     "upcoming": {
       "seatsSold": 2,
-      "seatsSellable": 133,
-      "sellThrough": 0.015,
-      "showings": 6,
+      "seatsSellable": 150,
+      "sellThrough": 0.0133,
+      "showings": 7,
       "theatres": 5
     },
     "comparison": {
@@ -49508,6 +49527,23 @@
     ],
     "recentFills": [
       {
+        "theatreId": 230,
+        "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
+        "movie": "Backrooms",
+        "date": "2026-06-24",
+        "start": "08:35",
+        "startUtc": "2026-06-24T12:35:00+00:00",
+        "state": "OH",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512922&CinemarkMovieId=109370&Showtime=2026-06-24T08%3A35%3A00&LinkedShowtimeId=512947",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-24T11:50:44+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 97,
+        "regSellThrough": 0.0
+      },
+      {
         "theatreId": 374,
         "theatre": "Cinemark Fayette Mall and XD",
         "movie": "Toy Story 5",
@@ -49897,23 +49933,6 @@
         "regSold": 11,
         "regSellable": 135,
         "regSellThrough": 0.0815
-      },
-      {
-        "theatreId": 1016,
-        "theatre": "Cinemark Carson and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "23:20",
-        "startUtc": "2026-06-24T06:20:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1016&ShowtimeId=250762&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A20%3A00&LinkedShowtimeId=250739",
-        "sold": 14,
-        "sellable": 35,
-        "lastSeenUtc": "2026-06-24T06:31:32+00:00",
-        "sellThrough": 0.4,
-        "regSold": 66,
-        "regSellable": 173,
-        "regSellThrough": 0.3815
       }
     ],
     "upcomingList": [
@@ -50017,6 +50036,23 @@
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 92,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 230,
+        "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
+        "movie": "Backrooms",
+        "date": "2026-06-24",
+        "start": "08:35",
+        "startUtc": "2026-06-24T12:35:00+00:00",
+        "state": "OH",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=230&ShowtimeId=512922&CinemarkMovieId=109370&Showtime=2026-06-24T08%3A35%3A00&LinkedShowtimeId=512947",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-24T11:50:44+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 97,
         "regSellThrough": 0.0
       }
     ]
