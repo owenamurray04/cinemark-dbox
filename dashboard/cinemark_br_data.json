@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T19:30:43+00:00",
+  "updatedUtc": "2026-06-24T19:35:46+00:00",
   "source": "Cinemark Brasil \u00b7 assentos D-BOX",
   "metric": "realized",
   "showingsStore": {
@@ -2696,26 +2696,15 @@
       "movieSlug": "authentic-games",
       "sold": 0,
       "sellable": 20,
-      "regSold": 4,
+      "regSold": 5,
       "regSellable": 305,
       "firstSeenUtc": "2026-06-24T18:40:55+00:00",
-      "lastSeenUtc": "2026-06-24T18:40:55+00:00",
+      "lastSeenUtc": "2026-06-24T19:35:46+00:00",
       "startUtc": "2026-06-24T19:25:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=966ba0bb-ea92-4ede-bb7a-60740e628cde"
     }
   },
   "upcoming": [
-    {
-      "theatre": "Barra Shopping Sul",
-      "theatreId": 704,
-      "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
-      "start": "2026-06-24T16:20:00",
-      "startUtc": "2026-06-24T19:20:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c",
-      "sold": 0,
-      "sellable": 27,
-      "lastSeenUtc": "2026-06-24T19:30:43+00:00"
-    },
     {
       "theatre": "Salvador Shopping",
       "theatreId": 785,
@@ -2725,7 +2714,7 @@
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=966ba0bb-ea92-4ede-bb7a-60740e628cde",
       "sold": 0,
       "sellable": 20,
-      "lastSeenUtc": "2026-06-24T18:40:55+00:00"
+      "lastSeenUtc": "2026-06-24T19:35:46+00:00"
     }
   ],
   "byDay": [
@@ -2739,33 +2728,33 @@
     {
       "date": "2026-06-24",
       "sold": 564,
-      "sellable": 1571,
-      "showings": 71,
-      "sellThrough": 0.359
+      "sellable": 1598,
+      "showings": 72,
+      "sellThrough": 0.3529
     }
   ],
   "latest": {
     "scrapeDate": "2026-06-24",
-    "sellThrough": 0.3723,
+    "sellThrough": 0.3693,
     "seatsSold": 1232,
-    "seatsSellable": 3309,
-    "showings": 148,
+    "seatsSellable": 3336,
+    "showings": 149,
     "theatres": 20,
     "upcoming": {
       "seatsSold": 0,
-      "seatsSellable": 47,
+      "seatsSellable": 20,
       "sellThrough": 0.0,
-      "showings": 2,
-      "theatres": 2
+      "showings": 1,
+      "theatres": 1
     },
     "comparison": {
-      "showings": 148,
+      "showings": 149,
       "dboxSold": 1232,
-      "dboxSellable": 3309,
-      "regularSold": 4377,
-      "regularSellable": 34351,
-      "dboxSellThrough": 0.3723,
-      "regularSellThrough": 0.1274
+      "dboxSellable": 3336,
+      "regularSold": 4381,
+      "regularSellable": 34654,
+      "dboxSellThrough": 0.3693,
+      "regularSellThrough": 0.1264
     },
     "byMovie": [
       {
@@ -2799,12 +2788,29 @@
       {
         "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
         "sold": 0,
-        "sellable": 27,
-        "showings": 1,
+        "sellable": 54,
+        "showings": 2,
         "sellThrough": 0.0
       }
     ],
     "showingsList": [
+      {
+        "theatreId": 704,
+        "theatre": "Barra Shopping Sul",
+        "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
+        "date": "2026-06-24",
+        "start": "16:20",
+        "startUtc": "2026-06-24T19:20:00+00:00",
+        "state": "Rio Grande Do Sul",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c",
+        "sold": 0,
+        "sellable": 27,
+        "lastSeenUtc": "2026-06-24T19:30:43+00:00",
+        "sellThrough": 0.0,
+        "regSold": 4,
+        "regSellable": 303,
+        "regSellThrough": 0.0132
+      },
       {
         "theatreId": 785,
         "theatre": "Salvador Shopping",
@@ -4147,26 +4153,26 @@
         "regSold": 35,
         "regSellable": 347,
         "regSellThrough": 0.1009
-      },
-      {
-        "theatreId": 719,
-        "theatre": "Downtown",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "21:20",
-        "startUtc": "2026-06-24T00:20:00+00:00",
-        "state": "Rio De Janeiro",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/toy-story-5/assentos?sessionId=9eaebdf7-0c02-4c76-8738-0f002d19f0a3",
-        "sold": 4,
-        "sellable": 20,
-        "lastSeenUtc": "2026-06-24T00:30:24+00:00",
-        "sellThrough": 0.2,
-        "regSold": 1,
-        "regSellable": 231,
-        "regSellThrough": 0.0043
       }
     ],
     "recentFills": [
+      {
+        "theatreId": 785,
+        "theatre": "Salvador Shopping",
+        "movie": "Authentic Games",
+        "date": "2026-06-24",
+        "start": "16:25",
+        "startUtc": "2026-06-24T19:25:00+00:00",
+        "state": "Bahia",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=966ba0bb-ea92-4ede-bb7a-60740e628cde",
+        "sold": 0,
+        "sellable": 20,
+        "lastSeenUtc": "2026-06-24T19:35:46+00:00",
+        "sellThrough": 0.0,
+        "regSold": 5,
+        "regSellable": 305,
+        "regSellThrough": 0.0164
+      },
       {
         "theatreId": 704,
         "theatre": "Barra Shopping Sul",
@@ -4557,44 +4563,10 @@
         "regSold": 16,
         "regSellable": 181,
         "regSellThrough": 0.0884
-      },
-      {
-        "theatreId": 785,
-        "theatre": "Salvador Shopping",
-        "movie": "Authentic Games",
-        "date": "2026-06-24",
-        "start": "16:25",
-        "startUtc": "2026-06-24T19:25:00+00:00",
-        "state": "Bahia",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=966ba0bb-ea92-4ede-bb7a-60740e628cde",
-        "sold": 0,
-        "sellable": 20,
-        "lastSeenUtc": "2026-06-24T18:40:55+00:00",
-        "sellThrough": 0.0,
-        "regSold": 4,
-        "regSellable": 305,
-        "regSellThrough": 0.0131
       }
     ],
     "upcomingList": [
       {
-        "theatreId": 704,
-        "theatre": "Barra Shopping Sul",
-        "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
-        "date": "2026-06-24",
-        "start": "16:20",
-        "startUtc": "2026-06-24T19:20:00+00:00",
-        "state": "Rio Grande Do Sul",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d3f422f0-5562-4cef-9d4a-517a66f5362c",
-        "sold": 0,
-        "sellable": 27,
-        "lastSeenUtc": "2026-06-24T19:30:43+00:00",
-        "sellThrough": 0.0,
-        "regSold": 4,
-        "regSellable": 303,
-        "regSellThrough": 0.0132
-      },
-      {
         "theatreId": 785,
         "theatre": "Salvador Shopping",
         "movie": "Authentic Games",
@@ -4605,11 +4577,11 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=966ba0bb-ea92-4ede-bb7a-60740e628cde",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-24T18:40:55+00:00",
+        "lastSeenUtc": "2026-06-24T19:35:46+00:00",
         "sellThrough": 0.0,
-        "regSold": 4,
+        "regSold": 5,
         "regSellable": 305,
-        "regSellThrough": 0.0131
+        "regSellThrough": 0.0164
       }
     ]
   }
