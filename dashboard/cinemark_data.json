@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T11:55:57+00:00",
+  "updatedUtc": "2026-06-24T12:00:42+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -46302,7 +46302,7 @@
       "regSold": 0,
       "regSellable": 137,
       "firstSeenUtc": "2026-06-24T11:05:41+00:00",
-      "lastSeenUtc": "2026-06-24T11:05:41+00:00",
+      "lastSeenUtc": "2026-06-24T12:00:42+00:00",
       "startUtc": "2026-06-24T11:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=238752&CinemarkMovieId=107462&Showtime=2026-06-24T07%3A50%3A00&LinkedShowtimeId=238754"
     },
@@ -46469,7 +46469,7 @@
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=238752&CinemarkMovieId=107462&Showtime=2026-06-24T07%3A50%3A00&LinkedShowtimeId=238754",
       "sold": 1,
       "sellable": 27,
-      "lastSeenUtc": "2026-06-24T11:05:41+00:00"
+      "lastSeenUtc": "2026-06-24T12:00:42+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
@@ -49565,6 +49565,23 @@
     ],
     "recentFills": [
       {
+        "theatreId": 1082,
+        "theatre": "Cinemark North Hills and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "07:50",
+        "startUtc": "2026-06-24T11:50:00+00:00",
+        "state": "PA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=238752&CinemarkMovieId=107462&Showtime=2026-06-24T07%3A50%3A00&LinkedShowtimeId=238754",
+        "sold": 1,
+        "sellable": 27,
+        "lastSeenUtc": "2026-06-24T12:00:42+00:00",
+        "sellThrough": 0.037,
+        "regSold": 0,
+        "regSellable": 137,
+        "regSellThrough": 0.0
+      },
+      {
         "theatreId": 230,
         "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
         "movie": "Toy Story 5",
@@ -49698,23 +49715,6 @@
         "sellThrough": 0.0385,
         "regSold": 0,
         "regSellable": 97,
-        "regSellThrough": 0.0
-      },
-      {
-        "theatreId": 1082,
-        "theatre": "Cinemark North Hills and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-24",
-        "start": "07:50",
-        "startUtc": "2026-06-24T11:50:00+00:00",
-        "state": "PA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=238752&CinemarkMovieId=107462&Showtime=2026-06-24T07%3A50%3A00&LinkedShowtimeId=238754",
-        "sold": 1,
-        "sellable": 27,
-        "lastSeenUtc": "2026-06-24T11:05:41+00:00",
-        "sellThrough": 0.037,
-        "regSold": 0,
-        "regSellable": 137,
         "regSellThrough": 0.0
       },
       {
@@ -49985,7 +49985,7 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1082&ShowtimeId=238752&CinemarkMovieId=107462&Showtime=2026-06-24T07%3A50%3A00&LinkedShowtimeId=238754",
         "sold": 1,
         "sellable": 27,
-        "lastSeenUtc": "2026-06-24T11:05:41+00:00",
+        "lastSeenUtc": "2026-06-24T12:00:42+00:00",
         "sellThrough": 0.037,
         "regSold": 0,
         "regSellable": 137,
