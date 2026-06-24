@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T06:18:07+00:00",
+  "updatedUtc": "2026-06-24T06:21:50+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -45881,10 +45881,10 @@
       "state": "CA",
       "sold": 3,
       "sellable": 17,
-      "regSold": 17,
+      "regSold": 21,
       "regSellable": 95,
       "firstSeenUtc": "2026-06-24T05:26:53+00:00",
-      "lastSeenUtc": "2026-06-24T05:26:53+00:00",
+      "lastSeenUtc": "2026-06-24T06:21:50+00:00",
       "startUtc": "2026-06-24T06:10:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=476&ShowtimeId=563648&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A10%3A00&LinkedShowtimeId=563688"
     },
@@ -47912,10 +47912,10 @@
     },
     {
       "date": "2026-06-23",
-      "sold": 26855,
-      "sellable": 49065,
-      "showings": 2322,
-      "sellThrough": 0.5473
+      "sold": 26861,
+      "sellable": 49084,
+      "showings": 2323,
+      "sellThrough": 0.5472
     },
     {
       "date": "2026-06-24",
@@ -47927,26 +47927,26 @@
   ],
   "latest": {
     "scrapeDate": "2026-06-24",
-    "sellThrough": 0.531,
-    "seatsSold": 27053,
-    "seatsSellable": 50952,
-    "showings": 2413,
+    "sellThrough": 0.5309,
+    "seatsSold": 27059,
+    "seatsSellable": 50971,
+    "showings": 2414,
     "theatres": 124,
     "upcoming": {
-      "seatsSold": 104,
-      "seatsSellable": 408,
-      "sellThrough": 0.2549,
-      "showings": 21,
-      "theatres": 17
+      "seatsSold": 98,
+      "seatsSellable": 389,
+      "sellThrough": 0.2519,
+      "showings": 20,
+      "theatres": 16
     },
     "comparison": {
-      "showings": 2413,
-      "dboxSold": 27053,
-      "dboxSellable": 50952,
-      "regularSold": 117576,
-      "regularSellable": 284979,
-      "dboxSellThrough": 0.531,
-      "regularSellThrough": 0.4126
+      "showings": 2414,
+      "dboxSold": 27059,
+      "dboxSellable": 50971,
+      "regularSold": 117596,
+      "regularSellable": 285071,
+      "dboxSellThrough": 0.5309,
+      "regularSellThrough": 0.4125
     },
     "byMovie": [
       {
@@ -47972,10 +47972,10 @@
       },
       {
         "movie": "Scary Movie",
-        "sold": 277,
-        "sellable": 789,
-        "showings": 43,
-        "sellThrough": 0.3511
+        "sold": 283,
+        "sellable": 808,
+        "showings": 44,
+        "sellThrough": 0.3502
       },
       {
         "movie": "Masters of the Universe",
@@ -48674,6 +48674,23 @@
         "regSellThrough": 0.1842
       },
       {
+        "theatreId": 1137,
+        "theatre": "Cinemark Century Arden XD and ScreenX",
+        "movie": "Scary Movie",
+        "date": "2026-06-23",
+        "start": "23:05",
+        "startUtc": "2026-06-24T06:05:00+00:00",
+        "state": "CA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1137&ShowtimeId=274401&CinemarkMovieId=107529&Showtime=2026-06-23T23%3A05%3A00&LinkedShowtimeId=274434",
+        "sold": 6,
+        "sellable": 19,
+        "lastSeenUtc": "2026-06-24T06:18:07+00:00",
+        "sellThrough": 0.3158,
+        "regSold": 20,
+        "regSellable": 92,
+        "regSellThrough": 0.2174
+      },
+      {
         "theatreId": 230,
         "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
         "movie": "Toy Story 5",
@@ -49335,26 +49352,26 @@
         "regSold": 33,
         "regSellable": 112,
         "regSellThrough": 0.2946
-      },
-      {
-        "theatreId": 254,
-        "theatre": "Cinemark Tinseltown Medford and ScreenX",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "22:50",
-        "startUtc": "2026-06-24T05:50:00+00:00",
-        "state": "OR",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=254&ShowtimeId=510163&CinemarkMovieId=107462&Showtime=2026-06-23T22%3A50%3A00&LinkedShowtimeId=510138",
-        "sold": 0,
-        "sellable": 17,
-        "lastSeenUtc": "2026-06-24T06:02:22+00:00",
-        "sellThrough": 0.0,
-        "regSold": 21,
-        "regSellable": 93,
-        "regSellThrough": 0.2258
       }
     ],
     "recentFills": [
+      {
+        "theatreId": 476,
+        "theatre": "Cinemark Century Greenback Lane 16 and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "23:10",
+        "startUtc": "2026-06-24T06:10:00+00:00",
+        "state": "CA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=476&ShowtimeId=563648&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A10%3A00&LinkedShowtimeId=563688",
+        "sold": 3,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-24T06:21:50+00:00",
+        "sellThrough": 0.1765,
+        "regSold": 21,
+        "regSellable": 95,
+        "regSellThrough": 0.2211
+      },
       {
         "theatreId": 1137,
         "theatre": "Cinemark Century Arden XD and ScreenX",
@@ -49745,43 +49762,9 @@
         "regSold": 21,
         "regSellable": 251,
         "regSellThrough": 0.0837
-      },
-      {
-        "theatreId": 1134,
-        "theatre": "Cinemark Downey and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "22:50",
-        "startUtc": "2026-06-24T05:50:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1134&ShowtimeId=311997&CinemarkMovieId=107462&Showtime=2026-06-23T22%3A50%3A00&LinkedShowtimeId=311981",
-        "sold": 14,
-        "sellable": 19,
-        "lastSeenUtc": "2026-06-24T06:02:22+00:00",
-        "sellThrough": 0.7368,
-        "regSold": 76,
-        "regSellable": 118,
-        "regSellThrough": 0.6441
       }
     ],
     "upcomingList": [
-      {
-        "theatreId": 1137,
-        "theatre": "Cinemark Century Arden XD and ScreenX",
-        "movie": "Scary Movie",
-        "date": "2026-06-23",
-        "start": "23:05",
-        "startUtc": "2026-06-24T06:05:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1137&ShowtimeId=274401&CinemarkMovieId=107529&Showtime=2026-06-23T23%3A05%3A00&LinkedShowtimeId=274434",
-        "sold": 6,
-        "sellable": 19,
-        "lastSeenUtc": "2026-06-24T06:18:07+00:00",
-        "sellThrough": 0.3158,
-        "regSold": 20,
-        "regSellable": 92,
-        "regSellThrough": 0.2174
-      },
       {
         "theatreId": 476,
         "theatre": "Cinemark Century Greenback Lane 16 and XD",
@@ -49793,11 +49776,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=476&ShowtimeId=563648&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A10%3A00&LinkedShowtimeId=563688",
         "sold": 3,
         "sellable": 17,
-        "lastSeenUtc": "2026-06-24T05:26:53+00:00",
+        "lastSeenUtc": "2026-06-24T06:21:50+00:00",
         "sellThrough": 0.1765,
-        "regSold": 17,
+        "regSold": 21,
         "regSellable": 95,
-        "regSellThrough": 0.1789
+        "regSellThrough": 0.2211
       },
       {
         "theatreId": 444,
