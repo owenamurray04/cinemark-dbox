@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T14:15:49+00:00",
+  "updatedUtc": "2026-06-24T15:11:41+00:00",
   "source": "Cinemark Brasil \u00b7 assentos D-BOX",
   "metric": "realized",
   "showingsStore": {
@@ -1403,7 +1403,7 @@
       "regSold": 0,
       "regSellable": 305,
       "firstSeenUtc": "2026-06-24T14:15:49+00:00",
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00",
       "startUtc": "2026-06-24T15:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=e7853eae-25e6-4a03-93c6-23e1143f25b1"
     },
@@ -1439,7 +1439,7 @@
       "regSold": 1,
       "regSellable": 231,
       "firstSeenUtc": "2026-06-24T14:15:49+00:00",
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00",
       "startUtc": "2026-06-24T15:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=9772a7e4-f1c6-40ed-ae9d-aaa1886cf1d4"
     },
@@ -1457,7 +1457,7 @@
       "regSold": 0,
       "regSellable": 177,
       "firstSeenUtc": "2026-06-24T14:15:49+00:00",
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00",
       "startUtc": "2026-06-24T15:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/cansei-de-ser-nerd/assentos?sessionId=c39e76c5-afaa-4b72-ad63-066261f5fa5d"
     },
@@ -1470,12 +1470,12 @@
       "start": "2026-06-24T12:00:00",
       "state": "Rio De Janeiro",
       "movieSlug": "authentic-games",
-      "sold": 0,
+      "sold": 2,
       "sellable": 33,
       "regSold": 3,
       "regSellable": 246,
       "firstSeenUtc": "2026-06-24T14:15:49+00:00",
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00",
       "startUtc": "2026-06-24T15:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=62214e89-97d0-4588-bd41-a22b4d62bac0"
     },
@@ -1493,7 +1493,7 @@
       "regSold": 4,
       "regSellable": 303,
       "firstSeenUtc": "2026-06-24T14:15:49+00:00",
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00",
       "startUtc": "2026-06-24T15:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d902bc07-7492-44ab-8ff4-c6db743f52a7"
     }
@@ -1508,7 +1508,7 @@
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=e7853eae-25e6-4a03-93c6-23e1143f25b1",
       "sold": 0,
       "sellable": 20,
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00"
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00"
     },
     {
       "theatre": "Pier 21",
@@ -1530,7 +1530,7 @@
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=9772a7e4-f1c6-40ed-ae9d-aaa1886cf1d4",
       "sold": 1,
       "sellable": 20,
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00"
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00"
     },
     {
       "theatre": "Downtown",
@@ -1541,7 +1541,7 @@
       "cinemarkUrl": "https://www.cinemark.com.br/filme/cansei-de-ser-nerd/assentos?sessionId=c39e76c5-afaa-4b72-ad63-066261f5fa5d",
       "sold": 0,
       "sellable": 22,
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00"
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00"
     },
     {
       "theatre": "Plaza Shopping Niteroi",
@@ -1550,9 +1550,9 @@
       "start": "2026-06-24T12:00:00",
       "startUtc": "2026-06-24T15:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=62214e89-97d0-4588-bd41-a22b4d62bac0",
-      "sold": 0,
+      "sold": 2,
       "sellable": 33,
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00"
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00"
     },
     {
       "theatre": "Barra Shopping Sul",
@@ -1563,7 +1563,7 @@
       "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d902bc07-7492-44ab-8ff4-c6db743f52a7",
       "sold": 0,
       "sellable": 27,
-      "lastSeenUtc": "2026-06-24T14:15:49+00:00"
+      "lastSeenUtc": "2026-06-24T15:11:41+00:00"
     },
     {
       "theatre": "Shopping Vitoria",
@@ -2320,9 +2320,9 @@
     "showings": 77,
     "theatres": 20,
     "upcoming": {
-      "seatsSold": 21,
+      "seatsSold": 23,
       "seatsSellable": 142,
-      "sellThrough": 0.1479,
+      "sellThrough": 0.162,
       "showings": 6,
       "theatres": 5
     },
@@ -3667,11 +3667,79 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=e7853eae-25e6-4a03-93c6-23e1143f25b1",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 305,
         "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 719,
+        "theatre": "Downtown",
+        "movie": "Authentic Games",
+        "date": "2026-06-24",
+        "start": "12:00",
+        "startUtc": "2026-06-24T15:00:00+00:00",
+        "state": "Rio De Janeiro",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=9772a7e4-f1c6-40ed-ae9d-aaa1886cf1d4",
+        "sold": 1,
+        "sellable": 20,
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
+        "sellThrough": 0.05,
+        "regSold": 1,
+        "regSellable": 231,
+        "regSellThrough": 0.0043
+      },
+      {
+        "theatreId": 719,
+        "theatre": "Downtown",
+        "movie": "Cansei de Ser Nerd",
+        "date": "2026-06-24",
+        "start": "12:00",
+        "startUtc": "2026-06-24T15:00:00+00:00",
+        "state": "Rio De Janeiro",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/cansei-de-ser-nerd/assentos?sessionId=c39e76c5-afaa-4b72-ad63-066261f5fa5d",
+        "sold": 0,
+        "sellable": 22,
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 177,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 691,
+        "theatre": "Plaza Shopping Niteroi",
+        "movie": "Authentic Games",
+        "date": "2026-06-24",
+        "start": "12:00",
+        "startUtc": "2026-06-24T15:00:00+00:00",
+        "state": "Rio De Janeiro",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=62214e89-97d0-4588-bd41-a22b4d62bac0",
+        "sold": 2,
+        "sellable": 33,
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
+        "sellThrough": 0.0606,
+        "regSold": 3,
+        "regSellable": 246,
+        "regSellThrough": 0.0122
+      },
+      {
+        "theatreId": 704,
+        "theatre": "Barra Shopping Sul",
+        "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
+        "date": "2026-06-24",
+        "start": "12:00",
+        "startUtc": "2026-06-24T15:00:00+00:00",
+        "state": "Rio Grande Do Sul",
+        "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d902bc07-7492-44ab-8ff4-c6db743f52a7",
+        "sold": 0,
+        "sellable": 27,
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
+        "sellThrough": 0.0,
+        "regSold": 4,
+        "regSellable": 303,
+        "regSellThrough": 0.0132
       },
       {
         "theatreId": 720,
@@ -3689,74 +3757,6 @@
         "regSold": 19,
         "regSellable": 386,
         "regSellThrough": 0.0492
-      },
-      {
-        "theatreId": 719,
-        "theatre": "Downtown",
-        "movie": "Authentic Games",
-        "date": "2026-06-24",
-        "start": "12:00",
-        "startUtc": "2026-06-24T15:00:00+00:00",
-        "state": "Rio De Janeiro",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=9772a7e4-f1c6-40ed-ae9d-aaa1886cf1d4",
-        "sold": 1,
-        "sellable": 20,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
-        "sellThrough": 0.05,
-        "regSold": 1,
-        "regSellable": 231,
-        "regSellThrough": 0.0043
-      },
-      {
-        "theatreId": 719,
-        "theatre": "Downtown",
-        "movie": "Cansei de Ser Nerd",
-        "date": "2026-06-24",
-        "start": "12:00",
-        "startUtc": "2026-06-24T15:00:00+00:00",
-        "state": "Rio De Janeiro",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/cansei-de-ser-nerd/assentos?sessionId=c39e76c5-afaa-4b72-ad63-066261f5fa5d",
-        "sold": 0,
-        "sellable": 22,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
-        "sellThrough": 0.0,
-        "regSold": 0,
-        "regSellable": 177,
-        "regSellThrough": 0.0
-      },
-      {
-        "theatreId": 691,
-        "theatre": "Plaza Shopping Niteroi",
-        "movie": "Authentic Games",
-        "date": "2026-06-24",
-        "start": "12:00",
-        "startUtc": "2026-06-24T15:00:00+00:00",
-        "state": "Rio De Janeiro",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=62214e89-97d0-4588-bd41-a22b4d62bac0",
-        "sold": 0,
-        "sellable": 33,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
-        "sellThrough": 0.0,
-        "regSold": 3,
-        "regSellable": 246,
-        "regSellThrough": 0.0122
-      },
-      {
-        "theatreId": 704,
-        "theatre": "Barra Shopping Sul",
-        "movie": "O Di\u00e1rio de Pilar Na Amaz\u00f4nia",
-        "date": "2026-06-24",
-        "start": "12:00",
-        "startUtc": "2026-06-24T15:00:00+00:00",
-        "state": "Rio Grande Do Sul",
-        "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d902bc07-7492-44ab-8ff4-c6db743f52a7",
-        "sold": 0,
-        "sellable": 27,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
-        "sellThrough": 0.0,
-        "regSold": 4,
-        "regSellable": 303,
-        "regSellThrough": 0.0132
       },
       {
         "theatreId": 694,
@@ -4077,7 +4077,7 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=e7853eae-25e6-4a03-93c6-23e1143f25b1",
         "sold": 0,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 305,
@@ -4111,7 +4111,7 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=9772a7e4-f1c6-40ed-ae9d-aaa1886cf1d4",
         "sold": 1,
         "sellable": 20,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
         "sellThrough": 0.05,
         "regSold": 1,
         "regSellable": 231,
@@ -4128,7 +4128,7 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/cansei-de-ser-nerd/assentos?sessionId=c39e76c5-afaa-4b72-ad63-066261f5fa5d",
         "sold": 0,
         "sellable": 22,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
         "sellThrough": 0.0,
         "regSold": 0,
         "regSellable": 177,
@@ -4143,10 +4143,10 @@
         "startUtc": "2026-06-24T15:00:00+00:00",
         "state": "Rio De Janeiro",
         "cinemarkUrl": "https://www.cinemark.com.br/filme/authentic-games/assentos?sessionId=62214e89-97d0-4588-bd41-a22b4d62bac0",
-        "sold": 0,
+        "sold": 2,
         "sellable": 33,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
-        "sellThrough": 0.0,
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
+        "sellThrough": 0.0606,
         "regSold": 3,
         "regSellable": 246,
         "regSellThrough": 0.0122
@@ -4162,7 +4162,7 @@
         "cinemarkUrl": "https://www.cinemark.com.br/filme/o-diario-de-pilar-na-amazonia/assentos?sessionId=d902bc07-7492-44ab-8ff4-c6db743f52a7",
         "sold": 0,
         "sellable": 27,
-        "lastSeenUtc": "2026-06-24T14:15:49+00:00",
+        "lastSeenUtc": "2026-06-24T15:11:41+00:00",
         "sellThrough": 0.0,
         "regSold": 4,
         "regSellable": 303,
