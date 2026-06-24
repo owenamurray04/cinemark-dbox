@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T06:21:50+00:00",
+  "updatedUtc": "2026-06-24T06:25:48+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -45900,10 +45900,10 @@
       "state": "CA",
       "sold": 12,
       "sellable": 13,
-      "regSold": 0,
+      "regSold": 18,
       "regSellable": 123,
       "firstSeenUtc": "2026-06-24T05:31:22+00:00",
-      "lastSeenUtc": "2026-06-24T05:31:22+00:00",
+      "lastSeenUtc": "2026-06-24T06:25:48+00:00",
       "startUtc": "2026-06-24T06:15:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=444&ShowtimeId=706223&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A15%3A00&LinkedShowtimeId=706217"
     },
@@ -46248,6 +46248,25 @@
       "lastSeenUtc": "2026-06-24T06:18:07+00:00",
       "startUtc": "2026-06-24T07:00:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1134&ShowtimeId=313049&CinemarkMovieId=107462&Showtime=2026-06-24T00%3A00%3A00&LinkedShowtimeId=313083"
+    },
+    "2026-06-24|449|541198": {
+      "date": "2026-06-24",
+      "theatreId": 449,
+      "theatre": "Cinemark Century Northridge Mall 14",
+      "movie": "Toy Story 5",
+      "showtimeId": 541198,
+      "linkedShowtimeId": 541211,
+      "movieId": 107462,
+      "start": "2026-06-24T00:10:00",
+      "state": "CA",
+      "sold": 0,
+      "sellable": 19,
+      "regSold": 4,
+      "regSellable": 108,
+      "firstSeenUtc": "2026-06-24T06:25:48+00:00",
+      "lastSeenUtc": "2026-06-24T06:25:48+00:00",
+      "startUtc": "2026-06-24T07:10:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541198&CinemarkMovieId=107462&Showtime=2026-06-24T00%3A10%3A00&LinkedShowtimeId=541211"
     }
   },
   "upcoming": [
@@ -46280,9 +46299,9 @@
       "start": "2026-06-24T00:10:00",
       "startUtc": "2026-06-24T07:10:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541198&CinemarkMovieId=107462&Showtime=2026-06-24T00%3A10%3A00&LinkedShowtimeId=541211",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 19,
+      "lastSeenUtc": "2026-06-24T06:25:48+00:00"
     },
     {
       "theatre": "Cinemark Century North Hollywood and XD",
@@ -47912,10 +47931,10 @@
     },
     {
       "date": "2026-06-23",
-      "sold": 26861,
-      "sellable": 49084,
-      "showings": 2323,
-      "sellThrough": 0.5472
+      "sold": 26864,
+      "sellable": 49101,
+      "showings": 2324,
+      "sellThrough": 0.5471
     },
     {
       "date": "2026-06-24",
@@ -47927,25 +47946,25 @@
   ],
   "latest": {
     "scrapeDate": "2026-06-24",
-    "sellThrough": 0.5309,
-    "seatsSold": 27059,
-    "seatsSellable": 50971,
-    "showings": 2414,
+    "sellThrough": 0.5308,
+    "seatsSold": 27062,
+    "seatsSellable": 50988,
+    "showings": 2415,
     "theatres": 124,
     "upcoming": {
-      "seatsSold": 98,
-      "seatsSellable": 389,
-      "sellThrough": 0.2519,
+      "seatsSold": 95,
+      "seatsSellable": 391,
+      "sellThrough": 0.243,
       "showings": 20,
-      "theatres": 16
+      "theatres": 15
     },
     "comparison": {
-      "showings": 2414,
-      "dboxSold": 27059,
-      "dboxSellable": 50971,
-      "regularSold": 117596,
-      "regularSellable": 285071,
-      "dboxSellThrough": 0.5309,
+      "showings": 2415,
+      "dboxSold": 27062,
+      "dboxSellable": 50988,
+      "regularSold": 117617,
+      "regularSellable": 285166,
+      "dboxSellThrough": 0.5308,
       "regularSellThrough": 0.4125
     },
     "byMovie": [
@@ -47958,10 +47977,10 @@
       },
       {
         "movie": "Toy Story 5",
-        "sold": 26485,
-        "sellable": 49406,
-        "showings": 2327,
-        "sellThrough": 0.5361
+        "sold": 26488,
+        "sellable": 49423,
+        "showings": 2328,
+        "sellThrough": 0.5359
       },
       {
         "movie": "Backrooms",
@@ -48674,6 +48693,23 @@
         "regSellThrough": 0.1842
       },
       {
+        "theatreId": 476,
+        "theatre": "Cinemark Century Greenback Lane 16 and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "23:10",
+        "startUtc": "2026-06-24T06:10:00+00:00",
+        "state": "CA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=476&ShowtimeId=563648&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A10%3A00&LinkedShowtimeId=563688",
+        "sold": 3,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-24T06:21:50+00:00",
+        "sellThrough": 0.1765,
+        "regSold": 21,
+        "regSellable": 95,
+        "regSellThrough": 0.2211
+      },
+      {
         "theatreId": 1137,
         "theatre": "Cinemark Century Arden XD and ScreenX",
         "movie": "Scary Movie",
@@ -49335,26 +49371,43 @@
         "regSold": 4,
         "regSellable": 159,
         "regSellThrough": 0.0252
-      },
-      {
-        "theatreId": 478,
-        "theatre": "Cinemark Century Bel Mar 16 and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "22:50",
-        "startUtc": "2026-06-24T04:50:00+00:00",
-        "state": "CO",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=478&ShowtimeId=562111&CinemarkMovieId=107462&Showtime=2026-06-23T22%3A50%3A00&LinkedShowtimeId=562103",
-        "sold": 3,
-        "sellable": 17,
-        "lastSeenUtc": "2026-06-24T05:14:02+00:00",
-        "sellThrough": 0.1765,
-        "regSold": 33,
-        "regSellable": 112,
-        "regSellThrough": 0.2946
       }
     ],
     "recentFills": [
+      {
+        "theatreId": 444,
+        "theatre": "Cinemark Century Daly City 20 XD and IMAX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-23",
+        "start": "23:15",
+        "startUtc": "2026-06-24T06:15:00+00:00",
+        "state": "CA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=444&ShowtimeId=706223&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A15%3A00&LinkedShowtimeId=706217",
+        "sold": 12,
+        "sellable": 13,
+        "lastSeenUtc": "2026-06-24T06:25:48+00:00",
+        "sellThrough": 0.9231,
+        "regSold": 18,
+        "regSellable": 123,
+        "regSellThrough": 0.1463
+      },
+      {
+        "theatreId": 449,
+        "theatre": "Cinemark Century Northridge Mall 14",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "00:10",
+        "startUtc": "2026-06-24T07:10:00+00:00",
+        "state": "CA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541198&CinemarkMovieId=107462&Showtime=2026-06-24T00%3A10%3A00&LinkedShowtimeId=541211",
+        "sold": 0,
+        "sellable": 19,
+        "lastSeenUtc": "2026-06-24T06:25:48+00:00",
+        "sellThrough": 0.0,
+        "regSold": 4,
+        "regSellable": 108,
+        "regSellThrough": 0.037
+      },
       {
         "theatreId": 476,
         "theatre": "Cinemark Century Greenback Lane 16 and XD",
@@ -49728,60 +49781,9 @@
         "regSold": 5,
         "regSellable": 104,
         "regSellThrough": 0.0481
-      },
-      {
-        "theatreId": 1042,
-        "theatre": "Cinemark Jess Ranch and ScreenX",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "22:50",
-        "startUtc": "2026-06-24T05:50:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1042&ShowtimeId=373444&CinemarkMovieId=107462&Showtime=2026-06-23T22%3A50%3A00&LinkedShowtimeId=373446",
-        "sold": 15,
-        "sellable": 23,
-        "lastSeenUtc": "2026-06-24T06:02:22+00:00",
-        "sellThrough": 0.6522,
-        "regSold": 36,
-        "regSellable": 88,
-        "regSellThrough": 0.4091
-      },
-      {
-        "theatreId": 1084,
-        "theatre": "Cinemark Baldwin Hills Crenshaw and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "22:50",
-        "startUtc": "2026-06-24T05:50:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1084&ShowtimeId=359490&CinemarkMovieId=107462&Showtime=2026-06-23T22%3A50%3A00&LinkedShowtimeId=359480",
-        "sold": 12,
-        "sellable": 20,
-        "lastSeenUtc": "2026-06-24T06:02:22+00:00",
-        "sellThrough": 0.6,
-        "regSold": 21,
-        "regSellable": 251,
-        "regSellThrough": 0.0837
       }
     ],
     "upcomingList": [
-      {
-        "theatreId": 476,
-        "theatre": "Cinemark Century Greenback Lane 16 and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "23:10",
-        "startUtc": "2026-06-24T06:10:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=476&ShowtimeId=563648&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A10%3A00&LinkedShowtimeId=563688",
-        "sold": 3,
-        "sellable": 17,
-        "lastSeenUtc": "2026-06-24T06:21:50+00:00",
-        "sellThrough": 0.1765,
-        "regSold": 21,
-        "regSellable": 95,
-        "regSellThrough": 0.2211
-      },
       {
         "theatreId": 444,
         "theatre": "Cinemark Century Daly City 20 XD and IMAX",
@@ -49793,11 +49795,11 @@
         "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=444&ShowtimeId=706223&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A15%3A00&LinkedShowtimeId=706217",
         "sold": 12,
         "sellable": 13,
-        "lastSeenUtc": "2026-06-24T05:31:22+00:00",
+        "lastSeenUtc": "2026-06-24T06:25:48+00:00",
         "sellThrough": 0.9231,
-        "regSold": 0,
+        "regSold": 18,
         "regSellable": 123,
-        "regSellThrough": 0.0
+        "regSellThrough": 0.1463
       },
       {
         "theatreId": 217,
@@ -50104,6 +50106,23 @@
         "regSold": 33,
         "regSellable": 82,
         "regSellThrough": 0.4024
+      },
+      {
+        "theatreId": 449,
+        "theatre": "Cinemark Century Northridge Mall 14",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "00:10",
+        "startUtc": "2026-06-24T07:10:00+00:00",
+        "state": "CA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=449&ShowtimeId=541198&CinemarkMovieId=107462&Showtime=2026-06-24T00%3A10%3A00&LinkedShowtimeId=541211",
+        "sold": 0,
+        "sellable": 19,
+        "lastSeenUtc": "2026-06-24T06:25:48+00:00",
+        "sellThrough": 0.0,
+        "regSold": 4,
+        "regSellable": 108,
+        "regSellThrough": 0.037
       }
     ]
   }
