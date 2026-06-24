@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T13:01:45+00:00",
+  "updatedUtc": "2026-06-24T13:06:24+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -47350,20 +47350,66 @@
       "lastSeenUtc": "2026-06-24T13:01:45+00:00",
       "startUtc": "2026-06-24T13:45:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1152&ShowtimeId=140118&CinemarkMovieId=107462&Showtime=2026-06-24T09%3A45%3A00&LinkedShowtimeId=140138"
+    },
+    "2026-06-24|295|682690": {
+      "date": "2026-06-24",
+      "theatreId": 295,
+      "theatre": "Cinemark Nasa and XD",
+      "movie": "Toy Story 5",
+      "showtimeId": 682690,
+      "linkedShowtimeId": 682694,
+      "movieId": 107462,
+      "start": "2026-06-24T08:50:00",
+      "state": "TX",
+      "sold": 0,
+      "sellable": 32,
+      "regSold": 0,
+      "regSellable": 167,
+      "firstSeenUtc": "2026-06-24T13:06:24+00:00",
+      "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+      "startUtc": "2026-06-24T13:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=295&ShowtimeId=682690&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=682694"
+    },
+    "2026-06-24|1154|184044": {
+      "date": "2026-06-24",
+      "theatreId": 1154,
+      "theatre": "Cinemark North Mckinney XD and ScreenX",
+      "movie": "Toy Story 5",
+      "showtimeId": 184044,
+      "linkedShowtimeId": 184031,
+      "movieId": 107462,
+      "start": "2026-06-24T08:50:00",
+      "state": "TX",
+      "sold": 0,
+      "sellable": 25,
+      "regSold": 0,
+      "regSellable": 111,
+      "firstSeenUtc": "2026-06-24T13:06:24+00:00",
+      "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+      "startUtc": "2026-06-24T13:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1154&ShowtimeId=184044&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=184031"
+    },
+    "2026-06-24|1167|119943": {
+      "date": "2026-06-24",
+      "theatreId": 1167,
+      "theatre": "Cinemark Missouri City and XD",
+      "movie": "Toy Story 5",
+      "showtimeId": 119943,
+      "linkedShowtimeId": 119971,
+      "movieId": 107462,
+      "start": "2026-06-24T08:50:00",
+      "state": "TX",
+      "sold": 0,
+      "sellable": 17,
+      "regSold": 0,
+      "regSellable": 173,
+      "firstSeenUtc": "2026-06-24T13:06:24+00:00",
+      "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+      "startUtc": "2026-06-24T13:50:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1167&ShowtimeId=119943&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=119971"
     }
   },
   "upcoming": [
-    {
-      "theatre": "Cinemark Lakeland Square Mall and XD",
-      "theatreId": 1078,
-      "movie": "Toy Story 5",
-      "start": "2026-06-24T08:50:00",
-      "startUtc": "2026-06-24T12:50:00+00:00",
-      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=286273&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=286270",
-      "sold": 0,
-      "sellable": 29,
-      "lastSeenUtc": "2026-06-24T13:01:45+00:00"
-    },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
       "theatreId": 230,
@@ -47877,9 +47923,9 @@
       "start": "2026-06-24T08:50:00",
       "startUtc": "2026-06-24T13:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=295&ShowtimeId=682690&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=682694",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 32,
+      "lastSeenUtc": "2026-06-24T13:06:24+00:00"
     },
     {
       "theatre": "Cinemark North Mckinney XD and ScreenX",
@@ -47888,9 +47934,9 @@
       "start": "2026-06-24T08:50:00",
       "startUtc": "2026-06-24T13:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1154&ShowtimeId=184044&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=184031",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 25,
+      "lastSeenUtc": "2026-06-24T13:06:24+00:00"
     },
     {
       "theatre": "Cinemark Missouri City and XD",
@@ -47899,9 +47945,9 @@
       "start": "2026-06-24T08:50:00",
       "startUtc": "2026-06-24T13:50:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1167&ShowtimeId=119943&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=119971",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 17,
+      "lastSeenUtc": "2026-06-24T13:06:24+00:00"
     },
     {
       "theatre": "Cinemark Century Jordan Creek 20 and XD",
@@ -49002,6 +49048,17 @@
       "sold": null,
       "sellable": null,
       "lastSeenUtc": null
+    },
+    {
+      "theatre": "Cinemark Rockingham Park and XD",
+      "theatreId": 1149,
+      "movie": "Toy Story 5",
+      "start": "2026-06-24T11:00:00",
+      "startUtc": "2026-06-24T15:00:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1149&ShowtimeId=121683&CinemarkMovieId=107462&Showtime=2026-06-24T11%3A00%3A00&LinkedShowtimeId=121672",
+      "sold": null,
+      "sellable": null,
+      "lastSeenUtc": null
     }
   ],
   "byDay": [
@@ -49022,33 +49079,33 @@
     {
       "date": "2026-06-24",
       "sold": 26,
-      "sellable": 295,
-      "showings": 14,
-      "sellThrough": 0.0881
+      "sellable": 324,
+      "showings": 15,
+      "sellThrough": 0.0802
     }
   ],
   "latest": {
     "scrapeDate": "2026-06-24",
-    "sellThrough": 0.5269,
+    "sellThrough": 0.5266,
     "seatsSold": 27183,
-    "seatsSellable": 51588,
-    "showings": 2445,
+    "seatsSellable": 51617,
+    "showings": 2446,
     "theatres": 124,
     "upcoming": {
       "seatsSold": 69,
-      "seatsSellable": 1017,
-      "sellThrough": 0.0678,
-      "showings": 47,
-      "theatres": 29
+      "seatsSellable": 1062,
+      "sellThrough": 0.065,
+      "showings": 49,
+      "theatres": 30
     },
     "comparison": {
-      "showings": 2445,
+      "showings": 2446,
       "dboxSold": 27183,
-      "dboxSellable": 51588,
-      "regularSold": 118075,
-      "regularSellable": 288736,
-      "dboxSellThrough": 0.5269,
-      "regularSellThrough": 0.4089
+      "dboxSellable": 51617,
+      "regularSold": 118081,
+      "regularSellable": 288823,
+      "dboxSellThrough": 0.5266,
+      "regularSellThrough": 0.4088
     },
     "byMovie": [
       {
@@ -49061,9 +49118,9 @@
       {
         "movie": "Toy Story 5",
         "sold": 26609,
-        "sellable": 50006,
-        "showings": 2357,
-        "sellThrough": 0.5321
+        "sellable": 50035,
+        "showings": 2358,
+        "sellThrough": 0.5318
       },
       {
         "movie": "Backrooms",
@@ -49095,6 +49152,23 @@
       }
     ],
     "showingsList": [
+      {
+        "theatreId": 1078,
+        "theatre": "Cinemark Lakeland Square Mall and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:50",
+        "startUtc": "2026-06-24T12:50:00+00:00",
+        "state": "FL",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=286273&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=286270",
+        "sold": 0,
+        "sellable": 29,
+        "lastSeenUtc": "2026-06-24T13:01:45+00:00",
+        "sellThrough": 0.0,
+        "regSold": 6,
+        "regSellable": 87,
+        "regSellThrough": 0.069
+      },
       {
         "theatreId": 230,
         "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
@@ -50437,26 +50511,60 @@
         "regSold": 56,
         "regSellable": 96,
         "regSellThrough": 0.5833
-      },
-      {
-        "theatreId": 480,
-        "theatre": "Cinemark Century Jordan Creek 20 and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "23:00",
-        "startUtc": "2026-06-24T04:00:00+00:00",
-        "state": "IA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=480&ShowtimeId=661011&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A00%3A00&LinkedShowtimeId=661003",
-        "sold": 0,
-        "sellable": 26,
-        "lastSeenUtc": "2026-06-24T04:14:03+00:00",
-        "sellThrough": 0.0,
-        "regSold": 8,
-        "regSellable": 169,
-        "regSellThrough": 0.0473
       }
     ],
     "recentFills": [
+      {
+        "theatreId": 295,
+        "theatre": "Cinemark Nasa and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:50",
+        "startUtc": "2026-06-24T13:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=295&ShowtimeId=682690&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=682694",
+        "sold": 0,
+        "sellable": 32,
+        "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 167,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1154,
+        "theatre": "Cinemark North Mckinney XD and ScreenX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:50",
+        "startUtc": "2026-06-24T13:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1154&ShowtimeId=184044&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=184031",
+        "sold": 0,
+        "sellable": 25,
+        "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 111,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1167,
+        "theatre": "Cinemark Missouri City and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:50",
+        "startUtc": "2026-06-24T13:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1167&ShowtimeId=119943&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=119971",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 173,
+        "regSellThrough": 0.0
+      },
       {
         "theatreId": 1078,
         "theatre": "Cinemark Lakeland Square Mall and XD",
@@ -50813,57 +50921,6 @@
         "regSold": 12,
         "regSellable": 81,
         "regSellThrough": 0.1481
-      },
-      {
-        "theatreId": 1129,
-        "theatre": "Cinemark North Haven and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-24",
-        "start": "09:30",
-        "startUtc": "2026-06-24T13:30:00+00:00",
-        "state": "CT",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1129&ShowtimeId=295020&CinemarkMovieId=107462&Showtime=2026-06-24T09%3A30%3A00&LinkedShowtimeId=295007",
-        "sold": 3,
-        "sellable": 15,
-        "lastSeenUtc": "2026-06-24T12:46:17+00:00",
-        "sellThrough": 0.2,
-        "regSold": 11,
-        "regSellable": 81,
-        "regSellThrough": 0.1358
-      },
-      {
-        "theatreId": 1149,
-        "theatre": "Cinemark Rockingham Park and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-24",
-        "start": "09:30",
-        "startUtc": "2026-06-24T13:30:00+00:00",
-        "state": "NH",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1149&ShowtimeId=121677&CinemarkMovieId=107462&Showtime=2026-06-24T09%3A30%3A00&LinkedShowtimeId=121695",
-        "sold": 0,
-        "sellable": 21,
-        "lastSeenUtc": "2026-06-24T12:46:17+00:00",
-        "sellThrough": 0.0,
-        "regSold": 5,
-        "regSellable": 82,
-        "regSellThrough": 0.061
-      },
-      {
-        "theatreId": 374,
-        "theatre": "Cinemark Fayette Mall and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-24",
-        "start": "08:30",
-        "startUtc": "2026-06-24T12:30:00+00:00",
-        "state": "KY",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534269&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=534259",
-        "sold": 0,
-        "sellable": 11,
-        "lastSeenUtc": "2026-06-24T12:41:51+00:00",
-        "sellThrough": 0.0,
-        "regSold": 0,
-        "regSellable": 99,
-        "regSellThrough": 0.0
       }
     ],
     "upcomingList": [
@@ -51089,21 +51146,55 @@
         "regSellThrough": 0.0741
       },
       {
-        "theatreId": 1078,
-        "theatre": "Cinemark Lakeland Square Mall and XD",
+        "theatreId": 295,
+        "theatre": "Cinemark Nasa and XD",
         "movie": "Toy Story 5",
         "date": "2026-06-24",
         "start": "08:50",
-        "startUtc": "2026-06-24T12:50:00+00:00",
-        "state": "FL",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1078&ShowtimeId=286273&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=286270",
+        "startUtc": "2026-06-24T13:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=295&ShowtimeId=682690&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=682694",
         "sold": 0,
-        "sellable": 29,
-        "lastSeenUtc": "2026-06-24T13:01:45+00:00",
+        "sellable": 32,
+        "lastSeenUtc": "2026-06-24T13:06:24+00:00",
         "sellThrough": 0.0,
-        "regSold": 6,
-        "regSellable": 87,
-        "regSellThrough": 0.069
+        "regSold": 0,
+        "regSellable": 167,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1154,
+        "theatre": "Cinemark North Mckinney XD and ScreenX",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:50",
+        "startUtc": "2026-06-24T13:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1154&ShowtimeId=184044&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=184031",
+        "sold": 0,
+        "sellable": 25,
+        "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 111,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1167,
+        "theatre": "Cinemark Missouri City and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:50",
+        "startUtc": "2026-06-24T13:50:00+00:00",
+        "state": "TX",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1167&ShowtimeId=119943&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A50%3A00&LinkedShowtimeId=119971",
+        "sold": 0,
+        "sellable": 17,
+        "lastSeenUtc": "2026-06-24T13:06:24+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 173,
+        "regSellThrough": 0.0
       },
       {
         "theatreId": 230,
