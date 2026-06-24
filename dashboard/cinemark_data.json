@@ -1,5 +1,5 @@
 {
-  "updatedUtc": "2026-06-24T11:41:31+00:00",
+  "updatedUtc": "2026-06-24T11:45:49+00:00",
   "source": "Cinemark \u00b7 D-BOX motion seats",
   "metric": "realized",
   "showingsStore": {
@@ -46362,6 +46362,44 @@
       "lastSeenUtc": "2026-06-24T11:41:31+00:00",
       "startUtc": "2026-06-24T12:25:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1050&ShowtimeId=793347&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A25%3A00&LinkedShowtimeId=793353"
+    },
+    "2026-06-24|374|534269": {
+      "date": "2026-06-24",
+      "theatreId": 374,
+      "theatre": "Cinemark Fayette Mall and XD",
+      "movie": "Toy Story 5",
+      "showtimeId": 534269,
+      "linkedShowtimeId": 534259,
+      "movieId": 107462,
+      "start": "2026-06-24T08:30:00",
+      "state": "KY",
+      "sold": 0,
+      "sellable": 11,
+      "regSold": 0,
+      "regSellable": 99,
+      "firstSeenUtc": "2026-06-24T11:45:49+00:00",
+      "lastSeenUtc": "2026-06-24T11:45:49+00:00",
+      "startUtc": "2026-06-24T12:30:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534269&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=534259"
+    },
+    "2026-06-24|1034|472058": {
+      "date": "2026-06-24",
+      "theatreId": 1034,
+      "theatre": "Cinemark Robinson Township and XD",
+      "movie": "Toy Story 5",
+      "showtimeId": 472058,
+      "linkedShowtimeId": 472059,
+      "movieId": 107462,
+      "start": "2026-06-24T08:30:00",
+      "state": "PA",
+      "sold": 0,
+      "sellable": 23,
+      "regSold": 0,
+      "regSellable": 92,
+      "firstSeenUtc": "2026-06-24T11:45:49+00:00",
+      "lastSeenUtc": "2026-06-24T11:45:49+00:00",
+      "startUtc": "2026-06-24T12:30:00+00:00",
+      "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=472058&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=472059"
     }
   },
   "upcoming": [
@@ -46416,9 +46454,9 @@
       "start": "2026-06-24T08:30:00",
       "startUtc": "2026-06-24T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534269&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=534259",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 11,
+      "lastSeenUtc": "2026-06-24T11:45:49+00:00"
     },
     {
       "theatre": "Cinemark Robinson Township and XD",
@@ -46427,9 +46465,9 @@
       "start": "2026-06-24T08:30:00",
       "startUtc": "2026-06-24T12:30:00+00:00",
       "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=472058&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=472059",
-      "sold": null,
-      "sellable": null,
-      "lastSeenUtc": null
+      "sold": 0,
+      "sellable": 23,
+      "lastSeenUtc": "2026-06-24T11:45:49+00:00"
     },
     {
       "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
@@ -48048,10 +48086,10 @@
     "theatres": 124,
     "upcoming": {
       "seatsSold": 2,
-      "seatsSellable": 99,
-      "sellThrough": 0.0202,
-      "showings": 4,
-      "theatres": 3
+      "seatsSellable": 133,
+      "sellThrough": 0.015,
+      "showings": 6,
+      "theatres": 5
     },
     "comparison": {
       "showings": 2436,
@@ -49470,6 +49508,40 @@
     ],
     "recentFills": [
       {
+        "theatreId": 374,
+        "theatre": "Cinemark Fayette Mall and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:30",
+        "startUtc": "2026-06-24T12:30:00+00:00",
+        "state": "KY",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534269&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=534259",
+        "sold": 0,
+        "sellable": 11,
+        "lastSeenUtc": "2026-06-24T11:45:49+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 99,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1034,
+        "theatre": "Cinemark Robinson Township and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:30",
+        "startUtc": "2026-06-24T12:30:00+00:00",
+        "state": "PA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=472058&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=472059",
+        "sold": 0,
+        "sellable": 23,
+        "lastSeenUtc": "2026-06-24T11:45:49+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 92,
+        "regSellThrough": 0.0
+      },
+      {
         "theatreId": 230,
         "theatre": "Cinemark Tinseltown North Canton XD and IMAX",
         "movie": "Toy Story 5",
@@ -49842,40 +49914,6 @@
         "regSold": 66,
         "regSellable": 173,
         "regSellThrough": 0.3815
-      },
-      {
-        "theatreId": 1126,
-        "theatre": "Cinemark Century La Quinta XD and ScreenX",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "23:20",
-        "startUtc": "2026-06-24T06:20:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1126&ShowtimeId=239693&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A20%3A00&LinkedShowtimeId=239705",
-        "sold": 15,
-        "sellable": 17,
-        "lastSeenUtc": "2026-06-24T06:31:32+00:00",
-        "sellThrough": 0.8824,
-        "regSold": 48,
-        "regSellable": 93,
-        "regSellThrough": 0.5161
-      },
-      {
-        "theatreId": 1134,
-        "theatre": "Cinemark Downey and XD",
-        "movie": "Toy Story 5",
-        "date": "2026-06-23",
-        "start": "23:20",
-        "startUtc": "2026-06-24T06:20:00+00:00",
-        "state": "CA",
-        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1134&ShowtimeId=313065&CinemarkMovieId=107462&Showtime=2026-06-23T23%3A20%3A00&LinkedShowtimeId=313027",
-        "sold": 11,
-        "sellable": 13,
-        "lastSeenUtc": "2026-06-24T06:31:32+00:00",
-        "sellThrough": 0.8462,
-        "regSold": 57,
-        "regSellable": 84,
-        "regSellThrough": 0.6786
       }
     ],
     "upcomingList": [
@@ -49945,6 +49983,40 @@
         "sellThrough": 0.0385,
         "regSold": 0,
         "regSellable": 97,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 374,
+        "theatre": "Cinemark Fayette Mall and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:30",
+        "startUtc": "2026-06-24T12:30:00+00:00",
+        "state": "KY",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=374&ShowtimeId=534269&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=534259",
+        "sold": 0,
+        "sellable": 11,
+        "lastSeenUtc": "2026-06-24T11:45:49+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 99,
+        "regSellThrough": 0.0
+      },
+      {
+        "theatreId": 1034,
+        "theatre": "Cinemark Robinson Township and XD",
+        "movie": "Toy Story 5",
+        "date": "2026-06-24",
+        "start": "08:30",
+        "startUtc": "2026-06-24T12:30:00+00:00",
+        "state": "PA",
+        "cinemarkUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=1034&ShowtimeId=472058&CinemarkMovieId=107462&Showtime=2026-06-24T08%3A30%3A00&LinkedShowtimeId=472059",
+        "sold": 0,
+        "sellable": 23,
+        "lastSeenUtc": "2026-06-24T11:45:49+00:00",
+        "sellThrough": 0.0,
+        "regSold": 0,
+        "regSellable": 92,
         "regSellThrough": 0.0
       }
     ]
